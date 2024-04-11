@@ -1,7 +1,7 @@
 <ModMetaData>
 	<name>Star Wars Xenotypes</name>
 	<modIconPath IgnoreIfNoMatchingField="True">UI/ModIcon_guy762_StarWarsXenotypes</modIconPath>
-	<author>guy762 and Sovereign</author>
+	<author>guy762, Sovereign, and Kaitorisenkou</author>
 	<supportedVersions>
 		<!--li>1.4</li-->
 		<li>1.5</li>
