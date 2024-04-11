@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	  <GeneDef ParentName="GeneHeadboneBase">
+		<defName>guy762_Hair_rodian</defName>
+		<label>head spines</label>
+		<description>Carriers of this gene grow flexible spines on their head.</description>
+		<iconPath>UI/Icons/Genes/Gene_HeadSpines</iconPath>
+		<displayOrderInCategory>766</displayOrderInCategory>
+		<displayCategory>guy762_SWparts_Category</displayCategory>
+		<exclusionTags Inherit="False"/>
+		<renderNodeProperties>
+		  <li>
+			<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+			<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+			<texPath>Pawn/HeadAttachments/rodian/mohawk</texPath>
+			<parentTagDef>Head</parentTagDef>
+			<colorType>Skin</colorType>
+			<useRottenColor>true</useRottenColor>
+			<useSkinShader>true</useSkinShader>
+			<rotDrawMode>Fresh, Rotting</rotDrawMode>
+			<skipFlag>Hair</skipFlag>
+			<drawData>
+			  <defaultData>
+				<layer>80</layer>
+			  </defaultData>
+			  <dataEast>
+				<layer>60</layer>
+			  </dataEast>
+			  <dataWest>
+				<layer>60</layer>
+			  </dataWest>
+			</drawData>
+		  </li>
+		</renderNodeProperties>
+	  </GeneDef>
+	  
+	 
+	  
+	  
+	  
+	 
+
+</Defs>

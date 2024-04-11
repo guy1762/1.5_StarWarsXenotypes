@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	  <GeneDef>
+		<defName>guy762_statgene_senses</defName>
+		<label>heightened senses</label>
+		<description>Carriers of this gene have hyper-tuned sight and hearing, but as a result are extremely vulnerable to sonic attacks.</description>
+		<iconPath>UI/Icons/Genes/Gene_EarHuman</iconPath>
+		<displayOrderInCategory>780</displayOrderInCategory>
+		<displayCategory>guy762_SWparts_Category</displayCategory>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<capMods>
+		  <li>
+			<capacity>Sight</capacity>
+			<postFactor>1.25</postFactor>
+		  </li>
+		  <li>
+			<capacity>Hearing</capacity>
+			<postFactor>1.25</postFactor>
+		  </li>
+		</capMods>
+		<damageFactors>
+		  <guy762_RangedDamage_sonic MayRequire="guy762.KotORWeapons">2</guy762_RangedDamage_sonic>
+		  <guy762_GrenadeDamage_sonic MayRequire="guy762.KotORWeapons">2</guy762_GrenadeDamage_sonic>
+		  <Thump>2</Thump>
+		</damageFactors>
+	  </GeneDef>
+	
+	<GeneDef>
+		<defName>guy762_AbilityGene_inkspray</defName>
+		<label>ink spray</label>
+		<description>Carriers grow glands in the neck that generate and store a sticky ink substance. They can spew this ink over an area, where it will stick to enemies and blind them.</description>
+		<iconPath>UI/Icons/Genes/Gene_InkSpray</iconPath>
+		<displayCategory>guy762_SWparts_Category</displayCategory>
+		<marketValueFactor>1.5</marketValueFactor>
+		<abilities>
+		  <li>guy762_GeneAbility_ink</li>
+		</abilities>
+		<descriptionHyperlinks>
+		  <AbilityDef>guy762_GeneAbility_ink</AbilityDef>
+		</descriptionHyperlinks>
+		<biostatMet>-1</biostatMet>
+	  </GeneDef>
+	  
+	  
+	  <GeneDef>
+		<defName>guy762_statgene_predator</defName>
+		<label>predator instincts</label>
+		<description>Carriers of this gene are evolved from predator species. They have a natural affinity for hunting, and grow claws to boot.</description>
+		<iconPath>UI/Icons/Genes/Gene_Predator</iconPath>
+		<displayOrderInCategory>794</displayOrderInCategory>
+		<displayCategory>guy762_SWparts_Category</displayCategory>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<statOffsets>
+		  <HuntingStealth>0.2</HuntingStealth>
+		</statOffsets>
+		<geneClass>BetterPrerequisites.PGene</geneClass>
+		<selectionWeight>0</selectionWeight>
+		 <modExtensions>
+			<li Class="BetterPrerequisites.GeneExtension">
+				<applyPartHediff>
+					<li>
+						<hediff>guy762_GeneHediff_claws</hediff>
+						<bodyparts>
+						  <!--So it can add up to 6 sets of talons.-->
+						  <li>Hand</li>
+						  <li>Hand</li>
+						  <li>Hand</li>
+						  <li>Hand</li>
+						  <li>Hand</li>
+						  <li>Hand</li>
+						</bodyparts>
+					</li>
+				</applyPartHediff>
+			</li>
+		</modExtensions>
+	  </GeneDef>
+	  <HediffDef>
+		<defName>guy762_GeneHediff_claws</defName>
+		<label>claws</label>
+		<description>Sharp claws for scratching and slashing.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>claws</label>
+						<capacities>
+							<li>Scratch</li>
+						</capacities>
+						<power>9</power>
+						<cooldownTime>2.2</cooldownTime>
+					</li>
+				</tools>
+			</li>
+		</comps>
+		<addedPartProps>
+			<betterThanNatural>false</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+	
+	
+	<GeneDef MayRequire="VanillaExpanded.VPsycastsE">
+		<defName>guy762_statgene_force</defName>
+		<label>natural force-user</label>
+		<description>Carriers of this gene have evolved a natural ability to use the force.</description>
+		<iconPath>UI/Icons/Genes/Gene_ForceNatural</iconPath>
+		<displayOrderInCategory>700</displayOrderInCategory>
+		<displayCategory>guy762_SWparts_Category</displayCategory>
+		<biostatCpx>10</biostatCpx>
+		<biostatArc>3</biostatArc>
+		<geneClass>BetterPrerequisites.PGene</geneClass>
+		<selectionWeight>0</selectionWeight>
+		 <modExtensions>
+			<li Class="BetterPrerequisites.GeneExtension">
+				<applyPartHediff>
+					<li>
+						<hediff>VPE_PsycastAbilityImplant</hediff>
+						<bodyparts>
+						  <li>Brain</li>
+						</bodyparts>
+					</li>
+					<li>
+						<hediff>PsychicAmplifier</hediff>
+						<bodyparts>
+						  <li>Brain</li>
+						</bodyparts>
+					</li>
+				</applyPartHediff>
+			</li>
+		</modExtensions>
+	  </GeneDef>
+	  
+	 
+
+</Defs>

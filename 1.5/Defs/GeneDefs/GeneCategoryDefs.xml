@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <GeneCategoryDef>
+      <defName>guy762_Lifespan_Category</defName>
+      <label>lifespan</label>
+      <displayPriorityInXenotype>507</displayPriorityInXenotype>
+  </GeneCategoryDef>
+ 
+ <GeneCategoryDef>
+      <defName>guy762_BodySize_Category</defName>
+      <label>body size</label>
+      <displayPriorityInXenotype>508</displayPriorityInXenotype>
+  </GeneCategoryDef>
+  
+  <GeneCategoryDef>
+      <defName>guy762_SWparts_Category</defName>
+      <label>cosmetic (Star Wars)</label>
+      <displayPriorityInXenotype>762</displayPriorityInXenotype>
+  </GeneCategoryDef>
+  
+</Defs>

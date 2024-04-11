@@ -1,0 +1,41 @@
+<Defs>
+
+  <GeneDef>
+    <defName>BS_Fast_TotalHealing</defName>
+    <label>Regeneration</label>
+    <labelShortAdj>scarless</labelShortAdj>
+    <description>Carriers of this gene can regenerate scars and missing limbs.</description>
+    <customEffectDescriptions>
+      <li>Every few days, one old wound, limb, or chronic illness is healed.</li>
+    </customEffectDescriptions>
+    <iconPath>UI/Icons/Genes/Gene_TotalHealing</iconPath>
+    <geneClass>BigAndSmall.Gene_FastHealing</geneClass>
+    <preventPermanentWounds>true</preventPermanentWounds>
+    <biostatCpx>10</biostatCpx>
+    <biostatArc>3</biostatArc>
+    <displayCategory>Archite</displayCategory>
+    <!-- <geneClass>BetterPrerequisites.PGene</geneClass> -->
+    <!-- <modExtensions>
+      <li Class="BetterPrerequisites.GenePrerequisites"
+    MayRequire="RedMattis.BetterPrerequisites">
+        <prerequisiteSets>
+          <li>
+    <type>AnyOf</type>
+            <prerequisites>
+              <li>WoundHealing_SuperFast</li>
+    <li>VU_DarknessWoundHealing_UltraFast</li>
+            </prerequisites>
+          </li>
+    </prerequisiteSets>
+      </li>
+    </modExtensions> -->
+    <modExtensions>
+			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>GeneIcons/BS_BackEndogene</backgroundPathEndogenes>
+				<backgroundPathXenogenes>GeneIcons/BS_BackXenogene</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+  </GeneDef>
+
+  
+</Defs>

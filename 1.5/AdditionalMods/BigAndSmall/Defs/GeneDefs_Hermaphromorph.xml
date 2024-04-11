@@ -1,0 +1,54 @@
+<Defs>
+
+  <GeneDef>
+    <defName>VU_Hermaphromorph</defName>
+    <label>Hermaphromorph</label>
+    <displayCategory>Reproduction</displayCategory>
+    
+    <description>Carriers of this gene can change the sex of their body at will.</description>
+    <iconPath>BS_GeneIcons/VU_Genderbender</iconPath>
+    <abilities>
+      <li>VU_Hermaphromorph</li>
+    </abilities>
+    <descriptionHyperlinks>
+      <AbilityDef>VU_Hermaphromorph</AbilityDef>
+    </descriptionHyperlinks>
+    <biostatMet>0</biostatMet>
+    <biostatCpx>3</biostatCpx>
+    <selectionWeight>1</selectionWeight>
+    <!--modExtensions>
+			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>GeneIcons/BS_BackEndogene</backgroundPathEndogenes>
+				<backgroundPathXenogenes>GeneIcons/BS_BackXenogene</backgroundPathXenogenes>
+			</li>
+		</modExtensions-->
+  </GeneDef>
+
+  <AbilityDef>
+    <defName>VU_Hermaphromorph</defName>
+    <label>Hermaphromorph</label>
+    <description>Change biological sex.</description>
+    <iconPath>BS_GeneIcons/VU_Genderbender</iconPath>
+    <cooldownTicksRange>30</cooldownTicksRange>
+    <hostile>False</hostile>
+    <targetRequired>False</targetRequired>
+    <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <label>Genderblender</label>
+      <violent>false</violent>
+      <warmupTime>2.5</warmupTime>
+      <range>0</range>
+      <requireLineOfSight>False</requireLineOfSight>
+      <targetParams>
+        <canTargetSelf>True</canTargetSelf>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="BigAndSmall.Genderbender_AbilityEffect"/>
+    </comps>
+    <aiCanUse>false</aiCanUse>
+  </AbilityDef>
+
+</Defs>

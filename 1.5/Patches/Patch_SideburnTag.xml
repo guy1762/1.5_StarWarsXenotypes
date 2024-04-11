@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+	  <xpath>Defs/BeardDef[defName="SideWhiskers"]/styleTags</xpath>
+	  <value>
+		<li>guy762Tag_Sideburns</li>
+	  </value>
+	</Operation>
+
+	
+	<Operation Class="PatchOperationSequence">
+	  <operations>
+		<li Class="PatchOperationAdd">
+		  <xpath>Defs/BeardDef[defName="BeardFurskinSideChops"]</xpath>
+		  <value>
+		    <styleTags><li>guy762Tag_Sideburns</li></styleTags>
+		  </value>
+		</li>
+		<li Class="PatchOperationAdd">
+		  <xpath>Defs/BeardDef[defName="BeardFurskinSideChops"]</xpath>
+		  <value>
+			<requiredGene Inherit="False"/>
+		  </value>
+		</li>
+	  </operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+	  <operations>
+		<li Class="PatchOperationAdd">
+		  <xpath>Defs/BeardDef[defName="BeardFurskinStrongChops"]</xpath>
+		  <value>
+		    <styleTags><li>guy762Tag_Sideburns</li></styleTags>
+		  </value>
+		</li>
+		<li Class="PatchOperationAdd">
+		  <xpath>Defs/BeardDef[defName="BeardFurskinStrongChops"]</xpath>
+		  <value>
+			<requiredGene Inherit="False"/>
+		  </value>
+		</li>
+	  </operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+	  <operations>
+		<li Class="PatchOperationAdd">
+		  <xpath>Defs/BeardDef[defName="BeardFurskinSideTufts"]</xpath>
+		  <value>
+		    <styleTags><li>guy762Tag_Sideburns</li></styleTags>
+		  </value>
+		</li>
+		<li Class="PatchOperationAdd">
+		  <xpath>Defs/BeardDef[defName="BeardFurskinSideTufts"]</xpath>
+		  <value>
+			<requiredGene Inherit="False"/>
+		  </value>
+		</li>
+	  </operations>
+	</Operation>
+
+</Patch>

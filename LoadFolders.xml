@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<loadFolders>
+	<v1.4>
+		<li>/</li>
+		<li>1.4</li>
+		<li IfModNotActive="Sov.SandySandy">1.4/AdditionalMods/sov_sandpeople</li>
+		<li IfModNotActive="RedMattis.BigSmall.Core">1.4/AdditionalMods/BigAndSmall</li>
+		<li IfModNotActive="guy762.KotORWeapons">1.4/AdditionalMods/_NO_KotORWeapons</li>
+		<li IfModActive="VanillaExpanded.VPsycastsE">1.4/AdditionalMods/VPE</li>
+		<!--li IfModActive="erdelf.HumanoidAlienRaces">1.4/AdditionalMods/HAR_xenotypes</li>
+		<li IfModNotActive="erdelf.HumanoidAlienRaces" IfModActive="void.charactereditor">1.4/AdditionalMods/CE_xenotypes</li-->
+	</v1.4>
+	<v1.5>
+		<li>/</li>
+		<li>1.5</li>
+		<li IfModNotActive="RedMattis.BigSmall.Core">1.5/AdditionalMods/BigAndSmall</li>
+		<li IfModNotActive="MG.KnightsOfTheOuterRim">1.5/AdditionalMods/_NO_KotORCore</li>
+		<li IfModActive="VanillaExpanded.VPsycastsE">1.5/AdditionalMods/VPE</li>
+	</v1.5>
+</loadFolders>

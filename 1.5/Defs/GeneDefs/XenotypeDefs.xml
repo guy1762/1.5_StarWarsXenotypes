@@ -1,0 +1,1276 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	
+  
+  
+  <XenotypeDef>
+		<defName>guy762_xenotype_aqualish</defName>
+		<label>Aqualish</label>
+		<description>e</description>
+		<descriptionShort>e</descriptionShort>
+		<inheritable>true</inheritable>
+		<iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon5</iconPath>
+		<nameMaker>NamerPersonWaster</nameMaker>
+		<chanceToUseNameMaker>1</chanceToUseNameMaker>
+		<genes>
+			<li>guy762_Beard_Chops</li>
+			<li>guy762_FixedEyes_Four</li>
+			<li>guy762_Beard_hugetusks</li>
+			<li>Hair_BaldOnly</li>
+			<li>Hair_ReddishBrown</li>
+			<li>Hair_DarkBrown</li>
+			<li>Hair_DarkSaturatedReddish</li>
+			<li>Hair_DarkReddish</li>
+			<li>Hair_MidBlack</li>
+			<li>Hair_DarkBlack</li>
+			<li>guy762_Skin_PaleOrange</li>
+			<li>guy762_Skin_DarkGreen</li>
+			<li>guy762_Skin_MidGray</li>
+			<li>Skin_SlateGray</li>
+			<li>DarkVision</li>
+			<li>Hands_Pig</li>
+		</genes>
+	</XenotypeDef>
+  
+  <XenotypeDef>
+    <defName>guy762_xenotype_arkanian</defName>
+    <label>Arkanian</label>
+    <description>Themselves masters of genetic engineering, Arkanians boast frequently of their own genetic superiority. Arkanians have remarkable intellectual abilities, and as such consider themselves innately superior to others, leading to a common stereotype of arrogance. However, they are less keen on more physical forms of work.</description>
+    <descriptionShort>Themselves masters of genetic engineering, Arkanians boast frequently of their own genetic superiority. Arkanians have remarkable intellectual abilities, and as such consider themselves innately superior to others, leading to a common stereotype of arrogance. However, they are less keen on more physical forms of work.</descriptionShort>
+    <iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon4</iconPath>
+    <inheritable>true</inheritable>
+	<nameMaker MayRequire="Ludeon.RimWorld.Royalty">NamerPersonSophian</nameMaker>
+	<nameMakerFemale MayRequire="Ludeon.RimWorld.Royalty">NamerPersonSophianFemale</nameMakerFemale>
+	<chanceToUseNameMaker>1</chanceToUseNameMaker>
+    <genes>
+		<li>ArchiteMetabolism</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Turn_Gene_Certain</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Turn_Gene_BiosculptAccelerated</li>
+		<li>Turn_Gene_TraitGrandeur</li>
+		<li>Libido_Low</li>
+		<li>Turn_Gene_HighBeautyStandard</li>
+		<li>guy762_FixedEyes_Gray</li>
+		<li>Beard_NoBeardOnly</li>
+		<li>Hair_SnowWhite</li>
+		<li>Skin_PaleYellow</li>
+		<li>Learning_Fast</li>
+		<li>AptitudePoor_Mining</li>
+		<li>AptitudePoor_Plants</li>
+		<li>AptitudePoor_Animals</li>
+		<li>AptitudeRemarkable_Medicine</li>
+		<li>AptitudeRemarkable_Intellectual</li>
+	</genes>
+  </XenotypeDef>
+  
+  <XenotypeDef>
+    <defName>guy762_xenotype_bith</defName>
+    <label>Bith</label>
+    <description>placeholder</description>
+    <descriptionShort>placeholder</descriptionShort>
+    <iconPath>UI/Icons/Xenotypes/Genie</iconPath>
+    <inheritable>true</inheritable>
+    <genes>
+		<li>Hair_BaldOnly</li>
+		<li>Beard_NoBeardOnly</li>
+		<li>guy762_Head_duros</li>
+		<li>guy762_FixedEyes_Big</li>
+		<li>guy762_Face_jowlsBigHead</li>
+		<li>Skin_PaleYellow</li>
+		<li>Nearsighted</li>
+		<li>guy762_statgene_senses</li>
+		<li>AptitudeRemarkable_Artistic</li>
+		<li>AptitudeStrong_Intellectual</li>
+	</genes>
+  </XenotypeDef>
+  
+  <XenotypeDef>
+		<defName>guy762_xenotype_bothan</defName>
+		<label>Bothan</label>
+		<description>Bothans were a short race of furry humanoids who on average stood between 1.5 meters to 1.6 meters in height. Bothans were covered in fur which shifted in response to their emotional state by way of gentle ripplings. They possessed tapered pointed ears.</description>
+		<descriptionShort>Bothans were a short race of furry humanoids who on average stood between 1.5 meters to 1.6 meters in height. Bothans were covered in fur which shifted in response to their emotional state by way of gentle ripplings. It was this trait, named Wrendui, that betrayed them when members of their kind intended to be duplicitous in their dealings with others. They possessed tapered pointed ears.</descriptionShort>
+		<inheritable>true</inheritable>
+		<iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon10</iconPath>
+		<nameMaker>NamerPersonYttakin</nameMaker>
+		<chanceToUseNameMaker>0.5</chanceToUseNameMaker>
+		<genes>
+			<li>guy762_BodySizeGene_small</li>
+			<li>Turn_Gene_TraitGrandeur</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>Ears_Pointed</li>
+			<li>guy762_Nose_Snout</li>
+			<li>Hair_Blonde</li>
+			<li>Hair_SandyBlonde</li>
+			<li>Hair_LightOrange</li>
+			<li>Hair_ReddishBrown</li>
+			<li>Hair_DarkBrown</li>
+			<li>Furskin</li>
+			<li>AptitudeRemarkable_Social</li>
+		</genes>
+	</XenotypeDef>
+  
+  <XenotypeDef>
+    <defName>guy762_xenotype_cathar</defName>
+    <label>Cathar</label>
+    <description>The Cathar are a species of bipedal feline humanoids native to the planet Cathar. They are known for their passion, temper and loyalty. There are a few Cathar that are known as notable members of the Jedi Order during the days of the Old Republic.</description>
+    <descriptionShort>The Cathar were a catlike, humanoid sentient species. Members of the species possessed fur and manes.</descriptionShort>
+    <iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon3</iconPath>
+    <inheritable>true</inheritable>
+	<combatPowerFactor>1.4</combatPowerFactor>
+    <genes>
+		<li>guy762_statgene_predator</li>
+		<li>PsychicBonding</li>
+		<li>MoveSpeed_Quick</li>
+		<li>Aggression_Aggressive</li>
+		<li>Sleepy</li>
+		<li>guy762_FixedEyes_Yellow</li>
+		<li>Beard_NoBeardOnly</li>
+		<li>Ears_Pointed</li>
+		<li>Hair_SnowWhite</li>
+		<li>Hair_Gray</li>
+		<li>Hair_Blonde</li>
+		<li>Hair_SandyBlonde</li>
+		<li>Hair_LightOrange</li>
+		<li>Hair_ReddishBrown</li>
+		<li>Hair_DarkBrown</li>
+		<li>Furskin</li>
+	</genes>
+  </XenotypeDef>
+  
+  <XenotypeDef>
+    <defName>guy762_xenotype_chadrafan</defName>
+    <label>Chadra-Fan</label>
+    <description>The Chadra-Fan was a sentient species of meter-tall, rodent-like humanoids from the Outer Rim world of Chad. They had large ears, and flat noses with four nostrils.</description>
+    <descriptionShort>The Chadra-Fan was a sentient species of meter-tall, rodent-like humanoids from the Outer Rim world of Chad. They had large ears, and flat noses with four nostrils.</descriptionShort>
+    <inheritable>true</inheritable>
+	<iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon7</iconPath>
+	<combatPowerFactor>0.6</combatPowerFactor>
+    <genes>
+		<li>guy762_BodySizeGene_smaller</li>
+		<li>guy762_lifespan_half</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Turn_Gene_Uncertain</li>
+		<li>Mood_Sanguine</li>
+		<li>FireTerror</li>
+		<li>MeleeDamage_Weak</li>
+		<li>LowSleep</li>
+		<li>Pain_Extra</li>
+		<li>Hair_BaldOnly</li>
+		<li>Beard_NoBeardOnly</li>
+		<li>Ears_Pig</li>
+		<li>guy762_Nose_SmallPig</li>
+		<li>Body_Standard</li>
+		<li>Hair_ReddishBrown</li>
+		<li>Hair_DarkBrown</li>
+		<li>Hair_DarkSaturatedReddish</li>
+		<li>Hair_DarkReddish</li>
+		<li>Hair_MidBlack</li>
+		<li>DarkVision</li>
+		<li>Furskin</li>
+		<li>AptitudePoor_Melee</li>
+		<li>AptitudeStrong_Crafting</li>
+	</genes>
+  </XenotypeDef>
+
+  <XenotypeDef>
+    <defName>guy762_xenotype_chiss</defName>
+    <label>Chiss</label>
+    <description>A mysterious species hailing from the Unknown Regions, the Chiss are known for their calm, cold demeanor and piercing red eyes. It is believed they originate from an ice world, as they have remarkable resistance to colder temperatures as well as the ability to see in the infrared spectrum. However, they fair worse in higher-temperature environments, and have a higher sensitivity to UV light. Curiously, they are less sensitive to the Force than most.</description>
+    <descriptionShort>A mysterious species hailing from the Unknown Regions, the Chiss are known for their calm, cold demeanor and piercing red eyes. It is believed they originate from an ice world, as they have remarkable resistance to colder temperatures as well as the ability to see in the infrared spectrum. Curiously, they are less sensitive to the Force than most.</descriptionShort>
+    <inheritable>true</inheritable>
+	<iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon4</iconPath>
+	<nameMaker>NamerPersonYttakin</nameMaker>
+	<chanceToUseNameMaker>1</chanceToUseNameMaker>
+    <genes>
+		<li>PsychicAbility_Dull</li>
+		<li>MinTemp_LargeDecrease</li>
+		<li>MaxTemp_SmallDecrease</li>
+		<li>UVSensitivity_Mild</li>
+		<li>Aggression_DeadCalm</li>
+		<li>guy762_FixedEyes_Red</li>
+		<li>Beard_NoBeardOnly</li>
+		<li>guy762_FacialRidges_bumpy</li>
+		<li>Body_Standard</li>
+		<li>Body_Thin</li>
+		<li>Body_Hulk</li>
+		<li>Hair_DarkBlack</li>
+		<li>Hair_InkBlack</li>
+		<li>guy762_Hair_DarkBlue</li>
+		<li>Skin_Purple</li>
+		<li>Skin_Blue</li>
+		<li>DarkVision</li>
+		<li>guy762_BodySizeGene_big</li>
+		<li>AptitudePoor_Social</li>
+		<li>AptitudeStrong_Intellectual</li>
+	</genes>
+  </XenotypeDef>
+  
+  <XenotypeDef>
+    <defName>guy762_xenotype_devaronian</defName>
+    <label>Devaronian</label>
+    <description>Hailing from the mountainous jungle world Devaron, Devaronians are an aggressive species characterized by two large horns protruding from their foreheads. They have remarkable immune systems and are highly resistant to high temperatures, however, they are carnivorous, and as such have no affinity for agriculture whatsoever.</description>
+    <descriptionShort>Hailing from the mountainous jungle world Devaron, Devaronians are an aggressive species characterized by two large horns protruding from their foreheads. They have remarkable immune systems and are highly resistant to high temperatures, however, they are carnivorous, and as such have no affinity for agriculture whatsoever.</descriptionShort>
+    <inheritable>true</inheritable>
+	<iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon7</iconPath>
+	<nameMaker>NamerPersonImpid</nameMaker>
+	<chanceToUseNameMaker>0.7</chanceToUseNameMaker>
+    <genes>
+		<li>BS_Diet_Carnivore</li>
+		<li>Immunity_Strong</li>
+		<li>MinTemp_SmallIncrease</li>
+		<li>MaxTemp_SmallIncrease</li>
+		<li>ToxResist_Partial</li>
+		<li>FireResistant</li>
+		<li>Aggression_Aggressive</li>
+		<li>Hair_BaldOnly</li>
+		<li>Ears_Pointed</li>
+		<li>guy762_Headbone_BigHorns</li>
+		<li>Headbone_MiniHorns</li>
+		<li>Skin_DeepYellow</li>
+		<li>Skin_PaleYellow</li>
+		<li>Skin_DeepRed</li>
+		<li>Skin_PaleRed</li>
+	</genes>
+  </XenotypeDef>
+  
+  <XenotypeDef>
+		<defName>guy762_xenotype_duros</defName>
+		<label>Duros</label>
+		<description>The Duros were a humanoid species[10] native to Duro, a planet located in the Duro sector of the galaxy's Core Worlds.They had smooth blue-green skin, red eyes, lipless mouths, and long thin noseless faces with green blood.</description>
+		<descriptionShort>The Duros were a humanoid species[10] native to Duro, a planet located in the Duro sector of the galaxy's Core Worlds.They had smooth blue-green skin, red eyes, lipless mouths, and long thin noseless faces with green blood.</descriptionShort>
+		<inheritable>true</inheritable>
+		<iconPath>UI/Icons/Xenotypes/Genie</iconPath>
+		<genes>
+			<li>guy762_FixedEyes_Red</li>
+			<li>Hair_BaldOnly</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>Brow_Heavy</li>
+			<li>guy762_Head_duros</li>
+			<li>Skin_Blue</li>
+			<li>guy762_Skin_Turquoise</li>
+			<li>ElongatedFingers</li>
+		</genes>
+	</XenotypeDef>
+  
+  <XenotypeDef>
+    <defName>guy762_xenotype_echani</defName>
+    <label>Echani</label>
+    <description>The Echani had similar anatomy to that of humans, but were physically distinct due to their light skin, white hair and silver eyes. It was believed that the Echani were a result of Arkanian experimentation with the Human genome, a theory which could explain the resemblance among these members of the species.</description>
+    <descriptionShort>The Echani had similar anatomy to that of humans, but were physically distinct due to their light skin, white hair and silver eyes. It was believed that the Echani were a result of Arkanian experimentation with the Human genome, a theory which could explain the resemblance among these members of the species.</descriptionShort>
+    <iconPath>UI/Icons/Xenotypes/Baseliner</iconPath>
+    <inheritable>true</inheritable>
+	<combatPowerFactor>1.4</combatPowerFactor>
+    <genes>
+		<li>NakedSpeed</li>
+		<li>MeleeDamage_Strong</li>
+		<li>Beard_NoBeardOnly</li>
+		<li>Hair_SnowWhite</li>
+		<li>Skin_SheerWhite</li>
+		<li>AptitudePoor_Shooting</li>
+		<li>AptitudeRemarkable_Melee</li>
+		<li>AptitudeStrong_Crafting</li>
+		<li>AptitudePoor_Social</li>
+	</genes>
+  </XenotypeDef>
+  
+  <XenotypeDef>
+		<defName>guy762_xenotype_ewok</defName>
+		<label>Ewok</label>
+		<description>Ewoks were sentient humanoid mammals, averaging about one meter in height, which could provide an advantage when trying to hide. They were covered in fur from head to toe, with brown and black the most common colors. Other Ewoks had near-white or reddish fur, but red fur is supposedly the rarest shade an Ewok can get. Most Ewoks had solid-colored fur, though a few sported stripes. Ewoks had large, bright eyes, small humanoid noses, and hands that possessed two fingers and an opposable thumb. Despite their small size, Ewoks were physically strong enough to overpower combat-trained Humans.</description>
+		<descriptionShort>Ewoks were sentient humanoid mammals, averaging about one meter in height, which could provide an advantage when trying to hide. They were covered in fur from head to toe, with brown and black the most common colors. Other Ewoks had near-white or reddish fur, but red fur is supposedly the rarest shade an Ewok can get. Most Ewoks had solid-colored fur, though a few sported stripes. Ewoks had large, bright eyes, small humanoid noses, and hands that possessed two fingers and an opposable thumb. Despite their small size, Ewoks were physically strong enough to overpower combat-trained Humans.</descriptionShort>
+		<inheritable>true</inheritable>
+		<iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon3</iconPath>
+		<nameMaker>NamerPersonCorunan</nameMaker>
+		<chanceToUseNameMaker>1</chanceToUseNameMaker>
+		<genes>
+			<li>guy762_BodySizeGene_smaller</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Turn_Gene_PruningAccelerated</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Turn_Gene_GauranlenNeed</li>
+			<li>NakedSpeed</li>
+			<li>Hair_BaldOnly</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>guy762_Ears_round</li>
+			<li>Jaw_Heavy</li>
+			<li>guy762_FixedEyes_Big</li>
+			<li>Body_Standard</li>
+			<li>Hair_Gray</li>
+			<li>Hair_SandyBlonde</li>
+			<li>Hair_ReddishBrown</li>
+			<li>Hair_DarkBrown</li>
+			<li>Hair_DarkSaturatedReddish</li>
+			<li>Hair_DarkReddish</li>
+			<li>Hair_MidBlack</li>
+			<li>Hair_DarkBlack</li>
+			<li>Learning_Fast</li>
+			<li>GS_Primitive</li>
+			<li>Hands_Pig</li>
+			<li>Furskin</li>
+		</genes>
+	</XenotypeDef>
+  
+  <XenotypeDef>
+    <defName>guy762_xenotype_falleen</defName>
+    <label>Falleen</label>
+    <description>The Falleen were a repto-mammalian sentient species who had a distinctive alien appearance. They were distinguished by their mottled greenskin, ridged skulls, and their long, black hair which they typically wore in ponytails. Falleen exuded powerful pheromones which they used to attract mates.</description>
+    <descriptionShort>The Falleen were a repto-mammalian sentient species who had a distinctive alien appearance. They were distinguished by their mottled greenskin, ridged skulls, and their long, black hair which they typically wore in ponytails. Falleen exuded powerful pheromones which they used to attract mates.</descriptionShort>
+    <iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon4</iconPath>
+    <inheritable>true</inheritable>
+    <genes>
+		<li>guy762_lifespan_double</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Turn_Gene_Certain</li>
+		<li>Turn_Gene_TraitGrandeur</li>
+		<li>Aggression_DeadCalm</li>
+		<li>Beauty_Beautiful</li>
+		<li>Hair_LongOnly</li>
+		<li>guy762_FacialRidges_bumpy</li>
+		<li>guy762_BodyAttachment_falleen</li>
+		<li>Hair_DarkBlack</li>
+		<li>Hair_InkBlack</li>
+		<li>Skin_Green</li>
+		<li>guy762_Skin_BrightGreen</li>
+		<li>AptitudeStrong_Social</li>
+	</genes>
+  </XenotypeDef>
+  
+  <XenotypeDef>
+    <defName>guy762_xenotype_feeorin</defName>
+    <label>Feeorin</label>
+    <description>The average Feeorin had thick tendrils hanging from the backs of their heads and much smaller and thinner ones hanging from their face.They could live up to 400 years and due to a unique metabolism grew stronger with age rather than weaker.</description>
+	<descriptionShort>The average Feeorin had thick tendrils hanging from the backs of their heads and much smaller and thinner ones hanging from their face.They could live up to 400 years and due to a unique metabolism grew stronger with age rather than weaker.</descriptionShort>
+    <inheritable>true</inheritable>
+	<iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon1</iconPath>
+    <combatPowerFactor>1.4</combatPowerFactor>
+	<nameMaker>NamerPersonWaster</nameMaker>
+	<chanceToUseNameMaker>1</chanceToUseNameMaker>
+    <genes>
+		<li>DiseaseFree</li>
+		<li>guy762_lifespan_quad</li>
+		<li>Turn_Gene_TraitGrandeur</li>
+		<li>Aggression_HyperAggressive</li>
+		<li>Robust</li>
+		<li>guy762_FixedEyes_Red</li>
+		<li>Hair_BaldOnly</li>
+		<li>Beard_NoBeardOnly</li>
+		<li>guy762_FacialRidges_bumpy</li>
+		<li>guy762_Headbone_nautolan</li>
+		<li>guy762_Beard_chintendril</li>
+		<li>Body_Hulk</li>
+		<li>Skin_Purple</li>
+		<li>Skin_Blue</li>
+		<li>guy762_Skin_Turquoise</li>
+		<li>Unstoppable</li>
+		<li>guy762_BodySizeGene_bigger</li>
+	</genes>
+  </XenotypeDef>
+  
+  <XenotypeDef>
+		<defName>guy762_xenotype_gamorrean</defName>
+		<label>Gamorrean</label>
+		<description>A species of tall, strong bipeds, the Gamorreans had porcine traits,like an upturned, large-nostriled cartilaginous snout, jowls, and upturned tusks. Their hulking bodies were covered in green or rarely pink, thick and hairless skin.</description>
+		<descriptionShort>A species of tall, strong bipeds, the Gamorreans had porcine traits,like an upturned, large-nostriled cartilaginous snout, jowls, and upturned tusks. Their hulking bodies were covered in green or rarely pink, thick and hairless skin.</descriptionShort>
+		<inheritable>true</inheritable>
+		<iconPath>UI/Icons/Xenotypes/Pigskin</iconPath>
+		<combatPowerFactor>1.7</combatPowerFactor>
+		<nameMaker>NamerPersonPigskin</nameMaker>
+		<chanceToUseNameMaker>1</chanceToUseNameMaker>
+		<genes>
+			<li>Aggression_HyperAggressive</li>
+			<li>MeleeDamage_Strong</li>
+			<li>Robust</li>
+			<li>Beauty_VeryUgly</li>
+			<li>Hair_BaldOnly</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>Jaw_Heavy</li>
+			<li>Brow_Heavy</li>
+			<li>Headbone_MiniHorns</li>
+			<li>VoicePig</li>
+			<li>guy762_Face_jowls</li>
+			<li>guy762_Face_tusks</li>
+			<li>Body_Fat</li>
+			<li>Skin_Green</li>
+			<li>guy762_Skin_DarkGreen</li>
+			<li>StrongStomach</li>
+			<li>RobustDigestion</li>
+			<li>Nose_Pig</li>
+			<li>Unstoppable</li>
+			<li>guy762_BodySizeGene_big</li>
+			<li>AptitudeStrong_Melee</li>
+			<li>AptitudeTerrible_Intellectual</li>
+		</genes>
+	</XenotypeDef>
+	
+	<XenotypeDef>
+		<defName>guy762_xenotype_hutt</defName>
+		<label>Hutt</label>
+		<description>e</description>
+		<descriptionShort>e</descriptionShort>
+		<inheritable>true</inheritable>
+		<iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon1</iconPath>
+		<combatPowerFactor>1.5</combatPowerFactor>
+		<nameMaker>NamerPersonPigskin</nameMaker>
+		<chanceToUseNameMaker>1</chanceToUseNameMaker>
+		<canGenerateAsCombatant>false</canGenerateAsCombatant>
+		<genes>
+			<li>BS_Fast_TotalHealing</li>
+			<li>guy762_BodySizeGene_biggest</li>
+			<li>guy762_lifespan_nine</li>
+			<li>Immunity_SuperStrong</li>
+			<li>PsychicAbility_Dull</li>
+			<li>NakedSpeed</li>
+			<li>Turn_Gene_TraitGrandeur</li>
+			<li>MaxTemp_SmallIncrease</li>
+			<li>Sleepy</li>
+			<li>Robust</li>
+			<li>VU_Hermaphromorph</li>
+			<li>Beauty_VeryUgly</li>
+			<li>guy762_FixedEyes_BigRed</li>
+			<li>guy762_FixedEyes_BigOrange</li>
+			<li>guy762_FixedEyes_BigYellow</li>
+			<li>guy762_FixedEyes_BigGreen</li>
+			<li>Hair_BaldOnly</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>guy762_Head_hutt</li>
+			<li>Body_Fat</li>
+			<!--li>Body_Hulk</li-->
+			<li>Skin_Green</li>
+			<li>Skin_PaleYellow</li>
+			<li>guy762_Skin_PaleOrange</li>
+			<li>guy762_Skin_Lavender</li>
+			<li>guy762_Skin_DarkGreen</li>
+			<li>StrongStomach</li>
+			<li>DarkVision</li>
+			<li>guy762_Tail_hutt</li>
+			<li>AptitudeRemarkable_Social</li>
+			<li>AptitudeRemarkable_Intellectual</li>
+		</genes>
+	</XenotypeDef>
+	
+	<XenotypeDef>
+		<defName>guy762_xenotype_iridonian</defName>
+		<label>Iridonian</label>
+		<description>Iridonians, also known as Iridonian Zabraks, were a race of the sentient Zabrak species, near-humans that had evolved to be tough due to the nature of their homeworld Iridonia. They are notably hardier than the more common Zabrak.</description>
+		<descriptionShort>Iridonians, also known as Iridonian Zabraks, were a race of the sentient Zabrak species, near-humans that had evolved to be tough due to the nature of their homeworld Iridonia. They are notably hardier than the more common Zabrak.</descriptionShort>
+		<inheritable>true</inheritable>
+		<iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon2</iconPath>
+		<combatPowerFactor>1.3</combatPowerFactor>
+		<nameMaker>NamerPersonCorunan</nameMaker>
+		<chanceToUseNameMaker>0.7</chanceToUseNameMaker>
+		<genes>
+			<li>BS_Diet_Carnivore</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Turn_Gene_Certain</li>
+			<li>Turn_Gene_TraitGrandeur</li>
+			<li>Aggression_Aggressive</li>
+			<li>MeleeDamage_Strong</li>
+			<li>Pain_Reduced</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>Turn_Gene_HeadboneCrown</li>
+			<li>Hair_DarkBlack</li>
+			<li>Skin_PaleYellow</li>
+		</genes>
+	</XenotypeDef>
+  
+  <XenotypeDef>
+    <defName>guy762_xenotype_jawa</defName>
+    <label>Jawa</label>
+    <description>utini</description>
+    <descriptionShort>utini</descriptionShort>
+    <inheritable>true</inheritable>
+	<iconPath>UI/Icons/Xenotypes/Yttakin</iconPath>
+	<combatPowerFactor>0.3</combatPowerFactor>
+	<nameMaker>NamerPersonImpid</nameMaker>
+	<chanceToUseNameMaker>1</chanceToUseNameMaker>
+    <genes>
+		<li>MaxTemp_LargeIncrease</li>
+		<li>ToxResist_Partial</li>
+		<li>MeleeDamage_Weak</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Turn_Gene_Terrified</li>
+		<li>Pain_Extra</li>
+		<li>Beauty_VeryUgly</li>
+		<li>guy762_FixedEyes_BigYellow</li>
+		<li>Hair_BaldOnly</li>
+		<li>Beard_NoBeardOnly</li>
+		<li>Body_Standard</li>
+		<li>Hair_DarkBlack</li>
+		<li>Hair_InkBlack</li>
+		<li>Skin_InkBlack</li>
+		<li>Furskin</li>
+		<li>guy762_BodySizeGene_smaller</li>
+		<li>AptitudeTerrible_Melee</li>
+		<li>AptitudeRemarkable_Crafting</li>
+	</genes>
+  </XenotypeDef>
+  
+  <XenotypeDef>
+    <defName>guy762_xenotype_klatoonian</defName>
+    <label>Klatoonian</label>
+    <description>Klatooinians possessed a strong build, which made them useful laborers. Klatooinians' skin color ranged from green to brown, and they had green blood. Their natural habitat was a desert or wasteland. They were distinguishable through their prominent brows and visible teeth.</description>
+    <descriptionShort>Klatooinians possessed a strong build, which made them useful laborers. Klatooinians' skin color ranged from green to brown, and they had green blood. Their natural habitat was a desert or wasteland. They were distinguishable through their prominent brows and visible teeth.</descriptionShort>
+    <inheritable>true</inheritable>
+	<iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon9</iconPath>
+	<combatPowerFactor>1.2</combatPowerFactor>
+	<nameMaker>NamerPersonImpid</nameMaker>
+	<chanceToUseNameMaker>0.6</chanceToUseNameMaker>
+    <genes>
+		<li>guy762_FacialRidges_bumpy</li>
+		<li>guy762_Face_jowls</li>
+		<li>guy762_Nose_Dog</li>
+		<li>Robust</li>
+		<li>Hair_BaldOnly</li>
+		<li>Beard_NoBeardOnly</li>
+		<li>Jaw_Heavy</li>
+		<li>Brow_Heavy</li>
+		<li>Body_Hulk</li>
+		<li>guy762_Skin_PaleOrange</li>
+		<li>Skin_PaleYellow</li>
+		<li>guy762_Skin_DarkGreen</li>
+	</genes>
+  </XenotypeDef>
+  
+  <XenotypeDef>
+    <defName>guy762_xenotype_kubaz</defName>
+    <label>Kubaz</label>
+    <description>e</description>
+    <descriptionShort>e</descriptionShort>
+    <inheritable>true</inheritable>
+	<iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon6</iconPath>
+	<nameMaker>NamerPersonImpid</nameMaker>
+	<chanceToUseNameMaker>1</chanceToUseNameMaker>
+    <genes>
+		<li>guy762_Head_kubaz</li>
+		<li>PsychicAbility_Dull</li>
+		<li>BS_Diet_Carnivore</li>
+		<li>guy762_FixedEyes_Gray</li>
+		<li>Hair_BaldOnly</li>
+		<li>Beard_NoBeardOnly</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Turn_Gene_VoiceDryad</li>
+		<li>guy762_Skin_DarkGreen</li>
+		<li>Skin_SlateGray</li>
+		<li>DarkVision</li>
+		<li>AptitudeStrong_Artistic</li>
+		<li>AptitudeStrong_Social</li>
+	</genes>
+  </XenotypeDef>
+  
+  <XenotypeDef MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
+		<defName>guy762_xenotype_lasat</defName>
+		<label>Lasat</label>
+		<description>e</description>
+		<descriptionShort>e</descriptionShort>
+		<inheritable>true</inheritable>
+		<iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon10</iconPath>
+		<combatPowerFactor>1.4</combatPowerFactor>
+		<genes>
+			<li>BS_Diet_Carnivore</li>
+			<li>guy762_BodySizeGene_bigger</li>
+			<li>MoveSpeed_Quick</li>
+			<li>Pain_Reduced</li>
+			<li>Beauty_Ugly</li>
+			<li>guy762_FixedEyes_Yellow</li>
+			<li>guy762_FixedEyes_Green</li>
+			<li>Hair_BaldOnly</li>
+			<li>Ears_Pointed</li>
+			<li>Head_Gaunt</li>
+			<li>guy762_Beard_Chops</li>
+			<li>Hair_DarkBlack</li>
+			<li>guy762_Skin_Lavender</li>
+			<li>guy762_Furskin_shortfur</li>
+		</genes>
+	</XenotypeDef>
+  
+  <!--XenotypeDef>
+    <defName>guy762_xenotype_massassi</defName>
+    <label>Massassi</label>
+    <description>fuck it I'm too lazy to write these</description>
+    <descriptionShort>fuck it I'm too lazy to write these</descriptionShort>
+    <inheritable>true</inheritable>
+	<iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon5</iconPath>
+	<nameMaker>NamerPersonImpid</nameMaker>
+	<chanceToUseNameMaker>1</chanceToUseNameMaker>
+	<combatPowerFactor>2</combatPowerFactor>
+    <genes>
+		<li>guy762_statgene_predator</li>
+		<li>guy762_BodySizeGene_biggest</li>
+		<li>guy762_lifespan_half</li>
+		<li>PsychicAbility_Extreme</li>
+		<li>NakedSpeed</li>
+		<li>Aggression_HyperAggressive</li>
+		<li>MeleeDamage_Strong</li>
+		<li>KillThirst</li>
+		<li>Robust</li>
+		<li>Hair_BaldOnly</li>
+		<li>Beard_NoBeardOnly</li>
+		<li>Head_Bone</li>
+		<li>guy762_Headbone_nautolan</li>
+		<li>guy762_FixedEyes_Big</li>
+		<li>Body_Hulk</li>
+		<li>Skin_DeepRed</li>
+		<li>RobustDigestion</li>
+		<li>GS_Primitive</li>
+		<li>Turn_Gene_Speechless</li>
+		<li>Unstoppable</li>
+		<li>AptitudeRemarkable_Melee</li>
+		<li>AptitudeTerrible_Cooking</li>
+		<li>AptitudeTerrible_Plants</li>
+		<li>AptitudeTerrible_Animals</li>
+		<li>AptitudeTerrible_Crafting</li>
+		<li>AptitudeTerrible_Artistic</li>
+		<li>AptitudeTerrible_Medicine</li>
+		<li>AptitudeTerrible_Social</li>
+		<li>AptitudeTerrible_Intellectual</li>
+	</genes>
+  </XenotypeDef-->
+  
+  <XenotypeDef>
+		<defName>guy762_xenotype_mimbanese</defName>
+		<label>Mimbanese</label>
+		<description>e</description>
+		<descriptionShort>e</descriptionShort>
+		<inheritable>true</inheritable>
+		<iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon1</iconPath>
+		<nameMaker>NamerPersonWaster</nameMaker>
+		<chanceToUseNameMaker>1</chanceToUseNameMaker>
+		<genes>
+			<li>guy762_FacialRidges_bumpy</li>
+			<li>guy762_FacialRidges_broad</li>
+			<li>guy762_FixedEyes_Big</li>
+			<li>guy762_Brow_Ridged</li>
+			<li>Aggression_Aggressive</li>
+			<li>Hair_BaldOnly</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>Body_Standard</li>
+			<li>Body_Thin</li>
+			<li>Skin_PaleRed</li>
+			<li>DarkVision</li>
+			<li>GS_Primitive</li>
+			<li>AptitudeStrong_Intellectual</li>
+		</genes>
+	</XenotypeDef>
+  
+  <XenotypeDef>
+    <defName>guy762_xenotype_miraluka</defName>
+    <label>Miraluka</label>
+    <description>The Miraluka were a Near-Humanspecies that differed from Humans in that they lacked eyes, only retaining vestigial eye sockets, and perceived the environment around them through Force sight instead of regular vision.</description>
+    <descriptionShort>The Miraluka were a Near-Humanspecies that differed from Humans in that they lacked eyes, only retaining vestigial eye sockets, and perceived the environment around them through Force sight instead of regular vision.</descriptionShort>
+    <inheritable>true</inheritable>
+	<iconPath>UI/Icons/Xenotypes/Other</iconPath>
+    <genes> <!--FORCE GENES ARE ADDED IN BY A PATCH THAT TARGETS SPECIFIC LINES HERE-->
+		<li>guy762_FixedEyes_Gray</li>
+		<li>PsychicAbility_Enhanced</li>
+		<li>Aggression_DeadCalm</li>
+		<li>Turn_Gene_Blindness</li>
+	</genes> <!--FORCE GENES ARE ADDED IN BY A PATCH THAT TARGETS SPECIFIC LINES HERE-->
+  </XenotypeDef>
+
+  <XenotypeDef>
+    <defName>guy762_xenotype_mirialan</defName>
+    <label>Mirialan</label>
+    <description>Mirialans are a green or yellow-skinned species hailing from the Outer Rim world Mirial. Holding a strong connection to the natural world, Mirialans are more slightly more sensitive to the force than other species.</description>
+    <descriptionShort>Mirialans are a green or yellow-skinned species hailing from the Outer Rim world Mirial. Holding a strong connection to the natural world, Mirialans are more slightly more sensitive to the force than other species.</descriptionShort>
+    <inheritable>true</inheritable>
+	<iconPath>UI/Icons/Xenotypes/Baseliner</iconPath>
+	<combatPowerFactor>1.3</combatPowerFactor>
+    <genes>
+		<li>PsychicAbility_Enhanced</li>
+		<li>Turn_Gene_MeditationNeed</li>
+		<li>MoveSpeed_Quick</li>
+		<li>MinTemp_SmallIncrease</li>
+		<li>Hair_DarkSaturatedReddish</li>
+		<li>Hair_DarkReddish</li>
+		<li>Hair_MidBlack</li>
+		<li>Hair_DarkBlack</li>
+		<li>Hair_InkBlack</li>
+		<li>Skin_Green</li>
+		<li>Skin_DeepYellow</li>
+		<li>guy762_tattooGene_mirialan</li>
+	</genes>
+  </XenotypeDef>
+  
+  <XenotypeDef>
+    <defName>guy762_xenotype_nagai</defName>
+    <label>Nagai</label>
+    <description>Tall and agile, the Nagai originate from a dwarf galaxy in Wild Space. They are an aggressive, honor-bound people.</description>
+	<descriptionShort>Tall and agile, the Nagai originate from a dwarf galaxy in Wild Space. They are an aggressive, honor-bound people.</descriptionShort>
+    <inheritable>true</inheritable>
+	<iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon4</iconPath>
+    <combatPowerFactor>1.3</combatPowerFactor>
+	<nameMaker>NamerPersonWaster</nameMaker>
+	<chanceToUseNameMaker>1</chanceToUseNameMaker>
+    <genes>
+		<li>guy762_BodySizeGene_big</li>
+		<li>Aggression_Aggressive</li>
+		<li>MeleeDamage_Strong</li>
+		<li>Hair_LongOnly</li>
+		<li>Ears_Pointed</li>
+		<li>Body_Thin</li>
+		<li>Hair_InkBlack</li>
+		<li>Skin_SheerWhite</li>
+		<li>AptitudeStrong_Melee</li>
+		<li>AptitudeStrong_Social</li>
+	</genes>
+  </XenotypeDef>
+  
+  <XenotypeDef>
+		<defName>guy762_xenotype_nautolan</defName>
+		<label>Nautolan</label>
+		<description>Nautolans were amphibious, capable of breathing both air and water. They were known to be capable of surviving in extreme environments. Their skin could be green, blue, gray, purple, orange, or yellow, with red or green blood. One of their most notable features were their large, dark eyes, which were a product of evolution; through these eyes, they could spot details in lightless oceans.</description>
+		<descriptionShort>Nautolans were amphibious, capable of breathing both air and water. They were known to be capable of surviving in extreme environments. Their skin could be green, blue, gray, purple, orange, or yellow, with red or green blood. One of their most notable features were their large, dark eyes, which were a product of evolution; through these eyes, they could spot details in lightless oceans.</descriptionShort>
+		<inheritable>true</inheritable>
+		<iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon1</iconPath>
+		<combatPowerFactor>1.1</combatPowerFactor>
+		<genes>
+			<li>MaxTemp_SmallDecrease</li>
+			<li>Pain_Reduced</li>
+			<li>Hair_BaldOnly</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>guy762_Headbone_nautolan</li>
+			<li>guy762_FixedEyes_Big</li>
+			<li>Skin_Green</li>
+			<li>guy762_Skin_Turquoise</li>
+			<li>guy762_Skin_DarkGreen</li>
+			<li>DarkVision</li>
+		</genes>
+	</XenotypeDef>
+	
+	<XenotypeDef MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
+		<defName>guy762_xenotype_nelvaanian</defName>
+		<label>Nelvaanian</label>
+		<description>Nelvaanians are a blue furred race of lupine humanoids distinguishable by their long snouts, sharp, canine-like teeth, and pointed ears. Their fingers possess sharpened claws as well as their feet. Befitting their lupine similarity, they also possess a keen sense of smell and acute hearing that is purported to be able to detect a creature's movement from a mile away</description>
+		<descriptionShort>Nelvaanians are a blue furred race of lupine humanoids distinguishable by their long snouts, sharp, canine-like teeth, and pointed ears. Their fingers possess sharpened claws as well as their feet. Befitting their lupine similarity, they also possess a keen sense of smell and acute hearing that is purported to be able to detect a creature's movement from a mile away.</descriptionShort>
+		<inheritable>true</inheritable>
+		<iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon10</iconPath>
+		<nameMaker>NamerPersonCorunan</nameMaker>
+		<chanceToUseNameMaker>1</chanceToUseNameMaker>
+		<genes>
+			<li>guy762_statgene_predator</li>
+			<li>guy762_BodySizeGene_big</li>
+			<li>NakedSpeed</li>
+			<li>MinTemp_LargeDecrease</li>
+			<li>MaxTemp_SmallDecrease</li>
+			<li>Hair_LongOnly</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>Ears_Pointed</li>
+			<li>guy762_FixedEyes_Big</li>
+			<li>guy762_Nose_Snout</li>
+			<li>Body_Standard</li>
+			<li>Body_Hulk</li>
+			<li>Hair_InkBlack</li>
+			<li>guy762_Skin_SlateBlue</li>
+			<li>GS_Primitive</li>
+			<li>guy762_Furskin_shortfur</li>
+			<li>AptitudePoor_Intellectual</li>
+		</genes>
+	</XenotypeDef>
+  
+	<XenotypeDef>
+		<defName>guy762_xenotype_nemoidian</defName>
+		<label>Nemoidian</label>
+		<description>Neimoidians were distant genetic relatives of the Duros, they retained many similarities to them, including basic form, noseless faces, and green-blue skin</description>
+		<descriptionShort>Neimoidians were distant genetic relatives of the Duros, they retained many similarities to them, including basic form, noseless faces, and green-blue skin</descriptionShort>
+		<inheritable>true</inheritable>
+		<combatPowerFactor>0.6</combatPowerFactor>
+		<iconPath>UI/Icons/Xenotypes/Genie</iconPath>
+		<genes>
+			<li>Immunity_Weak</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Turn_Gene_Terrified</li>
+			<li>guy762_FixedEyes_Red</li>
+			<li>guy762_FixedEyes_Orange</li>
+			<li>Hair_BaldOnly</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>Brow_Heavy</li>
+			<li>guy762_Head_duros</li>
+			<li>Skin_Green</li>
+			<li>guy762_Skin_DarkGreen</li>
+			<li>guy762_Skin_MidGray</li>
+			<li>Learning_Fast</li>
+			<li>ElongatedFingers</li>
+			<li>guy762_BodySizeGene_big</li>
+			<li>AptitudePoor_Shooting</li>
+			<li>AptitudePoor_Melee</li>
+			<li>AptitudeRemarkable_Social</li>
+		</genes>
+	</XenotypeDef>
+	
+	<XenotypeDef>
+		<defName>guy762_xenotype_nikto</defName>
+		<label>Nikto</label>
+		<description>e</description>
+		<descriptionShort>e</descriptionShort>
+		<inheritable>true</inheritable>
+		<iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon5</iconPath>
+		<nameMaker>NamerPersonWaster</nameMaker>
+		<chanceToUseNameMaker>1</chanceToUseNameMaker>
+		<combatPowerFactor>1.1</combatPowerFactor>
+		<genes>
+			<li>guy762_FacialRidges_bumpy</li>
+			<li>guy762_FacialRidges_broad</li>
+			<li>guy762_Brow_facespines</li>
+			<li>guy762_statgene_predator</li>
+			<li>MaxTemp_SmallIncrease</li>
+			<li>Hair_BaldOnly</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>Head_Gaunt</li>
+			<li>Brow_Heavy</li>
+			<li>Body_Standard</li>
+			<li>Body_Hulk</li>
+			<li>guy762_Skin_PaleOrange</li>
+			<li>Skin_Orange</li>
+			<li>guy762_Skin_DarkGreen</li>
+			<li>AptitudePoor_Social</li>
+		</genes>
+	</XenotypeDef>
+	
+	<XenotypeDef>
+		<defName>guy762_xenotype_pantoran</defName>
+		<label>Pantoran</label>
+		<description>e</description>
+		<descriptionShort>e</descriptionShort>
+		<inheritable>true</inheritable>
+		<iconPath>UI/Icons/Xenotypes/Baseliner</iconPath>
+		<nameMaker MayRequire="Ludeon.RimWorld.Royalty">NamerPersonSophian</nameMaker>
+		<nameMakerFemale MayRequire="Ludeon.RimWorld.Royalty">NamerPersonSophianFemale</nameMakerFemale>
+		<genes>
+			<li>MinTemp_SmallDecrease</li>
+			<li>Hair_SnowWhite</li>
+			<li>Hair_LightBlue</li>
+			<li>Hair_Pink</li>
+			<li>guy762_Hair_SlateBlue</li>
+			<li>guy762_Hair_Lavender</li>
+			<li>guy762_Hair_DarkBlue</li>
+			<li>Hair_MidBlack</li>
+			<li>Skin_Blue</li>
+			<li>guy762_tattooGene_pantoran</li>
+		</genes>
+	  </XenotypeDef>
+	
+	<XenotypeDef>
+		<defName>guy762_xenotype_quarren</defName>
+		<label>Quarren</label>
+		<description>e</description>
+		<descriptionShort>e</descriptionShort>
+		<inheritable>true</inheritable>
+		<iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon6</iconPath>
+		<nameMaker>NamerPersonWaster</nameMaker>
+		<chanceToUseNameMaker>1</chanceToUseNameMaker>
+		<combatPowerFactor>1.2</combatPowerFactor>
+		<genes>
+			<li>MinTemp_SmallDecrease</li>
+			<li>Pain_Reduced</li>
+			<li>guy762_FixedEyes_Blue</li>
+			<li>Hair_BaldOnly</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>guy762_FacialRidges_bumpy</li>
+			<li>guy762_Head_quarren</li>
+			<li>guy762_Ears_fin</li>
+			<li>guy762_Beard_squidmouth</li>
+			<li>Skin_PaleYellow</li>
+			<li>guy762_Skin_PaleOrange</li>
+			<li>Skin_Orange</li>
+			<li>Turn_Gene_SkinBrightOrange</li>
+			<li>Hands_Pig</li>
+			<li>guy762_AbilityGene_inkspray</li>
+		</genes>
+	</XenotypeDef>
+	
+	<XenotypeDef>
+		<defName>guy762_xenotype_rodian</defName>
+		<label>Rodian</label>
+		<description>Rodians were a species of reptilian humanoids. They possessed large pupil-less eyes that could see in infrared spectrum.Green—but sometimes red, yellow, or turquoise—scales covered their bodies, and their skin had a rough, pebbly texture, except on the snout and hands.</description>
+		<descriptionShort>Rodians were a species of reptilian humanoids. They possessed large pupil-less eyes that could see in infrared spectrum.Green—but sometimes red, yellow, or turquoise—scales covered their bodies, and their skin had a rough, pebbly texture, except on the snout and hands.</descriptionShort>
+		<inheritable>true</inheritable>
+		<iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon1</iconPath>
+		<genes>
+			<li>Hair_BaldOnly</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>Ears_Pointed</li>
+			<li>guy762_Head_rodian</li>
+			<li>guy762_Headbone_rodian</li>
+			<li>guy762_Hair_rodian</li>
+			<li>guy762_FixedEyes_Big</li>
+			<li>Beauty_Ugly</li>
+			<li>Skin_Green</li>
+			<li>Skin_DeepYellow</li>
+			<li>Skin_PaleYellow</li>
+			<li>Skin_Orange</li>
+			<li>guy762_Skin_Turquoise</li>
+			<li>guy762_Skin_DarkGreen</li>
+			<li>ElongatedFingers</li>
+		</genes>
+	</XenotypeDef>
+	
+	<XenotypeDef>
+		<defName>guy762_xenotype_sith</defName>
+		<label>Sith Pureblood</label>
+		<description>.</description>
+		<iconPath>UI/Icons/Xenotypes/Sov_Sith</iconPath>
+		<inheritable>true</inheritable>
+		<nameMaker>NamerPersonPureblood</nameMaker>
+		<chanceToUseNameMaker>1</chanceToUseNameMaker>
+		<genes>
+		    <li>guy762_FixedEyes_Red</li>
+			<li>guy762_FixedEyes_Orange</li>
+			<li>guy762_FixedEyes_Yellow</li>
+			<li>PsychicAbility_Extreme</li>
+			<li>MinTemp_SmallIncrease</li>
+			<li>MaxTemp_LargeIncrease</li>
+			<li>Aggression_HyperAggressive</li>
+			<li>MeleeDamage_Strong</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>Head_Bone</li>
+			<li>Body_Standard</li>
+			<li>Hair_InkBlack</li>
+			<li>Skin_DeepRed</li>
+			<li>Skin_PaleRed</li>
+			<li>AptitudeRemarkable_Melee</li>
+			<li>AptitudeTerrible_Cooking</li>
+			<li>AptitudeTerrible_Plants</li>
+			<li>AptitudeTerrible_Animals</li>
+			<li MayRequire="VanillaExpanded.VPsycastsE">guy762_statgene_force</li>
+		</genes>
+	  </XenotypeDef>
+	
+	<XenotypeDef>
+		<defName>guy762_xenotype_snivvian</defName>
+		<label>Snivvian</label>
+		<description>Snivvians were mammalian humanoids distinguishable by their large nostrils and their protruding lower jaws, with two small tusks. Their hair color varied between brown and black, but they possessed a larger variation of skin and eye colors.</description>
+		<descriptionShort>Snivvians were mammalian humanoids distinguishable by their large nostrils and their protruding lower jaws, with two small tusks. Their hair color varied between brown and black, but they possessed a larger variation of skin and eye colors.</descriptionShort>
+		<inheritable>true</inheritable>
+		<iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon1</iconPath>
+		<genes>
+			<li>MinTemp_SmallDecrease</li>
+			<li>Hair_ShortOnly</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>Jaw_Heavy</li>
+			<li>guy762_Face_tusks</li>
+			<li>Skin_PaleYellow</li>
+			<li>Skin_LightGray</li>
+			<li>Nose_Pig</li>
+			<li>AptitudeRemarkable_Artistic</li>
+			<li>AptitudePoor_Social</li>
+			<li>guy762_BodySizeGene_small</li>
+		</genes>
+	</XenotypeDef>
+	
+	<XenotypeDef>
+		<defName>guy762_xenotype_sullustan</defName>
+		<label>Sullustan</label>
+		<description>Sullustans were distinguished by the two flaps of jowls around their cheeks, and large, mouse-like eyes that were typically dark and gleaming. They also had large ears.</description>
+		<descriptionShort>Sullustans were distinguished by the two flaps of jowls around their cheeks, and large, mouse-like eyes that were typically dark and gleaming. They also had large ears.</descriptionShort>
+		<inheritable>true</inheritable>
+		<iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon9</iconPath>
+		<genes>
+			<li>KindInstinct</li>
+			<li>Hair_BaldOnly</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>guy762_Ears_big</li>
+			<li>Jaw_Heavy</li>
+			<li>guy762_FixedEyes_Big</li>
+			<li>guy762_Face_jowls</li>
+			<li>DarkVision</li>
+			<li>AptitudeStrong_Construction</li>
+			<li>AptitudeStrong_Mining</li>
+			<li>AptitudeTerrible_Plants</li>
+			<li>guy762_BodySizeGene_small</li>
+		</genes>
+	  </XenotypeDef>
+	  
+	  <XenotypeDef>
+		<defName>guy762_xenotype_togruta</defName>
+		<label>Togruta</label>
+		<description>Togruta were a species of sentient humanoids whose skin spanned a vast array of colors, including, but not limited to, orange, red, white, and yellow. Togrutas were known to have multiple stomachs, however, their most notable features were the large organic head formations two large cone-like horns called montrals atop their skull, and three lekku, also known as headtails, that sprouted downward.</description>
+		<descriptionShort>Togruta were a species of sentient humanoids whose skin spanned a vast array of colors, including, but not limited to, orange, red, white, and yellow. Togrutas were known to have multiple stomachs, however, their most notable features were the large organic head formations two large cone-like horns called montrals atop their skull, and three lekku, also known as headtails, that sprouted downward.</descriptionShort>
+		<iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon8</iconPath>
+		<inheritable>true</inheritable>
+		<genes>
+			<li>Hair_BaldOnly</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>guy762_Headbone_togruta</li>
+			<li>Hair_LightOrange</li>
+			<li>guy762_Hair_DarkBlue</li>
+			<li>Hair_LightBlue</li>
+			<li>Hair_LightTeal</li>
+			<li>Hair_Pink</li>
+			<li>guy762_Hair_SlateRed</li>
+			<li>Hair_BrightRed</li>
+			<li>Skin_DeepYellow</li>
+			<li>Skin_PaleYellow</li>
+			<li>Skin_Orange</li>
+			<li>Turn_Gene_SkinBrightOrange</li>
+			<li>Skin_PaleRed</li>
+			<li>Skin_LightGray</li>
+			<li>guy762_Skin_Turquoise</li>
+			<li>RobustDigestion</li>
+			<li>guy762_tattooGene_togruta</li>
+		</genes>
+	  </XenotypeDef>
+	  
+	  <XenotypeDef>
+		<defName>guy762_xenotype_trandoshan</defName>
+		<label>Trandoshan</label>
+		<description>Trandoshans were sentient humanoids with smooth, scaly skin. Trandoshans ranged from being tall and fairly gaunt, to being short and more rotund. Trandoshans were powerful beings, and had long thin arms that ended in either three thick digits, or four thin digits, including a thumb. Trandoshans had a pair of eyes set back on a pointed skull, and a jaw filled with pointed teeth. Some Trandoshans even had a crown of feathers atop their skulls.</description>
+		<descriptionShort>Trandoshans were sentient humanoids with smooth, scaly skin. Trandoshans ranged from being tall and fairly gaunt, to being short and more rotund. Trandoshans were powerful beings, and had long thin arms that ended in either three thick digits, or four thin digits, including a thumb. Trandoshans had a pair of eyes set back on a pointed skull, and a jaw filled with pointed teeth. Some Trandoshans even had a crown of feathers atop their skulls.</descriptionShort>
+		<inheritable>true</inheritable>
+		<iconPath>UI/Icons/Xenotypes/Impid</iconPath>
+		<combatPowerFactor>1.4</combatPowerFactor>
+		<nameMaker>NamerPersonImpid</nameMaker>
+		<chanceToUseNameMaker>1</chanceToUseNameMaker>
+		<genes>
+			<li>BS_Fast_TotalHealing</li>
+			<li>guy762_statgene_predator</li>
+			<li>guy762_BodySizeGene_big</li>
+			<li>Aggression_Aggressive</li>
+			<li>Robust</li>
+			<li>Beauty_Ugly</li>
+			<li>guy762_FixedEyes_Orange</li>
+			<li>guy762_FixedEyes_Yellow</li>
+			<li>Hair_BaldOnly</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>guy762_FacialRidges_bumpy</li>
+			<li>guy762_Headbone_trandoshan</li>
+			<li>guy762_Head_trandoshan</li>
+			<li>Skin_Green</li>
+			<li>Skin_DeepYellow</li>
+			<li>Skin_PaleYellow</li>
+			<li>guy762_Skin_PaleOrange</li>
+			<li>guy762_Skin_DarkGreen</li>
+			<li>guy762_Skin_MidGray</li>
+			<li>DarkVision</li>
+			<li>Hands_Pig</li>
+			<li>AptitudeStrong_Shooting</li>
+		</genes>
+	  </XenotypeDef>
+	  
+	  <XenotypeDef>
+		<defName>guy762_xenotype_tusken</defName>
+		<label>Tusken Raider</label>
+		<description>.</description>
+		<descriptionShort>Sand People as they are sometimes known, wear abundant clothing to protect themselves from extreme heat.</descriptionShort>
+		<iconPath>UI/Icons/Xenotypes/Sov_SandP</iconPath>
+		<inheritable>true</inheritable>
+		<nameMaker>NamerPersonSandP</nameMaker>
+		<chanceToUseNameMaker>1</chanceToUseNameMaker>
+			<genes>
+				<li>MinTemp_SmallIncrease</li>
+				<li>MaxTemp_LargeIncrease</li>
+				<li>FireTerror</li>
+				<li>Aggression_Aggressive</li>
+				<li>Beauty_VeryUgly</li>
+				<li>Hair_BaldOnly</li>
+				<li>Beard_NoBeardOnly</li>
+				<li>guy762_FacialRidges_bumpy</li>
+				<li>guy762_Nose_Dog</li>
+				<li>Head_Devolved</li>
+				<li>SandVoiceGene</li>
+				<li>Body_Standard</li>
+				<li>Skin_SlateGray</li>
+				<li>RobustDigestion</li>
+				<li>GS_Primitive</li>
+				<li>AptitudeRemarkable_Shooting</li>
+				<li>AptitudeStrong_Melee</li>
+				<li>AptitudePoor_Construction</li>
+				<li>AptitudePoor_Plants</li>
+				<li>AptitudeRemarkable_Animals</li>
+				<li>AptitudePoor_Intellectual</li>
+			</genes>
+	  </XenotypeDef>
+  
+  <XenotypeDef>
+    <defName>guy762_xenotype_twilek</defName>
+    <label>Twi'lek</label>
+    <description>Twi'leks were a species of tall humanoids whose skin spanned a vast array of colors, their most distinctive feature was the pair of prehensile appendages that sprouted from the crown or base of their skulls,[18] known as lekku, or head-tails.</description>
+    <descriptionShort>Twi'leks were a species of tall humanoids whose skin spanned a vast array of colors, their most distinctive feature was the pair of prehensile appendages that sprouted from the crown or base of their skulls,[18] known as lekku, or head-tails.</descriptionShort>
+    <iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon8</iconPath>
+    <inheritable>true</inheritable>
+    <genes>
+		<li>Beauty_Pretty</li>
+		<li>Hair_BaldOnly</li>
+		<li>Beard_NoBeardOnly</li>
+		<li>guy762_Headbone_twilek</li>
+		<li>Skin_Green</li>
+		<li>Skin_DeepYellow</li>
+		<li>Skin_PaleYellow</li>
+		<li>Skin_Orange</li>
+		<li>Turn_Gene_SkinBrightOrange</li>
+		<li>Skin_DeepRed</li>
+		<li>Skin_PaleRed</li>
+		<li>Skin_Purple</li>
+		<li>Skin_Blue</li>
+		<li>guy762_Skin_Turquoise</li>
+	</genes>
+  </XenotypeDef>
+  
+  <XenotypeDef>
+		<defName>guy762_xenotype_umbaran</defName>
+		<label>Umbaran</label>
+		<description>The Umbarans were a slender near-human species with pale, bluish skin.Umbarans had gaunt, emaciated faces with gray markings around the sockets of their colorless eyes.</description>
+		<descriptionShort>he Umbarans were a slender near-human species with pale, bluish skin.Umbarans had gaunt, emaciated faces with gray markings around the sockets of their colorless eyes.</descriptionShort>
+		<inheritable>true</inheritable>
+		<iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon6</iconPath>
+		<genes>
+			<li>Libido_Low</li>
+			<li>guy762_FixedEyes_Gray</li>
+			<li>Hair_BaldOnly</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>Head_Gaunt</li>
+			<li>Body_Standard</li>
+			<li>Body_Thin</li>
+			<li>Hair_SnowWhite</li>
+			<li>Skin_LightGray</li>
+			<li>DarkVision</li>
+			<li>AptitudeStrong_Social</li>
+		</genes>
+	</XenotypeDef>
+	
+	<XenotypeDef>
+		<defName>guy762_xenotype_weequay</defName>
+		<label>Weequay</label>
+		<description>Weequay possessed tough, leathery skin resistant to desert environments and blaster fire. Some Weequay grew horns on their lower jaw, while others had bumpy extensions of their skin.</description>
+		<descriptionShort>Weequay possessed tough, leathery skin resistant to desert environments and blaster fire. Some Weequay grew horns on their lower jaw, while others had bumpy extensions of their skin.</descriptionShort>
+		<inheritable>true</inheritable>
+		<iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon5</iconPath>
+		<combatPowerFactor>1.1</combatPowerFactor>
+		<nameMaker>NamerPersonCorunan</nameMaker>
+		<chanceToUseNameMaker>0.7</chanceToUseNameMaker>
+		<genes>
+			<li>MaxTemp_SmallIncrease</li>
+			<li>Pain_Reduced</li>
+			<li>Beauty_Ugly</li>
+			<li>Hair_BaldOnly</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>Head_Gaunt</li>
+			<li>guy762_FacialRidges_bumpy</li>
+			<li>guy762_Beard_chinspines</li>
+			<li>Hair_DarkBlack</li>
+			<li>Hair_InkBlack</li>
+			<li>Skin_PaleYellow</li>
+			<li>guy762_Skin_PaleOrange</li>
+			<li>guy762_Skin_MidGray</li>
+		</genes>
+	</XenotypeDef>
+	
+	<XenotypeDef>
+		<defName>guy762_xenotype_wookiee</defName>
+		<label>Wookiee</label>
+		<description>Wookiees were a tall species of furry humanoids who could grow to a height of nearly three meters. They were covered from head to toe in a thick, shaggy coat of hair with water-shedding properties that notably came in shades of brown, black, gray, and white.</description>
+		<descriptionShort>Wookiees were a tall species of furry humanoids who could grow to a height of nearly three meters. They were covered from head to toe in a thick, shaggy coat of hair with water-shedding properties that notably came in shades of brown, black, gray, and white.</descriptionShort>
+		<inheritable>true</inheritable>
+		<iconPath>UI/Icons/Xenotypes/Yttakin</iconPath>
+		<combatPowerFactor>1.3</combatPowerFactor>
+		<nameMaker>NamerPersonYttakin</nameMaker>
+		<chanceToUseNameMaker>1</chanceToUseNameMaker>
+		<genes>
+			<li>guy762_Nose_Dog</li>
+			<li>guy762_Head_wookiee</li>
+			<li>guy762_statgene_predator</li>
+			<li>guy762_BodySizeGene_bigger</li>
+			<li>guy762_lifespan_six</li>
+			<li>NakedSpeed</li>
+			<li>KindInstinct</li>
+			<li>Robust</li>
+			<li>Beauty_Ugly</li>
+			<li>Hair_BaldOnly</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>VoiceRoar</li>
+			<li>Body_Hulk</li>
+			<li>Hair_Gray</li>
+			<li>Hair_ReddishBrown</li>
+			<li>Hair_DarkBrown</li>
+			<li>Hair_DarkSaturatedReddish</li>
+			<li>Hair_DarkReddish</li>
+			<li>Hair_MidBlack</li>
+			<li>GS_Primitive</li>
+			<li>Furskin</li>
+			<li>AptitudePoor_Social</li>
+		</genes>
+	</XenotypeDef>
+	
+	<XenotypeDef>
+		<defName>guy762_xenotype_yoder</defName>
+		<label>Yoder</label>
+		<description>Members of the species were small in size, roughly comparable to that of a human child, with green skin, large eyes, and long pointed ears. Their three-fingered hands ended in claws.</description>
+		<descriptionShort>Members of the species were small in size, roughly comparable to that of a human child, with green skin, large eyes, and long pointed ears. Their three-fingered hands ended in claws.</descriptionShort>
+		<inheritable>true</inheritable>
+		<iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon7</iconPath>
+		<genes>
+			<li>ArchiteMetabolism</li>
+			<li>guy762_lifespan_nine</li>
+			<li>PsychicAbility_Extreme</li>
+			<li>Turn_Gene_VeryFastNeuralHeat</li>
+			<li>Turn_Gene_MeditationNeed</li>
+			<li>Ears_Pointed</li>
+			<li>guy762_FacialRidges_bumpy</li>
+			<li>Body_Standard</li>
+			<li>Skin_Green</li>
+			<li>guy762_Skin_DarkGreen</li>
+			<li>guy762_BodySizeGene_smallest</li>
+			<li MayRequire="VanillaExpanded.VPsycastsE">guy762_statgene_force</li>
+		</genes>
+	  </XenotypeDef>
+	
+	<XenotypeDef>
+		<defName>guy762_xenotype_zabrak</defName>
+		<label>Zabrak</label>
+		<description>Zabraks were a species of near-humans that had evolved to be tough due to the nature of their homeworld Iridonia. Zabraks possessed a ring of small, vestigial horns that ran from high on their brow round to the back of their head.</description>
+		<descriptionShort>Zabraks were a species of near-humans that had evolved to be tough due to the nature of their homeworld Iridonia. Zabraks possessed a ring of small, vestigial horns that ran from high on their brow round to the back of their head.</descriptionShort>
+		<inheritable>true</inheritable>
+		<iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon2</iconPath>
+		<combatPowerFactor>1.1</combatPowerFactor>
+		<genes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Turn_Gene_Certain</li>
+			<li>Pain_Reduced</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>Turn_Gene_HeadboneCrown</li>
+		</genes>
+	</XenotypeDef>
+	
+	<XenotypeDef>
+		<defName>guy762_xenotype_zeltron</defName>
+		<label>Zeltron</label>
+		<description>Zeltrons produced potent pheromones, which enhanced their attractiveness and likeability. They also possessed limited telepathic abilities, used to project emotions onto others, as well as allowing them to read and even feel the emotions of others.</description>
+		<descriptionShort>Zeltrons produced potent pheromones, which enhanced their attractiveness and likeability. They also possessed limited telepathic abilities, used to project emotions onto others, as well as allowing them to read and even feel the emotions of others.</descriptionShort>
+		<inheritable>true</inheritable>
+		<iconPath>UI/Icons/Xenotypes/Highmate</iconPath>
+		<nameMaker>NamerPersonCorunan</nameMaker>
+		<chanceToUseNameMaker>0.7</chanceToUseNameMaker>
+		<genes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Turn_Gene_Uncertain</li>
+			<li>KindInstinct</li>
+			<li>Libido_High</li>
+			<li>Beauty_Beautiful</li>
+			<li>Hair_DarkBlack</li>
+			<li>Hair_LightBlue</li>
+			<li>Hair_Pink</li>
+			<li>guy762_Hair_DarkBlue</li>
+			<li>Skin_PaleRed</li>
+			<li>AptitudePoor_Construction</li>
+			<li>AptitudePoor_Mining</li>
+			<li>AptitudePoor_Plants</li>
+			<li>AptitudePoor_Crafting</li>
+			<li>AptitudeRemarkable_Social</li>
+		</genes>
+	</XenotypeDef>
+	
+	<XenotypeDef>
+		<defName>guy762_xenotype_zygerrian</defName>
+		<label>Zygerrian</label>
+		<description>The Zygerrians were a bipedal sentient humanoid species. Feline in appearance, the species possessed strong, angular features and large, pointed ears. Other distinctive features included long fangs that jutted from their jaws and claws that extended from their hands.</description>
+		<descriptionShort>The Zygerrians were a bipedal sentient humanoid species. Feline in appearance, the species possessed strong, angular features and large, pointed ears. Other distinctive features included long fangs that jutted from their jaws and claws that extended from their hands.</descriptionShort>
+		<inheritable>true</inheritable>
+		<iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon3</iconPath>
+		<combatPowerFactor>1.1</combatPowerFactor>
+		<nameMaker>NamerPersonImpid</nameMaker>
+		<chanceToUseNameMaker>0.8</chanceToUseNameMaker>
+		<genes>
+			<li>Turn_Gene_TraitGrandeur</li>
+			<li>guy762_statgene_predator</li>
+			<li>Turn_Gene_HighBeautyStandard</li>
+			<li>guy762_Ears_BigCat</li>
+			<li>Head_Gaunt</li>
+			<li>guy762_Beard_Chops</li>
+			<li>guy762_Beard_chinspines</li>
+			<li>guy762_Hair_SlateRed</li>
+			<li>Skin_LightGray</li>
+			<li>guy762_Skin_MidGray</li>
+		</genes>
+	  </XenotypeDef>
+	
+
+</Defs>
