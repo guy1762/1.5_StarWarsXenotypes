@@ -205,431 +205,329 @@
 	  
 	  
 	  
-	  <GeneDef Name="guy762_GeneEyeColorFixed" Abstract="True">
-		<displayCategory>guy762_SWparts_Category</displayCategory>
-		<biostatCpx>0</biostatCpx>
-		<exclusionTags>
-		  <li>EyeColor</li>
-		</exclusionTags>
-	  </GeneDef>
-	  
-	  <GeneDef ParentName="guy762_GeneEyeColorFixed">
-		<defName>guy762_FixedEyes_Gray</defName>
-		<label>gray eyes (fixed)</label>
-		<labelShortAdj>gray-eyed</labelShortAdj>
-		<description>Carriers of this gene have pale white-gray eyes.\n\n[This version of the eye gene has been fixed to line up properly with bigger pawns]</description>
-		<iconPath>UI/Icons/Genes/Gene_GrayEyes</iconPath>
-		<displayOrderInCategory>1761</displayOrderInCategory>
-		<renderNodeProperties>
-		  <li>
-			<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
-			<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
-			<parentTagDef>Head</parentTagDef>
-			<rotDrawMode>Fresh, Rotting</rotDrawMode>
-			<color>(255, 255, 255)</color>
-			<texPath>Pawn/NotStupidEyes/Male_FixedEyes_Grey</texPath>
-			<texPathFemale>Pawn/NotStupidEyes/Female_FixedEyes_Grey</texPathFemale>
-			<skipFlag>Eyes</skipFlag>
-			<visibleFacing>
-			  <li>East</li>
-			  <li>South</li>
-			  <li>West</li>
-			</visibleFacing>
-			<drawData>
-			  <defaultData>
-				<layer>53</layer>
-			  </defaultData>
-			</drawData>
-		  </li>
-		</renderNodeProperties>
-	  </GeneDef>
-
-	  <GeneDef ParentName="guy762_GeneEyeColorFixed">
-		<defName>guy762_FixedEyes_Red</defName>
-		<label>red eyes (fixed)</label>
-		<labelShortAdj>red-eyed</labelShortAdj>
-		<description>Carriers of this gene have deeply red-pigmented eyes.\n\n[This version of the eye gene has been fixed to line up properly with bigger pawns]</description>
-		<iconPath>UI/Icons/Genes/Gene_RedEyes</iconPath>
-		<displayOrderInCategory>1762</displayOrderInCategory>
-		<renderNodeProperties>
-		  <li>
-			<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
-			<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
-			<parentTagDef>Head</parentTagDef>
-			<rotDrawMode>Fresh, Rotting</rotDrawMode>
-			<color>(255, 255, 255)</color>
-			<texPath>Pawn/NotStupidEyes/Male_FixedEyes_Red</texPath>
-			<texPathFemale>Pawn/NotStupidEyes/Female_FixedEyes_Red</texPathFemale>
-			<skipFlag>Eyes</skipFlag>
-			<visibleFacing>
-			  <li>East</li>
-			  <li>South</li>
-			  <li>West</li>
-			</visibleFacing>
-			<drawData>
-			  <defaultData>
-				<layer>53</layer>
-			  </defaultData>
-			</drawData>
-		  </li>
-		</renderNodeProperties>
-	  </GeneDef>
-	  
-	  <GeneDef ParentName="guy762_GeneEyeColorFixed">
-		<defName>guy762_FixedEyes_Orange</defName>
-		<label>orange eyes (fixed)</label>
-		<labelShortAdj>orange-eyed</labelShortAdj>
-		<description>Carriers of this gene have deeply orange-pigmented eyes.\n\n[This version of the eye gene has been fixed to line up properly with bigger pawns]</description>
-		<iconPath>UI/Icons/Genes/Gene_OrangeEyes</iconPath>
-		<displayOrderInCategory>1763</displayOrderInCategory>
-		<renderNodeProperties>
-		  <li>
-			<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
-			<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
-			<parentTagDef>Head</parentTagDef>
-			<rotDrawMode>Fresh, Rotting</rotDrawMode>
-			<color>(255, 255, 255)</color>
-			<texPath>Pawn/NotStupidEyes/Male_FixedEyes_Orange</texPath>
-			<texPathFemale>Pawn/NotStupidEyes/Female_FixedEyes_Orange</texPathFemale>
-			<skipFlag>Eyes</skipFlag>
-			<visibleFacing>
-			  <li>East</li>
-			  <li>South</li>
-			  <li>West</li>
-			</visibleFacing>
-			<drawData>
-			  <defaultData>
-				<layer>53</layer>
-			  </defaultData>
-			</drawData>
-		  </li>
-		</renderNodeProperties>
-	  </GeneDef>
-	  
-	  <GeneDef ParentName="guy762_GeneEyeColorFixed">
-		<defName>guy762_FixedEyes_Yellow</defName>
-		<label>yellow eyes (fixed)</label>
-		<labelShortAdj>yellow-eyed</labelShortAdj>
-		<description>Carriers of this gene have deeply yellow-pigmented eyes.\n\n[This version of the eye gene has been fixed to line up properly with bigger pawns]</description>
-		<iconPath>UI/Icons/Genes/Gene_YellowEyes</iconPath>
-		<displayOrderInCategory>1764</displayOrderInCategory>
-		<renderNodeProperties>
-		  <li>
-			<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
-			<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
-			<parentTagDef>Head</parentTagDef>
-			<rotDrawMode>Fresh, Rotting</rotDrawMode>
-			<color>(255, 255, 255)</color>
-			<texPath>Pawn/NotStupidEyes/Male_FixedEyes_Yellow</texPath>
-			<texPathFemale>Pawn/NotStupidEyes/Female_FixedEyes_Yellow</texPathFemale>
-			<skipFlag>Eyes</skipFlag>
-			<visibleFacing>
-			  <li>East</li>
-			  <li>South</li>
-			  <li>West</li>
-			</visibleFacing>
-			<drawData>
-			  <defaultData>
-				<layer>53</layer>
-			  </defaultData>
-			</drawData>
-		  </li>
-		</renderNodeProperties>
-	  </GeneDef>
-	  
-	  <GeneDef ParentName="guy762_GeneEyeColorFixed">
-		<defName>guy762_FixedEyes_Green</defName>
-		<label>green eyes (fixed)</label>
-		<labelShortAdj>green-eyed</labelShortAdj>
-		<description>Carriers of this gene have green-pigmented eyes.\n\n[This version of the eye gene has been fixed to line up properly with bigger pawns]</description>
-		<iconPath>UI/Icons/Genes/Gene_GreenEyes</iconPath>
-		<displayOrderInCategory>1765</displayOrderInCategory>
-		<renderNodeProperties>
-		  <li>
-			<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
-			<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
-			<parentTagDef>Head</parentTagDef>
-			<rotDrawMode>Fresh, Rotting</rotDrawMode>
-			<color>(255, 255, 255)</color>
-			<texPath>Pawn/NotStupidEyes/Male_FixedEyes_Green</texPath>
-			<texPathFemale>Pawn/NotStupidEyes/Female_FixedEyes_Green</texPathFemale>
-			<skipFlag>Eyes</skipFlag>
-			<visibleFacing>
-			  <li>East</li>
-			  <li>South</li>
-			  <li>West</li>
-			</visibleFacing>
-			<drawData>
-			  <defaultData>
-				<layer>53</layer>
-			  </defaultData>
-			</drawData>
-		  </li>
-		</renderNodeProperties>
-	  </GeneDef>
-	  
-	  <GeneDef ParentName="guy762_GeneEyeColorFixed">
-		<defName>guy762_FixedEyes_Blue</defName>
-		<label>blue eyes (fixed)</label>
-		<labelShortAdj>blue-eyed</labelShortAdj>
-		<description>Carriers of this gene have blue-pigmented eyes.\n\n[This version of the eye gene has been fixed to line up properly with bigger pawns]</description>
-		<iconPath>UI/Icons/Genes/Gene_BlueEyes</iconPath>
-		<displayOrderInCategory>1766</displayOrderInCategory>
-		<renderNodeProperties>
-		  <li>
-			<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
-			<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
-			<parentTagDef>Head</parentTagDef>
-			<rotDrawMode>Fresh, Rotting</rotDrawMode>
-			<color>(255, 255, 255)</color>
-			<texPath>Pawn/NotStupidEyes/Male_FixedEyes_Blue</texPath>
-			<texPathFemale>Pawn/NotStupidEyes/Female_FixedEyes_Blue</texPathFemale>
-			<skipFlag>Eyes</skipFlag>
-			<visibleFacing>
-			  <li>East</li>
-			  <li>South</li>
-			  <li>West</li>
-			</visibleFacing>
-			<drawData>
-			  <defaultData>
-				<layer>53</layer>
-			  </defaultData>
-			</drawData>
-		  </li>
-		</renderNodeProperties>
-	  </GeneDef>
 	  
 	  
-	  
-	  <GeneDef ParentName="guy762_GeneEyeColorFixed">
-		<defName>guy762_FixedEyes_Big</defName>
-		<label>big eyes (fixed)</label>
+	  <GeneDef ParentName="GeneEyeColor">
+		<defName>guy762_Eyes_BigRed</defName>
+		<label>red big eyes</label>
 		<labelShortAdj>big-eyed</labelShortAdj>
-		<description>Carriers of this gene have large, black eyes.\n\n[This version of the eye gene has been fixed to line up properly with bigger pawns]</description>
-		<iconPath>UI/Icons/Genes/Gene_BigEyes</iconPath>
-		<displayOrderInCategory>1768</displayOrderInCategory>
-		<renderNodeProperties>
-		  <li>
-			<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
-			<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
-			<parentTagDef>Head</parentTagDef>
-			<rotDrawMode>Fresh, Rotting</rotDrawMode>
-			<color>(255, 255, 255)</color>
-			<texPath>Pawn/NotStupidEyes/BigEyes</texPath>
-			<skipFlag>Eyes</skipFlag>
-			<visibleFacing>
-			  <li>East</li>
-			  <li>South</li>
-			  <li>West</li>
-			</visibleFacing>
-			<drawData>
-			  <defaultData>
-				<layer>53</layer>
-			  </defaultData>
-			</drawData>
-		  </li>
-		</renderNodeProperties>
-	  </GeneDef>
-	  
-	  <GeneDef ParentName="guy762_GeneEyeColorFixed">
-		<defName>guy762_FixedEyes_Four</defName>
-		<label>four eyes (fixed)</label>
-		<labelShortAdj>four-eyed</labelShortAdj>
-		<description>Carriers of this gene have two sets of large, black eyes.\n\n[This version of the eye gene has been fixed to line up properly with bigger pawns]</description>
-		<iconPath>UI/Icons/Genes/Gene_BigEyes</iconPath>
-		<displayOrderInCategory>1769</displayOrderInCategory>
-		<renderNodeProperties>
-		  <li>
-			<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
-			<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
-			<parentTagDef>Head</parentTagDef>
-			<rotDrawMode>Fresh, Rotting</rotDrawMode>
-			<color>(255, 255, 255)</color>
-			<texPath>Pawn/NotStupidEyes/FourEyes</texPath>
-			<skipFlag>Eyes</skipFlag>
-			<visibleFacing>
-			  <li>East</li>
-			  <li>South</li>
-			  <li>West</li>
-			</visibleFacing>
-			<drawData>
-			  <defaultData>
-				<layer>53</layer>
-			  </defaultData>
-			</drawData>
-		  </li>
-		</renderNodeProperties>
-	  </GeneDef>
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  <GeneDef ParentName="guy762_GeneEyeColorFixed">
-		<defName>guy762_FixedEyes_BigRed</defName>
-		<label>red big eyes (fixed)</label>
-		<labelShortAdj>big-eyed</labelShortAdj>
-		<description>Carriers of this gene have large, red eyes.\n\n[This version of the eye gene has been fixed to line up properly with bigger pawns]</description>
+		<description>Carriers of this gene have large, red eyes.</description>
 		<iconPath>UI/Icons/Genes/Gene_BigRedEyes</iconPath>
 		<displayOrderInCategory>1770</displayOrderInCategory>
 		<renderNodeProperties>
-		  <li>
-			<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
-			<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
-			<parentTagDef>Head</parentTagDef>
+		  <li Class="PawnRenderNodeProperties_Eye">
+			<texPath>Pawn/HeadAttachments/bigeyes/bigeyes_red</texPath>
+			<anchorTag>RightEye</anchorTag>
 			<rotDrawMode>Fresh, Rotting</rotDrawMode>
-			<color>(255, 255, 255)</color>
-			<texPath>Pawn/NotStupidEyes/BigEyes_Red</texPath>
-			<skipFlag>Eyes</skipFlag>
-			<visibleFacing>
-			  <li>East</li>
-			  <li>South</li>
-			  <li>West</li>
-			</visibleFacing>
+			<parentTagDef>Head</parentTagDef>
+			<drawSize>0.2</drawSize>
+			<side>Right</side>
 			<drawData>
 			  <defaultData>
-				<layer>53</layer>
+				<layer>54</layer>
+				<offset>(0, 0, -0.25)</offset>
 			  </defaultData>
+			</drawData>
+		  </li>
+		  <li Class="PawnRenderNodeProperties_Eye">
+			<texPath>Pawn/HeadAttachments/bigeyes/bigeyes_red</texPath>
+			<anchorTag>LeftEye</anchorTag>
+			<rotDrawMode>Fresh, Rotting</rotDrawMode>
+			<parentTagDef>Head</parentTagDef>
+			<drawSize>0.2</drawSize>
+			<side>Left</side>
+			<drawData>
+			  <defaultData>
+				<layer>54</layer>
+				<offset>(0, 0, -0.25)</offset>
+				<flip>true</flip>
+			  </defaultData>
+			  <dataWest>
+				<flip>false</flip>
+			  </dataWest>
 			</drawData>
 		  </li>
 		</renderNodeProperties>
 	  </GeneDef>
 	  
-	  <GeneDef ParentName="guy762_GeneEyeColorFixed">
-		<defName>guy762_FixedEyes_BigOrange</defName>
-		<label>orange big eyes (fixed)</label>
+	  <GeneDef ParentName="GeneEyeColor">
+		<defName>guy762_Eyes_BigOrange</defName>
+		<label>orange big eyes</label>
 		<labelShortAdj>big-eyed</labelShortAdj>
-		<description>Carriers of this gene have large, orange eyes.\n\n[This version of the eye gene has been fixed to line up properly with bigger pawns]</description>
+		<description>Carriers of this gene have large, orange eyes.</description>
 		<iconPath>UI/Icons/Genes/Gene_BigOrangeEyes</iconPath>
 		<displayOrderInCategory>1771</displayOrderInCategory>
 		<renderNodeProperties>
-		  <li>
-			<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
-			<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
-			<parentTagDef>Head</parentTagDef>
+		  <li Class="PawnRenderNodeProperties_Eye">
+			<texPath>Pawn/HeadAttachments/bigeyes/bigeyes_orange</texPath>
+			<anchorTag>RightEye</anchorTag>
 			<rotDrawMode>Fresh, Rotting</rotDrawMode>
-			<color>(255, 255, 255)</color>
-			<texPath>Pawn/NotStupidEyes/BigEyes_Orange</texPath>
-			<skipFlag>Eyes</skipFlag>
-			<visibleFacing>
-			  <li>East</li>
-			  <li>South</li>
-			  <li>West</li>
-			</visibleFacing>
+			<parentTagDef>Head</parentTagDef>
+			<drawSize>0.2</drawSize>
+			<side>Right</side>
 			<drawData>
 			  <defaultData>
-				<layer>53</layer>
+				<layer>54</layer>
+				<offset>(0, 0, -0.25)</offset>
 			  </defaultData>
+			</drawData>
+		  </li>
+		  <li Class="PawnRenderNodeProperties_Eye">
+			<texPath>Pawn/HeadAttachments/bigeyes/bigeyes_orange</texPath>
+			<anchorTag>LeftEye</anchorTag>
+			<rotDrawMode>Fresh, Rotting</rotDrawMode>
+			<parentTagDef>Head</parentTagDef>
+			<drawSize>0.2</drawSize>
+			<side>Left</side>
+			<drawData>
+			  <defaultData>
+				<layer>54</layer>
+				<offset>(0, 0, -0.25)</offset>
+				<flip>true</flip>
+			  </defaultData>
+			  <dataWest>
+				<flip>false</flip>
+			  </dataWest>
 			</drawData>
 		  </li>
 		</renderNodeProperties>
 	  </GeneDef>
 	  
-	  <GeneDef ParentName="guy762_GeneEyeColorFixed">
-		<defName>guy762_FixedEyes_BigYellow</defName>
-		<label>yellow big eyes (fixed)</label>
+	  <GeneDef ParentName="GeneEyeColor">
+		<defName>guy762_Eyes_BigYellow</defName>
+		<label>yellow big eyes</label>
 		<labelShortAdj>big-eyed</labelShortAdj>
-		<description>Carriers of this gene have large, yellow eyes.\n\n[This version of the eye gene has been fixed to line up properly with bigger pawns]</description>
+		<description>Carriers of this gene have large, yellow eyes.</description>
 		<iconPath>UI/Icons/Genes/Gene_BigYellowEyes</iconPath>
 		<displayOrderInCategory>1772</displayOrderInCategory>
 		<renderNodeProperties>
-		  <li>
-			<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
-			<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
-			<parentTagDef>Head</parentTagDef>
+		  <li Class="PawnRenderNodeProperties_Eye">
+			<texPath>Pawn/HeadAttachments/bigeyes/bigeyes_yellow</texPath>
+			<anchorTag>RightEye</anchorTag>
 			<rotDrawMode>Fresh, Rotting</rotDrawMode>
-			<color>(255, 255, 255)</color>
-			<texPath>Pawn/NotStupidEyes/BigEyes_Yellow</texPath>
-			<skipFlag>Eyes</skipFlag>
-			<visibleFacing>
-			  <li>East</li>
-			  <li>South</li>
-			  <li>West</li>
-			</visibleFacing>
+			<parentTagDef>Head</parentTagDef>
+			<drawSize>0.2</drawSize>
+			<side>Right</side>
 			<drawData>
 			  <defaultData>
-				<layer>53</layer>
+				<layer>54</layer>
+				<offset>(0, 0, -0.25)</offset>
 			  </defaultData>
+			</drawData>
+		  </li>
+		  <li Class="PawnRenderNodeProperties_Eye">
+			<texPath>Pawn/HeadAttachments/bigeyes/bigeyes_yellow</texPath>
+			<anchorTag>LeftEye</anchorTag>
+			<rotDrawMode>Fresh, Rotting</rotDrawMode>
+			<parentTagDef>Head</parentTagDef>
+			<drawSize>0.2</drawSize>
+			<side>Left</side>
+			<drawData>
+			  <defaultData>
+				<layer>54</layer>
+				<offset>(0, 0, -0.25)</offset>
+				<flip>true</flip>
+			  </defaultData>
+			  <dataWest>
+				<flip>false</flip>
+			  </dataWest>
 			</drawData>
 		  </li>
 		</renderNodeProperties>
 	  </GeneDef>
 	  
-	  <GeneDef ParentName="guy762_GeneEyeColorFixed">
-		<defName>guy762_FixedEyes_BigGreen</defName>
-		<label>green big eyes (fixed)</label>
+	  <GeneDef ParentName="GeneEyeColor">
+		<defName>guy762_Eyes_BigGreen</defName>
+		<label>green big eyes</label>
 		<labelShortAdj>big-eyed</labelShortAdj>
-		<description>Carriers of this gene have large, green eyes.\n\n[This version of the eye gene has been fixed to line up properly with bigger pawns]</description>
+		<description>Carriers of this gene have large, green eyes.</description>
 		<iconPath>UI/Icons/Genes/Gene_BigGreenEyes</iconPath>
 		<displayOrderInCategory>1773</displayOrderInCategory>
 		<renderNodeProperties>
-		  <li>
-			<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
-			<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
-			<parentTagDef>Head</parentTagDef>
+		  <li Class="PawnRenderNodeProperties_Eye">
+			<texPath>Pawn/HeadAttachments/bigeyes/bigeyes_green</texPath>
+			<anchorTag>RightEye</anchorTag>
 			<rotDrawMode>Fresh, Rotting</rotDrawMode>
-			<color>(255, 255, 255)</color>
-			<texPath>Pawn/NotStupidEyes/BigEyes_Green</texPath>
-			<skipFlag>Eyes</skipFlag>
-			<visibleFacing>
-			  <li>East</li>
-			  <li>South</li>
-			  <li>West</li>
-			</visibleFacing>
+			<parentTagDef>Head</parentTagDef>
+			<drawSize>0.2</drawSize>
+			<side>Right</side>
 			<drawData>
 			  <defaultData>
-				<layer>53</layer>
+				<layer>54</layer>
+				<offset>(0, 0, -0.25)</offset>
 			  </defaultData>
+			</drawData>
+		  </li>
+		  <li Class="PawnRenderNodeProperties_Eye">
+			<texPath>Pawn/HeadAttachments/bigeyes/bigeyes_green</texPath>
+			<anchorTag>LeftEye</anchorTag>
+			<rotDrawMode>Fresh, Rotting</rotDrawMode>
+			<parentTagDef>Head</parentTagDef>
+			<drawSize>0.2</drawSize>
+			<side>Left</side>
+			<drawData>
+			  <defaultData>
+				<layer>54</layer>
+				<offset>(0, 0, -0.25)</offset>
+				<flip>true</flip>
+			  </defaultData>
+			  <dataWest>
+				<flip>false</flip>
+			  </dataWest>
 			</drawData>
 		  </li>
 		</renderNodeProperties>
 	  </GeneDef>
 	  
-	  <GeneDef ParentName="guy762_GeneEyeColorFixed">
-		<defName>guy762_FixedEyes_BigBlue</defName>
-		<label>blue big eyes (fixed)</label>
+	  <GeneDef ParentName="GeneEyeColor">
+		<defName>guy762_Eyes_BigBlue</defName>
+		<label>blue big eyes</label>
 		<labelShortAdj>big-eyed</labelShortAdj>
-		<description>Carriers of this gene have large, Blue eyes.\n\n[This version of the eye gene has been fixed to line up properly with bigger pawns]</description>
+		<description>Carriers of this gene have large, Blue eyes.</description>
 		<iconPath>UI/Icons/Genes/Gene_BigBlueEyes</iconPath>
 		<displayOrderInCategory>1774</displayOrderInCategory>
 		<renderNodeProperties>
-		  <li>
-			<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
-			<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
-			<parentTagDef>Head</parentTagDef>
+		  <li Class="PawnRenderNodeProperties_Eye">
+			<texPath>Pawn/HeadAttachments/bigeyes/bigeyes_blue</texPath>
+			<anchorTag>RightEye</anchorTag>
 			<rotDrawMode>Fresh, Rotting</rotDrawMode>
-			<color>(255, 255, 255)</color>
-			<texPath>Pawn/NotStupidEyes/BigEyes_Blue</texPath>
-			<skipFlag>Eyes</skipFlag>
-			<visibleFacing>
-			  <li>East</li>
-			  <li>South</li>
-			  <li>West</li>
-			</visibleFacing>
+			<parentTagDef>Head</parentTagDef>
+			<drawSize>0.2</drawSize>
+			<side>Right</side>
 			<drawData>
 			  <defaultData>
-				<layer>53</layer>
+				<layer>54</layer>
+				<offset>(0, 0, -0.25)</offset>
 			  </defaultData>
+			</drawData>
+		  </li>
+		  <li Class="PawnRenderNodeProperties_Eye">
+			<texPath>Pawn/HeadAttachments/bigeyes/bigeyes_blue</texPath>
+			<anchorTag>LeftEye</anchorTag>
+			<rotDrawMode>Fresh, Rotting</rotDrawMode>
+			<parentTagDef>Head</parentTagDef>
+			<drawSize>0.2</drawSize>
+			<side>Left</side>
+			<drawData>
+			  <defaultData>
+				<layer>54</layer>
+				<offset>(0, 0, -0.25)</offset>
+				<flip>true</flip>
+			  </defaultData>
+			  <dataWest>
+				<flip>false</flip>
+			  </dataWest>
+			</drawData>
+		  </li>
+		</renderNodeProperties>
+	  </GeneDef>
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  <GeneDef ParentName="GeneEyeColor">
+		<defName>guy762_Eyes_HugeYellow</defName>
+		<label>yellow huge eyes</label>
+		<labelShortAdj>big-eyed</labelShortAdj>
+		<description>Carriers of this gene have huge yellow eyes.</description>
+		<iconPath>UI/Icons/Genes/Gene_BigYellowEyes</iconPath>
+		<displayOrderInCategory>1774</displayOrderInCategory>
+		<renderNodeProperties>
+		  <li Class="PawnRenderNodeProperties_Eye">
+			<texPath>Pawn/HeadAttachments/bigeyes/jawaeyes_yellow</texPath>
+			<anchorTag>RightEye</anchorTag>
+			<rotDrawMode>Fresh, Rotting</rotDrawMode>
+			<parentTagDef>Head</parentTagDef>
+			<drawSize>0.2</drawSize>
+			<side>Right</side>
+			<drawData>
+			  <defaultData>
+				<layer>54</layer>
+				<offset>(0, 0, -0.25)</offset>
+			  </defaultData>
+			</drawData>
+		  </li>
+		  <li Class="PawnRenderNodeProperties_Eye">
+			<texPath>Pawn/HeadAttachments/bigeyes/jawaeyes_yellow</texPath>
+			<anchorTag>LeftEye</anchorTag>
+			<rotDrawMode>Fresh, Rotting</rotDrawMode>
+			<parentTagDef>Head</parentTagDef>
+			<drawSize>0.2</drawSize>
+			<side>Left</side>
+			<drawData>
+			  <defaultData>
+				<layer>54</layer>
+				<offset>(0, 0, -0.25)</offset>
+				<flip>true</flip>
+			  </defaultData>
+			  <dataWest>
+				<flip>false</flip>
+			  </dataWest>
+			</drawData>
+		  </li>
+		</renderNodeProperties>
+	  </GeneDef>
+	  
+	  
+	  
+	  <GeneDef ParentName="GeneEyeColor">
+		<defName>guy762_Eyes_HugeRed</defName>
+		<label>red huge eyes</label>
+		<labelShortAdj>big-eyed</labelShortAdj>
+		<description>Carriers of this gene have huge red eyes.</description>
+		<iconPath>UI/Icons/Genes/Gene_BigRedEyes</iconPath>
+		<displayOrderInCategory>1774</displayOrderInCategory>
+		<renderNodeProperties>
+		  <li Class="PawnRenderNodeProperties_Eye">
+			<texPath>Pawn/HeadAttachments/bigeyes/jawaeyes_red</texPath>
+			<anchorTag>RightEye</anchorTag>
+			<rotDrawMode>Fresh, Rotting</rotDrawMode>
+			<parentTagDef>Head</parentTagDef>
+			<drawSize>0.2</drawSize>
+			<side>Right</side>
+			<drawData>
+			  <defaultData>
+				<layer>54</layer>
+				<offset>(0, 0, -0.25)</offset>
+			  </defaultData>
+			</drawData>
+		  </li>
+		  <li Class="PawnRenderNodeProperties_Eye">
+			<texPath>Pawn/HeadAttachments/bigeyes/jawaeyes_red</texPath>
+			<anchorTag>LeftEye</anchorTag>
+			<rotDrawMode>Fresh, Rotting</rotDrawMode>
+			<parentTagDef>Head</parentTagDef>
+			<drawSize>0.2</drawSize>
+			<side>Left</side>
+			<drawData>
+			  <defaultData>
+				<layer>54</layer>
+				<offset>(0, 0, -0.25)</offset>
+				<flip>true</flip>
+			  </defaultData>
+			  <dataWest>
+				<flip>false</flip>
+			  </dataWest>
 			</drawData>
 		  </li>
 		</renderNodeProperties>
