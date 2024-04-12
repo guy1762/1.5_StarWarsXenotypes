@@ -15,7 +15,7 @@
 		<chanceToUseNameMaker>1</chanceToUseNameMaker>
 		<genes>
 			<li>guy762_Beard_Chops</li>
-			<li>guy762_FixedEyes_Four</li>
+			<li>guy762_Eyes_FourBig</li>
 			<li>guy762_Beard_hugetusks</li>
 			<li>Hair_BaldOnly</li>
 			<li>Hair_ReddishBrown</li>
@@ -50,7 +50,7 @@
 		<li>Turn_Gene_TraitGrandeur</li>
 		<li>Libido_Low</li>
 		<li>Turn_Gene_HighBeautyStandard</li>
-		<li>guy762_FixedEyes_Gray</li>
+		<li>Eyes_Gray</li>
 		<li>Beard_NoBeardOnly</li>
 		<li>Hair_SnowWhite</li>
 		<li>Skin_PaleYellow</li>
@@ -74,7 +74,7 @@
 		<li>Hair_BaldOnly</li>
 		<li>Beard_NoBeardOnly</li>
 		<li>guy762_Head_duros</li>
-		<li>guy762_FixedEyes_Big</li>
+		<li>guy762_Eyes_Big</li>
 		<li>guy762_Face_jowlsBigHead</li>
 		<li>Skin_PaleYellow</li>
 		<li>Nearsighted</li>
@@ -123,7 +123,7 @@
 		<li>MoveSpeed_Quick</li>
 		<li>Aggression_Aggressive</li>
 		<li>Sleepy</li>
-		<li>guy762_FixedEyes_Yellow</li>
+		<li>GS_Eyes_Yellow</li>
 		<li>Beard_NoBeardOnly</li>
 		<li>Ears_Pointed</li>
 		<li>Hair_SnowWhite</li>
@@ -186,7 +186,7 @@
 		<li>MaxTemp_SmallDecrease</li>
 		<li>UVSensitivity_Mild</li>
 		<li>Aggression_DeadCalm</li>
-		<li>guy762_FixedEyes_Red</li>
+		<li>Eyes_Red</li>
 		<li>Beard_NoBeardOnly</li>
 		<li>guy762_FacialRidges_bumpy</li>
 		<li>Body_Standard</li>
@@ -240,7 +240,7 @@
 		<inheritable>true</inheritable>
 		<iconPath>UI/Icons/Xenotypes/Genie</iconPath>
 		<genes>
-			<li>guy762_FixedEyes_Red</li>
+			<li>Eyes_Red</li>
 			<li>Hair_BaldOnly</li>
 			<li>Beard_NoBeardOnly</li>
 			<li>Brow_Heavy</li>
@@ -290,7 +290,7 @@
 			<li>Beard_NoBeardOnly</li>
 			<li>guy762_Ears_round</li>
 			<li>Jaw_Heavy</li>
-			<li>guy762_FixedEyes_Big</li>
+			<li>guy762_Eyes_Big</li>
 			<li>Body_Standard</li>
 			<li>Hair_Gray</li>
 			<li>Hair_SandyBlonde</li>
@@ -347,7 +347,7 @@
 		<li>Turn_Gene_TraitGrandeur</li>
 		<li>Aggression_HyperAggressive</li>
 		<li>Robust</li>
-		<li>guy762_FixedEyes_Red</li>
+		<li>Eyes_Red</li>
 		<li>Hair_BaldOnly</li>
 		<li>Beard_NoBeardOnly</li>
 		<li>guy762_FacialRidges_bumpy</li>
@@ -422,10 +422,10 @@
 			<li>Robust</li>
 			<li>VU_Hermaphromorph</li>
 			<li>Beauty_VeryUgly</li>
-			<li>guy762_FixedEyes_BigRed</li>
-			<li>guy762_FixedEyes_BigOrange</li>
-			<li>guy762_FixedEyes_BigYellow</li>
-			<li>guy762_FixedEyes_BigGreen</li>
+			<li>guy762_Eyes_BigRed</li>
+			<li>guy762_Eyes_BigOrange</li>
+			<li>guy762_Eyes_BigYellow</li>
+			<li>guy762_Eyes_BigGreen</li>
 			<li>Hair_BaldOnly</li>
 			<li>Beard_NoBeardOnly</li>
 			<li>guy762_Head_hutt</li>
@@ -461,9 +461,10 @@
 			<li>Aggression_Aggressive</li>
 			<li>MeleeDamage_Strong</li>
 			<li>Pain_Reduced</li>
+			<li>Hair_BaldOnly</li>
 			<li>Beard_NoBeardOnly</li>
-			<li>Turn_Gene_HeadboneCrown</li>
-			<li>Hair_DarkBlack</li>
+			<li>guy762_Headbone_zabrak</li>
+			<li>guy762_FacialRidges_iridonian</li>
 			<li>Skin_PaleYellow</li>
 		</genes>
 	</XenotypeDef>
@@ -485,7 +486,7 @@
 		<li MayRequire="Ludeon.RimWorld.Ideology">Turn_Gene_Terrified</li>
 		<li>Pain_Extra</li>
 		<li>Beauty_VeryUgly</li>
-		<li>guy762_FixedEyes_BigYellow</li>
+		<li>guy762_Eyes_HugeYellow</li>
 		<li>Hair_BaldOnly</li>
 		<li>Beard_NoBeardOnly</li>
 		<li>Body_Standard</li>
@@ -538,7 +539,7 @@
 		<li>guy762_Head_kubaz</li>
 		<li>PsychicAbility_Dull</li>
 		<li>BS_Diet_Carnivore</li>
-		<li>guy762_FixedEyes_Gray</li>
+		<li>Eyes_Gray</li>
 		<li>Hair_BaldOnly</li>
 		<li>Beard_NoBeardOnly</li>
 		<li MayRequire="Ludeon.RimWorld.Ideology">Turn_Gene_VoiceDryad</li>
@@ -564,8 +565,8 @@
 			<li>MoveSpeed_Quick</li>
 			<li>Pain_Reduced</li>
 			<li>Beauty_Ugly</li>
-			<li>guy762_FixedEyes_Yellow</li>
-			<li>guy762_FixedEyes_Green</li>
+			<li>GS_Eyes_Yellow</li>
+			<li>guy762_Eyes_Green</li>
 			<li>Hair_BaldOnly</li>
 			<li>Ears_Pointed</li>
 			<li>Head_Gaunt</li>
@@ -600,7 +601,7 @@
 		<li>Beard_NoBeardOnly</li>
 		<li>Head_Bone</li>
 		<li>guy762_Headbone_nautolan</li>
-		<li>guy762_FixedEyes_Big</li>
+		<li>guy762_Eyes_Big</li>
 		<li>Body_Hulk</li>
 		<li>Skin_DeepRed</li>
 		<li>RobustDigestion</li>
@@ -631,7 +632,7 @@
 		<genes>
 			<li>guy762_FacialRidges_bumpy</li>
 			<li>guy762_FacialRidges_broad</li>
-			<li>guy762_FixedEyes_Big</li>
+			<li>guy762_Eyes_Big</li>
 			<li>guy762_Brow_Ridged</li>
 			<li>Aggression_Aggressive</li>
 			<li>Hair_BaldOnly</li>
@@ -653,7 +654,7 @@
     <inheritable>true</inheritable>
 	<iconPath>UI/Icons/Xenotypes/Other</iconPath>
     <genes> <!--FORCE GENES ARE ADDED IN BY A PATCH THAT TARGETS SPECIFIC LINES HERE-->
-		<li>guy762_FixedEyes_Gray</li>
+		<li>Eyes_Gray</li>
 		<li>PsychicAbility_Enhanced</li>
 		<li>Aggression_DeadCalm</li>
 		<li>Turn_Gene_Blindness</li>
@@ -722,7 +723,7 @@
 			<li>Hair_BaldOnly</li>
 			<li>Beard_NoBeardOnly</li>
 			<li>guy762_Headbone_nautolan</li>
-			<li>guy762_FixedEyes_Big</li>
+			<li>guy762_Eyes_Big</li>
 			<li>Skin_Green</li>
 			<li>guy762_Skin_Turquoise</li>
 			<li>guy762_Skin_DarkGreen</li>
@@ -748,7 +749,7 @@
 			<li>Hair_LongOnly</li>
 			<li>Beard_NoBeardOnly</li>
 			<li>Ears_Pointed</li>
-			<li>guy762_FixedEyes_Big</li>
+			<li>guy762_Eyes_Big</li>
 			<li>guy762_Nose_Snout</li>
 			<li>Body_Standard</li>
 			<li>Body_Hulk</li>
@@ -771,8 +772,8 @@
 		<genes>
 			<li>Immunity_Weak</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Turn_Gene_Terrified</li>
-			<li>guy762_FixedEyes_Red</li>
-			<li>guy762_FixedEyes_Orange</li>
+			<li>Eyes_Red</li>
+			<li>GS_Eyes_Orange</li>
 			<li>Hair_BaldOnly</li>
 			<li>Beard_NoBeardOnly</li>
 			<li>Brow_Heavy</li>
@@ -854,7 +855,7 @@
 		<genes>
 			<li>MinTemp_SmallDecrease</li>
 			<li>Pain_Reduced</li>
-			<li>guy762_FixedEyes_Blue</li>
+			<li>guy762_Eyes_Blue</li>
 			<li>Hair_BaldOnly</li>
 			<li>Beard_NoBeardOnly</li>
 			<li>guy762_FacialRidges_bumpy</li>
@@ -884,7 +885,7 @@
 			<li>guy762_Head_rodian</li>
 			<li>guy762_Headbone_rodian</li>
 			<li>guy762_Hair_rodian</li>
-			<li>guy762_FixedEyes_Big</li>
+			<li>guy762_Eyes_Big</li>
 			<li>Beauty_Ugly</li>
 			<li>Skin_Green</li>
 			<li>Skin_DeepYellow</li>
@@ -905,9 +906,9 @@
 		<nameMaker>NamerPersonPureblood</nameMaker>
 		<chanceToUseNameMaker>1</chanceToUseNameMaker>
 		<genes>
-		    <li>guy762_FixedEyes_Red</li>
-			<li>guy762_FixedEyes_Orange</li>
-			<li>guy762_FixedEyes_Yellow</li>
+		    <li>Eyes_Red</li>
+			<li>GS_Eyes_Orange</li>
+			<li>GS_Eyes_Yellow</li>
 			<li>PsychicAbility_Extreme</li>
 			<li>MinTemp_SmallIncrease</li>
 			<li>MaxTemp_LargeIncrease</li>
@@ -962,7 +963,7 @@
 			<li>Beard_NoBeardOnly</li>
 			<li>guy762_Ears_big</li>
 			<li>Jaw_Heavy</li>
-			<li>guy762_FixedEyes_Big</li>
+			<li>guy762_Eyes_Big</li>
 			<li>guy762_Face_jowls</li>
 			<li>DarkVision</li>
 			<li>AptitudeStrong_Construction</li>
@@ -1019,8 +1020,8 @@
 			<li>Aggression_Aggressive</li>
 			<li>Robust</li>
 			<li>Beauty_Ugly</li>
-			<li>guy762_FixedEyes_Orange</li>
-			<li>guy762_FixedEyes_Yellow</li>
+			<li>GS_Eyes_Orange</li>
+			<li>GS_Eyes_Yellow</li>
 			<li>Hair_BaldOnly</li>
 			<li>Beard_NoBeardOnly</li>
 			<li>guy762_FacialRidges_bumpy</li>
@@ -1106,7 +1107,7 @@
 		<iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon6</iconPath>
 		<genes>
 			<li>Libido_Low</li>
-			<li>guy762_FixedEyes_Gray</li>
+			<li>Eyes_Gray</li>
 			<li>Hair_BaldOnly</li>
 			<li>Beard_NoBeardOnly</li>
 			<li>Head_Gaunt</li>
@@ -1217,7 +1218,7 @@
 			<li MayRequire="Ludeon.RimWorld.Ideology">Turn_Gene_Certain</li>
 			<li>Pain_Reduced</li>
 			<li>Beard_NoBeardOnly</li>
-			<li>Turn_Gene_HeadboneCrown</li>
+			<li>guy762_Headbone_zabrak</li>
 		</genes>
 	</XenotypeDef>
 	
