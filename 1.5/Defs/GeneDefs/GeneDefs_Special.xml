@@ -81,7 +81,7 @@
 			<workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
 			<texPath>Pawn/BodyAttachments/hutt/bp_fat</texPath>
 			<colorType>Skin</colorType>
-			<overrideMeshSize>(1.60, 1.60)</overrideMeshSize>
+			<overrideMeshSize>(1.2, 1.2)</overrideMeshSize>
 			<parentTagDef>Body</parentTagDef>
 			<rotDrawMode>Fresh, Rotting</rotDrawMode>
 			<useSkinShader>true</useSkinShader>
@@ -97,13 +97,13 @@
 				<layer>90</layer>
 			  </defaultData>
 			  <dataNorth>
-				<offset>(0, 0.1, -0.875)</offset>
+				<offset>(0, 0.1, -0.6)</offset>
 			  </dataNorth>
 			  <dataEast>
-				<offset>(-0.89, 0.1, -0.025)</offset>
+				<offset>(-0.64, 0.1, 0.01)</offset>
 			  </dataEast>
 			  <dataWest>
-				<offset>(0.89, 0.1, -0.025)</offset>
+				<offset>(0.64, 0.1, 0.01)</offset>
 			  </dataWest>
 			</drawData>
 		  </li>
