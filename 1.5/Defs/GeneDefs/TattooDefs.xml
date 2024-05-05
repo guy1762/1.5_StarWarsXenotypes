@@ -1,6 +1,29 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+  
+  <TattooDef>
+    <defName>guy762_FaceTattoo_yuthura</defName>
+    <label>Yuthura</label>
+    <texPath>Pawn/HeadAttachments/twilek/Face_Yuthura</texPath>
+	<visibleNorth>false</visibleNorth>
+    <tattooType>Face</tattooType>
+    <category>Punk</category>
+    <styleTags>
+      <li>guy762_SWTattoo_Yuthura</li>
+    </styleTags>
+	<modExtensions>
+      <li Class="TattooColorOverride.ModExtension_TattooColorOverride">
+        <!-- ↓ default value ↓ -->
+        <color>(255,255,255,204)</color>
+        
+      </li>
+    </modExtensions>
+  </TattooDef>
+  
+  
+  
+  
   <!-- Mirialan -->
   <StyleItemCategoryDef>
     <defName>guy762_StyleCategory_mirialan</defName>
@@ -89,7 +112,7 @@
   
   
   
-  <!-- Togruta -->
+  <!-- Togruta  -->
   <StyleItemCategoryDef>
     <defName>guy762_StyleCategory_togruta</defName>
     <label>Togruta</label>
@@ -107,9 +130,9 @@
     </styleTags>
 	<modExtensions>
       <li Class="TattooColorOverride.ModExtension_TattooColorOverride">
-        <!-- ↓ default value ↓
+        <!-- ↓ default value ↓ -->
         <color>(255,255,255,204)</color>
-        -->
+        
       </li>
     </modExtensions>
   </TattooDef>
@@ -126,9 +149,9 @@
     </styleTags>
 	<modExtensions>
       <li Class="TattooColorOverride.ModExtension_TattooColorOverride">
-        <!-- ↓ default value ↓
+        <!-- ↓ default value ↓ -->
         <color>(255,255,255,204)</color>
-        -->
+        
       </li>
     </modExtensions>
   </TattooDef>
@@ -145,9 +168,9 @@
     </styleTags>
 	<modExtensions>
       <li Class="TattooColorOverride.ModExtension_TattooColorOverride">
-        <!-- ↓ default value ↓
+        <!-- ↓ default value ↓ -->
         <color>(255,255,255,204)</color>
-        -->
+        
       </li>
     </modExtensions>
   </TattooDef>
@@ -164,9 +187,9 @@
     </styleTags>
 	<modExtensions>
       <li Class="TattooColorOverride.ModExtension_TattooColorOverride">
-        <!-- ↓ default value ↓
+        <!-- ↓ default value ↓ -->
         <color>(255,255,255,204)</color>
-        -->
+        
       </li>
     </modExtensions>
   </TattooDef>
@@ -183,9 +206,9 @@
     </styleTags>
 	<modExtensions>
       <li Class="TattooColorOverride.ModExtension_TattooColorOverride">
-        <!-- ↓ default value ↓
+        <!-- ↓ default value ↓ -->
         <color>(255,255,255,204)</color>
-        -->
+        
       </li>
     </modExtensions>
   </TattooDef>
@@ -202,9 +225,9 @@
     </styleTags>
 	<modExtensions>
       <li Class="TattooColorOverride.ModExtension_TattooColorOverride">
-        <!-- ↓ default value ↓
+        <!-- ↓ default value ↓ -->
         <color>(255,255,255,204)</color>
-        -->
+        
       </li>
     </modExtensions>
   </TattooDef>
@@ -233,9 +256,9 @@
     </styleTags>
 	<modExtensions>
       <li Class="TattooColorOverride.ModExtension_TattooColorOverride">
-        <!-- ↓ default value ↓
+        <!-- ↓ default value ↓ -->
         <color>(255,255,255,204)</color>
-        -->
+        
       </li>
     </modExtensions>
   </TattooDef>
@@ -252,9 +275,9 @@
     </styleTags>
 	<modExtensions>
       <li Class="TattooColorOverride.ModExtension_TattooColorOverride">
-        <!-- ↓ default value ↓
+        <!-- ↓ default value ↓ -->
         <color>(255,255,255,204)</color>
-        -->
+        
       </li>
     </modExtensions>
   </TattooDef>
@@ -271,9 +294,9 @@
     </styleTags>
 	<modExtensions>
       <li Class="TattooColorOverride.ModExtension_TattooColorOverride">
-        <!-- ↓ default value ↓
+        <!-- ↓ default value ↓ -->
         <color>(255,255,255,204)</color>
-        -->
+        
       </li>
     </modExtensions>
   </TattooDef>
@@ -290,9 +313,9 @@
     </styleTags>
 	<modExtensions>
       <li Class="TattooColorOverride.ModExtension_TattooColorOverride">
-        <!-- ↓ default value ↓
+        <!-- ↓ default value ↓ -->
         <color>(255,255,255,204)</color>
-        -->
+        
       </li>
     </modExtensions>
   </TattooDef>
@@ -309,9 +332,9 @@
     </styleTags>
 	<modExtensions>
       <li Class="TattooColorOverride.ModExtension_TattooColorOverride">
-        <!-- ↓ default value ↓
+        <!-- ↓ default value ↓ -->
         <color>(255,255,255,204)</color>
-        -->
+        
       </li>
     </modExtensions>
   </TattooDef>
@@ -328,9 +351,9 @@
     </styleTags>
 	<modExtensions>
       <li Class="TattooColorOverride.ModExtension_TattooColorOverride">
-        <!-- ↓ default value ↓
+        <!-- ↓ default value ↓ -->
         <color>(255,255,255,204)</color>
-        -->
+        
       </li>
     </modExtensions>
   </TattooDef>
