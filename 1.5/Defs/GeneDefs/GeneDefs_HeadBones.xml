@@ -156,7 +156,7 @@
 				<layer>68</layer>
 			  </defaultData>
 			  <dataNorth>
-				  <layer>80</layer>
+				  <layer>70</layer>
 			  </dataNorth>
 			</drawData>
 		  </li>
@@ -183,15 +183,14 @@
 			<skipFlag>Hair</skipFlag>
 			<drawData>
 			  <defaultData>
-				<layer>80</layer>
+				<layer>68</layer>
 			  </defaultData>
 			</drawData>
 		  </li>
 		</renderNodeProperties>
 	  </GeneDef>
-
-
-	<GeneDef ParentName="GeneHeadboneBase">
+	  
+	  <GeneDef ParentName="GeneHeadboneBase">
 		<defName>guy762_Headbone_zabrak</defName>
 		<label>mini-horned crown</label>
 		<description>Carriers of this gene grow many miniature horns protruding from the top of the head.</description>
@@ -214,7 +213,7 @@
 			<parentTagDef>Head</parentTagDef>
 			<drawData>
 			  <defaultData>
-				<layer>80</layer>
+				<layer>68</layer>
 			  </defaultData>
 			  <dataNorth>
 				<layer>10</layer>
@@ -223,5 +222,6 @@
 		  </li>
 		</renderNodeProperties>
 	  </GeneDef>
+	  
 	  
 </Defs>
