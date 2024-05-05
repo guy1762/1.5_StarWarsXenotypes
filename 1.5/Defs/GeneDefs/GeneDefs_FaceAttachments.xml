@@ -266,8 +266,7 @@
 		</renderNodeProperties>
     </GeneDef>
 	  
-	  
-<GeneDef>
+	<GeneDef>
 		<defName>guy762_FacialRidges_iridonian</defName>
 		<label>facial creases</label>
 		<description>Carriers of this gene have deep, elaborate creases on their face.</description>
@@ -335,6 +334,8 @@
 		  </li>
 		</renderNodeProperties>
 	  </GeneDef>  
+	  
+	  
 	  
 	  
 	  
