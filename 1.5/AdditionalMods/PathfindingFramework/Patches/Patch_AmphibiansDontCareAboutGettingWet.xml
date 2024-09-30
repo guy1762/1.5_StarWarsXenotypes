@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThoughtDef[defName="SoakingWet"][not(nullifyingGenes)]</xpath>
+		<value>
+		  <nullifyingGenes/>
+		</value>
+	  </Operation>
+	  
+	  <Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThoughtDef[defName="SoakingWet"]/nullifyingGenes</xpath>
+		<value>
+		  <li>guy762_statgene_amphibious</li>
+		</value>
+	  </Operation>
+	
+	
+	
+	
+	
+
+
+</Patch>

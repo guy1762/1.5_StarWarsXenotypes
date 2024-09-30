@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<GeneDef>
+		<defName>guy762_AbilityGene_cloak</defName>
+		<label>light absorption</label>
+		<description>Carriers of this gene have the natural ability to turn themselves invisible by absorbing all nearby rays of visible light.</description>
+		<descriptionHyperlinks>
+		  <AbilityDef>guy762_GeneAbility_defelcloak</AbilityDef>
+		</descriptionHyperlinks>
+		<iconPath>UI/KotOR_Icon_Stealth</iconPath>
+		<displayOrderInCategory>701</displayOrderInCategory>
+		<displayCategory>guy762_SWparts_Category</displayCategory>
+		<marketValueFactor>2</marketValueFactor>
+		<abilities>
+		  <li>guy762_GeneAbility_defelcloak</li>
+		</abilities>
+		<biostatCpx>8</biostatCpx>
+		<biostatArc>2</biostatArc>
+	  </GeneDef>
+	
+	
+	<AbilityDef>
+		<defName>guy762_StealthDeactivate_defel</defName>
+		<label>deactivate light absorption field</label>
+		<description>Deactivate a Defel's light absorption field.</description>
+		<iconPath>UI/KotOR_Icon_Stealth_off</iconPath>
+		<!--hotKey>Misc12</hotKey-->
+		<hostile>false</hostile>
+		<casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+		<aiCanUse>true</aiCanUse>
+		<targetRequired>false</targetRequired>
+		<verbProperties>
+		  <verbClass>Verb_CastAbility</verbClass>
+		  <range>-1</range>
+		  <drawAimPie>false</drawAimPie>
+		</verbProperties>
+		<comps>
+		  <li Class="CompProperties_AbilityRemoveHediff">
+			<hediffDef>guy762_StealthField_defel</hediffDef>
+			<applyToSelf>true</applyToSelf>
+			<applyToTarget>false</applyToTarget>
+		  </li>
+		  <li Class="CompProperties_AbilityFleckOnTarget">
+			<sound>kotorsound_cloak</sound>
+		  </li>
+		</comps>
+	</AbilityDef>
+	
+	<AbilityDef>
+		<defName>guy762_GeneAbility_defelcloak</defName>
+		<label>light absorption field</label>
+		<description>Activate a Defel's light absorption field. This will last until it is manually deactivated, or if damage is taken. Combat is disabled while this is active, but performing mundane tasks are not.</description>
+		<descriptionHyperlinks>
+		  <HediffDef>guy762_StealthField_defel</HediffDef>
+		</descriptionHyperlinks>
+		<iconPath>UI/KotOR_Icon_Stealth</iconPath>
+		<!--hotKey>Misc12</hotKey-->
+		<hostile>false</hostile>
+		<casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+		<aiCanUse>true</aiCanUse>
+		<targetRequired>false</targetRequired>
+		<showCastingProgressBar>true</showCastingProgressBar>
+		
+		<!--statBases>
+			<Ability_Duration>1200</Ability_Duration>
+		</statBases-->
+		
+		<cooldownTicksRange>7200</cooldownTicksRange>
+		<verbProperties>
+		  <verbClass>Verb_CastAbility</verbClass>
+		  <range>-1</range>
+		  <drawAimPie>false</drawAimPie>
+		  <violent>false</violent>
+		  <warmupTime>2.5</warmupTime>
+		  <targetParams>
+			<canTargetSelf>true</canTargetSelf>
+		  </targetParams>
+		</verbProperties>
+		<comps>
+		  <li Class="CompProperties_AbilityGiveHediff">
+			<compClass>CompAbilityEffect_GiveHediff</compClass>
+			<hediffDef>guy762_StealthField_defel</hediffDef>
+			<onlyApplyToSelf>True</onlyApplyToSelf>
+			<replaceExisting>true</replaceExisting>
+			<applicableToMechs>False</applicableToMechs>
+			<!--durationMultiplier>HuntingStealth</durationMultiplier-->
+		  </li>
+		  <li Class="CompProperties_AbilityFleckOnTarget">
+			<sound>kotorsound_cloak</sound>
+			<fleckDef>PsycastPsychicEffect</fleckDef>
+		  </li>
+		</comps>
+	</AbilityDef>
+	
+	
+	
+	
+	
+	<HediffDef>
+		<defName>guy762_StealthField_defel</defName>
+		<label>light absorption field</label>
+		<description>A Defel's natural ability to absorb visible light, rendering them invisible. This will last until it is manually deactivated, or if damage is taken. Combat is disabled while this is active, but performing mundane tasks are not.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<isBad>false</isBad>
+		<maxSeverity>1.0</maxSeverity>
+		<comps> <!-- THIS NODE IS REPLACED BY A PATCH IN PotF!!! --> <!-- THIS NODE IS REPLACED BY A PATCH IN PotF!!! -->
+		  <li Class="HediffCompProperties_Invisibility">
+			<visibleToPlayer>true</visibleToPlayer>
+		  </li>
+		  <li Class="HediffCompProperties_DisappearsOnDeath"/>
+		  <li Class="AthenaFramework.HediffCompProperties_DisableOnDamage">
+			<minDamage>0.1</minDamage>
+		  </li>
+		  
+		  
+		  <li Class="HediffCompProperties_GiveAbility">
+			<abilityDef>guy762_StealthDeactivate_defel</abilityDef>
+		  </li>
+		  <!--li Class="HediffCompProperties_Disappears">
+			<showRemainingTime>True</showRemainingTime>
+		  </li-->
+		</comps> <!-- THIS NODE IS REPLACED BY A PATCH IN PotF!!! --> <!-- THIS NODE IS REPLACED BY A PATCH IN PotF!!! -->
+		<stages>
+		  <li>
+			<label>active</label>
+			<minSeverity>0</minSeverity>
+			<becomeVisible>true</becomeVisible>
+			<disabledWorkTags>Violent</disabledWorkTags>
+		  </li>
+		</stages>
+	</HediffDef>
+	
+
+</Defs>

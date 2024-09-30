@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+	  <operations>
+		<!--li Class="PatchOperationReplace">
+			<xpath>Defs/XenotypeDef[defName="guy762_xenotype_miraluka"]/genes/li[1]</xpath>
+			<value>
+				<li>guy762_statgene_force</li>
+			</value>
+		</li-->
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/XenotypeDef[defName="guy762_xenotype_miraluka"]/genes/li[4]</xpath>
+			<value>
+				<li>guy762_AbilityGene_forcesight</li>
+			</value>
+		</li>
+		<li Class="PatchOperationRemove">
+			<xpath>Defs/XenotypeDef[defName="guy762_xenotype_miraluka"]/genes/li[5]</xpath>
+		</li>
+	  </operations>
+	</Operation>
+	
+	
+	
+	
+	
+
+
+</Patch>
