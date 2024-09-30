@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	  
+	  <Operation Class="PatchOperationReplace">
+		<xpath>Defs/GeneDef[defName="guy762_statgene_force"]/modExtensions</xpath>
+		<value>
+		  <modExtensions>
+				<li Class="BetterPrerequisites.GeneExtension">
+					<applyPartHediff>
+						<li>
+							<hediff>VPE_PsycastAbilityImplant</hediff>
+							<bodyparts>
+							  <li>Brain</li>
+							</bodyparts>
+						</li>
+						<li>
+							<hediff>PsychicAmplifier</hediff>
+							<bodyparts>
+							  <li>Brain</li>
+							</bodyparts>
+						</li>
+					</applyPartHediff>
+				</li>
+			</modExtensions>
+		</value>
+	  </Operation>
+	
+	
+	
+	
+	
+
+
+</Patch>
