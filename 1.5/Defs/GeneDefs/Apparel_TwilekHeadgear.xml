@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="guy762_TwilekHeadbandBase" Abstract="True">
+		<thingClass>Apparel</thingClass>
+		<category>Item</category>
+		<drawerType>MapMeshOnly</drawerType>
+		<selectable>True</selectable>
+		<pathCost>14</pathCost>
+		<useHitPoints>True</useHitPoints>
+		<techLevel>Neolithic</techLevel>
+		<graphicData>
+			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+		</graphicData>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<DeteriorationRate>2</DeteriorationRate>
+			<Beauty>-3</Beauty>
+		</statBases>
+		<thingCategories>
+			<li>Apparel</li>
+			<li>Headgear</li>
+		</thingCategories>
+		<altitudeLayer>Item</altitudeLayer>
+		<alwaysHaulable>True</alwaysHaulable>
+		<tickerType>Never</tickerType>
+		<burnableByRecipe>true</burnableByRecipe>
+		<tradeability>All</tradeability>
+		<smeltable>false</smeltable>
+		<comps>
+			<li Class="CompProperties_Forbiddable" />
+			<li>
+				<compClass>CompColorable</compClass>
+			</li>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li Class="CompProperties_Styleable"></li>
+		</comps>
+		<recipeMaker>
+			<effectWorking>Tailor</effectWorking>
+			<soundWorking>Recipe_Tailor</soundWorking>
+			<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+			<recipeUsers Inherit="False">
+				<li>HandTailoringBench</li>
+				<li>ElectricTailoringBench</li>
+				<li MayRequire="guy762.KotORWeapons">guy762_KotORWorkbench</li>
+			</recipeUsers>
+			<defaultIngredientFilter>
+				<categories>
+					<li>Root</li>
+				</categories>
+				<disallowedThingDefs>
+					<li>Jade</li>
+				</disallowedThingDefs>
+			</defaultIngredientFilter>
+			<useIngredientsForColor>true</useIngredientsForColor>
+		</recipeMaker>
+	  </ThingDef>
+  
+  
+  <ThingDef MayRequire="smartkar.athenaframework" ParentName="guy762_TwilekHeadbandBase">
+    <defName>guy762_TwilekHeadband_mission</defName>
+    <label>twi'lek headband, cute</label>
+    <description>Head dressings fit for a Twi'lek.\n\nNOTE: this does not scale correctly with narrow head types!</description>
+    <graphicData>
+      <texPath>Pawn/HeadAttachments/twilek/Hat_Mission</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+	  <MarketValue>25</MarketValue>
+      <MaxHitPoints>80</MaxHitPoints>
+      <Mass>0.05</Mass>
+	  <ArmorRating_Sharp>0.01</ArmorRating_Sharp>
+	  <ArmorRating_Blunt>0.01</ArmorRating_Blunt>
+	  <ArmorRating_Heat>0.01</ArmorRating_Heat>
+      <EquipDelay>0.5</EquipDelay>
+	  
+	  <WorkToMake>50</WorkToMake>
+    </statBases>
+	<equippedStatOffsets>
+		<SocialImpact>0.1</SocialImpact>
+		<PawnBeauty>1</PawnBeauty>
+		<ConversionPower MayRequire="Ludeon.RimWorld.Ideology">0.1</ConversionPower>
+		<NegotiationAbility>0.1</NegotiationAbility>
+		<TradePriceImprovement>0.1</TradePriceImprovement>
+	</equippedStatOffsets>
+	
+	<costList>
+		<Cloth>20</Cloth>
+	</costList>
+	
+    <apparel>
+      <wornGraphicPath>Pawn/HeadAttachments/twilek/Hat_Mission</wornGraphicPath>
+	  <renderSkipFlags>
+        <li>None</li>
+      </renderSkipFlags>
+	  <drawData>
+		  <defaultData>
+			<layer>81</layer>
+		  </defaultData>
+		  <dataSouth>
+			  <layer>69</layer>
+		  </dataSouth>
+		</drawData>
+	  
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <layers>
+		<li>Overhead</li>
+      </layers>
+	  <tags>
+		<li>SaV_apparel_mission</li>
+		<li>KotORHeadband_twilek</li>
+	  </tags>
+	  <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+      <canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
+	  <wearPerDay>0</wearPerDay>
+    </apparel>
+	<!--tradeTags>
+		<li>guy762TT_KotOREquipment_apparel</li>
+	</tradeTags-->
+	
+	<comps>
+	  <li Class="AthenaFramework.CompProperties_GeneLockedEquippable">
+		<requiredGenes>
+			<li>guy762_Headbone_twilek</li>
+		</requiredGenes>
+		<cantReason>Incompatible head structure!</cantReason>
+	  </li>
+	</comps>
+	
+	<colorGenerator Class="ColorGenerator_Options" Inherit="False">
+		<options>
+			<li>
+				<weight>10</weight>
+				<only>(50,50,50)</only> <!-- black -->
+			</li>
+			<li>
+				<weight>10</weight>
+				<only>(90,55,40)</only>         <!--K2 jedi knight-->
+			</li>
+			<li>
+				<weight>10</weight>
+				<only>(155,30,25)</only> <!--zaalbar's red-->
+			</li>
+			<li>
+				<weight>10</weight>
+				<only>(40,95,170)</only> <!-- blue -->
+			</li>
+			<li>
+				<weight>10</weight>
+				<only>(30,145,150)</only> <!-- teal -->
+			</li>
+			<li>
+				<weight>10</weight>
+				<only>(230,185,45)</only> <!-- republic yellow -->
+			</li>
+			<li>
+				<weight>10</weight>
+				<only>(235,230,15)</only> <!-- slight-green yellow -->
+			</li>
+			<li>
+				<weight>10</weight>
+				<only>(255,130,65)</only> <!-- orange -->
+			</li>
+		</options>
+	</colorGenerator>
+  </ThingDef>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <ThingDef MayRequire="smartkar.athenaframework" ParentName="guy762_TwilekHeadbandBase">
+    <defName>guy762_TwilekHeadband_yuthura</defName>
+    <label>twi'lek headband, ornate</label>
+    <description>Head dressings fit for a Twi'lek.\n\nNOTE: this does not scale correctly with narrow head types!</description>
+    <graphicData>
+      <texPath>Pawn/HeadAttachments/twilek/Hat_Yuthura</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+	  <MarketValue>50</MarketValue>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>0.1</Mass>
+	  <ArmorRating_Sharp>0.01</ArmorRating_Sharp>
+	  <ArmorRating_Blunt>0.01</ArmorRating_Blunt>
+	  <ArmorRating_Heat>0.01</ArmorRating_Heat>
+      <EquipDelay>0.5</EquipDelay>
+	  
+	  <WorkToMake>50</WorkToMake>
+    </statBases>
+	<equippedStatOffsets>
+		<SocialImpact>0.2</SocialImpact>
+		<PawnBeauty>2</PawnBeauty>
+	</equippedStatOffsets>
+	
+	<costStuffCount>20</costStuffCount>
+	<stuffCategories>
+	  <li>Metallic</li>
+	</stuffCategories>
+	<recipeMaker>
+		<effectWorking>Smith</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+	</recipeMaker>
+	
+    <apparel>
+      <wornGraphicPath>Pawn/HeadAttachments/twilek/Hat_Yuthura</wornGraphicPath>
+	  <renderSkipFlags>
+        <li>None</li>
+      </renderSkipFlags>
+	  <drawData>
+		  <defaultData>
+			<layer>81</layer>
+		  </defaultData>
+		  <dataSouth>
+			  <layer>69</layer>
+		  </dataSouth>
+		</drawData>
+	  
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <layers>
+		<li>Overhead</li>
+      </layers>
+	  <tags>
+		<li>SE_apparel_yuthura</li>
+		<li>KotORHeadband_twilek</li>
+	  </tags>
+	  <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+      <canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
+	  <wearPerDay>0</wearPerDay>
+    </apparel>
+	<!--tradeTags>
+		<li>guy762TT_KotOREquipment_apparel</li>
+	</tradeTags-->
+	
+	<comps>
+	  <li Class="AthenaFramework.CompProperties_GeneLockedEquippable">
+		<requiredGenes>
+			<li>guy762_Headbone_twilek</li>
+		</requiredGenes>
+		<cantReason>Incompatible head structure!</cantReason>
+	  </li>
+	</comps>
+	
+	<colorGenerator Class="ColorGenerator_Options" Inherit="False">
+		<options>
+			<li>
+				<weight>15</weight>
+				<only>(180,185,185)</only>
+			</li>
+		</options>
+	</colorGenerator>
+  </ThingDef>
+
+</Defs>

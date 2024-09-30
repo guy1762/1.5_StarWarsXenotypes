@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	   <GeneDef ParentName="GeneBeardStyleBase">
+		<defName>guy762_Beard_Chops</defName>
+		<label>sideburns</label>
+		<labelShortAdj>sideburns</labelShortAdj>
+		<description>Carriers of this gene grow sideburns.</description>
+		<iconPath>UI/Icons/Genes/Gene_BeardStyleSideburnsOnly</iconPath>
+		<displayOrderInCategory>767</displayOrderInCategory>
+		<displayCategory>guy762_SWparts_Category</displayCategory>
+		<beardTagFilter>
+		  <whitelist>true</whitelist>
+		  <tags>
+			<li>guy762Tag_Sideburns</li>
+		  </tags>
+		</beardTagFilter>
+	  </GeneDef>
+	  
+	  <GeneDef>
+		<defName>guy762_tattooGene_mirialan</defName>
+		<label>geometric tattoos</label>
+		<description>Members of this species decorate their faces with tattoos of geometric shapes.</description>
+		<iconPath>UI/Icons/Genes/Gene_TattooMirialan</iconPath>
+		<displayOrderInCategory>795</displayOrderInCategory>
+		<displayCategory>guy762_SWparts_Category</displayCategory>
+		<modExtensions>
+		  <li Class="GeneTattooTagFilter.ModExtension_GeneTattooTagFilter">
+			<!--bodyFilter> 
+			  <whitelist>true</whitelist>
+			  <tags>
+				<li>TattooBodyTribal</li>
+			  </tags>
+			</bodyFilter-->
+			<faceFilter> 
+			  <whitelist>true</whitelist>
+			  <tags>
+				<li>guy762_SWTattoo_Mirialan</li>
+			  </tags>
+			</faceFilter>
+		  </li>
+		</modExtensions>
+	  </GeneDef>
+	  
+	  <GeneDef>
+		<defName>guy762_tattooGene_togruta</defName>
+		<label>white tattoos</label>
+		<description>Members of this species decorate their faces with white tattoos.</description>
+		<iconPath>UI/Icons/Genes/Gene_TattooTogruta</iconPath>
+		<displayOrderInCategory>796</displayOrderInCategory>
+		<displayCategory>guy762_SWparts_Category</displayCategory>
+		<modExtensions>
+		  <li Class="GeneTattooTagFilter.ModExtension_GeneTattooTagFilter">
+			<!--bodyFilter> 
+			  <whitelist>true</whitelist>
+			  <tags>
+				<li>TattooBodyTribal</li>
+			  </tags>
+			</bodyFilter-->
+			<faceFilter> 
+			  <whitelist>true</whitelist>
+			  <tags>
+				<li>guy762_SWTattoo_Togruta</li>
+			  </tags>
+			</faceFilter>
+		  </li>
+		</modExtensions>
+	  </GeneDef>
+	  
+	  <GeneDef>
+		<defName>guy762_tattooGene_pantoran</defName>
+		<label>yellow tattoos</label>
+		<description>Members of this species decorate their faces with yellow tattoos.</description>
+		<iconPath>UI/Icons/Genes/Gene_TattooPantoran</iconPath>
+		<displayOrderInCategory>797</displayOrderInCategory>
+		<displayCategory>guy762_SWparts_Category</displayCategory>
+		<modExtensions>
+		  <li Class="GeneTattooTagFilter.ModExtension_GeneTattooTagFilter">
+			<!--bodyFilter> 
+			  <whitelist>true</whitelist>
+			  <tags>
+				<li>TattooBodyTribal</li>
+			  </tags>
+			</bodyFilter-->
+			<faceFilter> 
+			  <whitelist>true</whitelist>
+			  <tags>
+				<li>guy762_SWTattoo_Pantoran</li>
+			  </tags>
+			</faceFilter>
+		  </li>
+		</modExtensions>
+	  </GeneDef>
+	  
+	  
+	  
+	  <GeneDef>
+		<defName>guy762_tattooGene_zabrak</defName>
+		<label>dark tattoos</label>
+		<description>Members of this species decorate their faces and bodies with intricate black tattoos.</description>
+		<iconPath>UI/Icons/Genes/Gene_TattooZabrak</iconPath>
+		<displayOrderInCategory>798</displayOrderInCategory>
+		<displayCategory>guy762_SWparts_Category</displayCategory>
+		<modExtensions>
+		  <li Class="GeneTattooTagFilter.ModExtension_GeneTattooTagFilter">
+			<bodyFilter> 
+			  <whitelist>true</whitelist>
+			  <tags>
+				<li>guy762_SWTattoo_ZabrakBody</li>
+			  </tags>
+			</bodyFilter>
+			<faceFilter> 
+			  <whitelist>true</whitelist>
+			  <tags>
+				<li>guy762_SWTattoo_ZabrakFace</li>
+			  </tags>
+			</faceFilter>
+		  </li>
+		</modExtensions>
+	  </GeneDef>
+	  
+ 
+  
+
+
+
+
+
+</Defs>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!--Sith Name Rulepack--> 
+  
+   <RulePackDef>
+    <defName>NamerPersonPureblood</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[firstName] [lastName]</li>
+        <li>r_name->[firstName] '[nickName]' [lastName]</li>
+
+        <li>maybeHyphen(p=4)-></li>
+        <li>maybeHyphen->-</li>
+
+        <li>firstName(p=1)->[NamePureblood]</li>
+        <li>firstName(p=3)->[NamePureblood]</li>
+
+        <li>nickName->[NicknamePureblood]</li>
+
+        <li>lastName(p=3)->[lastGenerated]</li>
+        <li>lastGenerated->[NamePureblood]</li>
+        <li>lastGenerated->[NamePureblood][maybeHyphen][NamePureblood]</li>
+
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>LastNamePureblood</keyword>
+          <path>Pure/Last</path>
+        </li>	  
+        <li Class="Rule_File">
+          <keyword>NamePureblood</keyword>
+          <path>Pure/First</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NicknamePureblood</keyword>
+          <path>Pure/Nick</path>
+        </li>		
+      </rulesRaw>	  
+    </rulePack>
+  </RulePackDef> 
+  </Defs>

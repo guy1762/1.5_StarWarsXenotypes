@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<GeneDef ParentName="GeneEarsBase">
+		<defName>guy762_Ears_big</defName>
+		<label>big ears</label>
+		<description>Carriers of this gene will grow larger-than-usual ears.</description>
+		<iconPath>UI/Icons/Genes/Gene_BigEar</iconPath>
+		<displayCategory>guy762_SWparts_Category</displayCategory>
+		<renderNodeProperties>
+		  <li>
+			<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+			<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+			<texPath>Pawn/HeadAttachments/sullustan/BigEars</texPath>
+			<colorType>Skin</colorType>
+			<parentTagDef>Head</parentTagDef>
+			<useSkinShader>true</useSkinShader>
+			<useRottenColor>true</useRottenColor>
+			<rotDrawMode>Fresh, Rotting</rotDrawMode>
+			<skipFlag>Hair</skipFlag>
+			<drawData>
+			  <defaultData>
+				<layer>70</layer>
+			  </defaultData>
+			</drawData>
+		  </li>
+		</renderNodeProperties>
+	</GeneDef>
+	
+	<GeneDef ParentName="GeneEarsBase">
+		<defName>guy762_Ears_BigCat</defName>
+		<label>big cat ears</label>
+		<description>Carriers of this gene have large, cat-like ears.</description>
+		<iconPath>UI/Icons/Genes/Gene_EarCatBig</iconPath>
+		<displayCategory>guy762_SWparts_Category</displayCategory>
+		<renderNodeProperties>
+		  <li>
+			<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+			<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+			<texPath>Pawn/HeadAttachments/zygerrian/BigCatEars</texPath>
+			<colorType>Skin</colorType>
+			<parentTagDef>Head</parentTagDef>
+			<useSkinShader>true</useSkinShader>
+			<useRottenColor>true</useRottenColor>
+			<rotDrawMode>Fresh, Rotting</rotDrawMode>
+			<drawData>
+			  <defaultData>
+				<layer>70</layer>
+			  </defaultData>
+			</drawData>
+		  </li>
+		</renderNodeProperties>
+		<symbolPack>
+		  <prefixSymbols>
+			<li><symbol>cat</symbol></li>
+			<li><symbol>kitty</symbol></li>
+			<li><symbol>kit</symbol></li>
+			<li><symbol>tabby</symbol></li>
+			<li><symbol>tom</symbol></li>
+		  </prefixSymbols>
+		  <suffixSymbols>
+			<li><symbol>cat</symbol></li>
+			<li><symbol>kitten</symbol></li>
+			<li><symbol>tabby</symbol></li>
+			<li><symbol>tom</symbol></li>
+			<li><symbol>ear</symbol></li>
+		  </suffixSymbols>
+		</symbolPack>
+	  </GeneDef>
+	  
+	 
+	  
+	  <GeneDef ParentName="GeneEarsBase">
+		<defName>guy762_Ears_round</defName>
+		<label>round ears</label>
+		<description>Carriers of this gene will grow round, bear-like ears.</description>
+		<iconPath>UI/Icons/Genes/Gene_EarRound</iconPath>
+		<displayCategory>guy762_SWparts_Category</displayCategory>
+		<renderNodeProperties>
+		  <li>
+			<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+			<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+			<texPath>Pawn/HeadAttachments/ewok/RoundEars</texPath>
+			<colorType>Skin</colorType>
+			<parentTagDef>Head</parentTagDef>
+			<useSkinShader>true</useSkinShader>
+			<useRottenColor>true</useRottenColor>
+			<rotDrawMode>Fresh, Rotting</rotDrawMode>
+			<skipFlag>Hair</skipFlag>
+			<drawData>
+			  <defaultData>
+				<layer>70</layer>
+			  </defaultData>
+			</drawData>
+		  </li>
+		</renderNodeProperties>
+	</GeneDef>
+	
+	
+	  
+	  <GeneDef ParentName="GeneEarsBase">
+		<defName>guy762_Ears_fin</defName>
+		<label>fin ears</label>
+		<description>Carriers of this gene will grow large, pointed, fin-like ears.</description>
+		<displayOrderInCategory>782</displayOrderInCategory>
+		<displayCategory>guy762_SWparts_Category</displayCategory>
+		<iconPath>UI/Icons/Genes/Gene_EarFin</iconPath>
+		<renderNodeProperties>
+		  <li>
+			<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+			<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+			<texPath>Pawn/HeadAttachments/quarren/earfins</texPath>
+			<colorType>Skin</colorType>
+			<parentTagDef>Head</parentTagDef>
+			<useSkinShader>true</useSkinShader>
+			<useRottenColor>true</useRottenColor>
+			<rotDrawMode>Fresh, Rotting</rotDrawMode>
+			<skipFlag>Hair</skipFlag>
+			<drawData>
+			  <defaultData>
+				<layer>51</layer>
+			  </defaultData>
+			  <dataNorth>
+				  <layer>80</layer>
+			  </dataNorth>
+			</drawData>
+		  </li>
+		</renderNodeProperties>
+	</GeneDef>
+	
+	
+	
+	<GeneDef ParentName="GeneEarsBase">
+		<defName>guy762_Ears_webbed</defName>
+		<label>webbed ears</label>
+		<description>Carriers of this gene grow huge, floppy, webbed ears.</description>
+		<displayOrderInCategory>783</displayOrderInCategory>
+		<displayCategory>guy762_SWparts_Category</displayCategory>
+		<iconPath>UI/Icons/Genes/Gene_EarWebbed</iconPath>
+		<renderNodeProperties>
+		  <li>
+			<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+			<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+			<texPath>Pawn/HeadAttachments/gungan/webbedears</texPath>
+			<colorType>Skin</colorType>
+			<parentTagDef>Head</parentTagDef>
+			<useSkinShader>true</useSkinShader>
+			<useRottenColor>true</useRottenColor>
+			<rotDrawMode>Fresh, Rotting</rotDrawMode>
+			<skipFlag>Hair</skipFlag>
+			<drawData>
+			  <defaultData>
+				<layer>80</layer>
+			  </defaultData>
+			  <dataSouth>
+				  <layer>-3</layer>
+			  </dataSouth>
+			</drawData>
+		  </li>
+		</renderNodeProperties>
+	</GeneDef>
+	
+	<GeneDef ParentName="GeneEarsBase">
+		<defName>guy762_Ears_smallwebbed</defName>
+		<label>small webbed ears</label>
+		<description>Carriers of this gene grow small, floppy, webbed ears.</description>
+		<displayOrderInCategory>784</displayOrderInCategory>
+		<displayCategory>guy762_SWparts_Category</displayCategory>
+		<iconPath>UI/Icons/Genes/Gene_SmallEarWebbed</iconPath>
+		<renderNodeProperties>
+		  <li>
+			<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+			<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+			<texPath>Pawn/HeadAttachments/taung/webears</texPath>
+			<colorType>Skin</colorType>
+			<parentTagDef>Head</parentTagDef>
+			<useSkinShader>true</useSkinShader>
+			<useRottenColor>true</useRottenColor>
+			<rotDrawMode>Fresh, Rotting</rotDrawMode>
+			<skipFlag>Hair</skipFlag>
+			<drawData>
+			  <defaultData>
+				<layer>80</layer>
+			  </defaultData>
+			  <dataSouth>
+				  <layer>-3</layer>
+			  </dataSouth>
+			</drawData>
+		  </li>
+		</renderNodeProperties>
+	</GeneDef>
+	
+	
+	<GeneDef ParentName="GeneEarsBase">
+		<defName>guy762_Ears_weirdflap</defName>
+		<label>flap ears</label>
+		<description>Carriers of this gene grow large, bumpy, flap ears.</description>
+		<iconPath>UI/Icons/Genes/Gene_EarFlap</iconPath>
+		<displayCategory>guy762_SWparts_Category</displayCategory>
+		<renderNodeProperties>
+		  <li>
+			<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+			<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+			<texPath>Pawn/HeadAttachments/keldor/headflaps</texPath>
+			<colorType>Skin</colorType>
+			<parentTagDef>Head</parentTagDef>
+			<useSkinShader>true</useSkinShader>
+			<useRottenColor>true</useRottenColor>
+			<rotDrawMode>Fresh, Rotting</rotDrawMode>
+			<drawData>
+			  <defaultData>
+				<layer>70</layer>
+			  </defaultData>
+			</drawData>
+		  </li>
+		</renderNodeProperties>
+	</GeneDef>
+	
+	
+
+</Defs>

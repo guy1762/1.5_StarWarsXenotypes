@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	  
+	  
+	
+	    
+	  <GeneDef ParentName="GeneJawBase">
+		<defName>guy762_Head_duros</defName>
+		<label>big head</label>
+		<description>Carriers of this gene have an enlarged forehead.</description>
+		<displayOrderInCategory>763</displayOrderInCategory>
+		<displayCategory>guy762_SWparts_Category</displayCategory>
+		<iconPath>UI/Icons/Genes/Gene_Fivehead</iconPath>
+		<forcedHeadTypes>
+		  <li>Male_FiveheadNormal</li>
+		  <li>Male_FiveheadPointy</li>
+		  <li>Male_FiveheadWide</li>
+		  <li>Female_FiveheadNormal</li>
+		  <li>Female_FiveheadPointy</li>
+		  <li>Female_FiveheadWide</li>
+		</forcedHeadTypes>
+	  </GeneDef>
+	  
+	  
+	<GeneDef ParentName="GeneJawBase">
+		<defName>guy762_Head_rodian</defName>
+		<label>tapered jaw</label>
+		<description>Carriers of this gene have tapered, anteater-like mouths.</description>
+		<displayOrderInCategory>771</displayOrderInCategory>
+		<displayCategory>guy762_SWparts_Category</displayCategory>
+		<iconPath>UI/Icons/Genes/Gene_JawRodian</iconPath>
+		<forcedHeadTypes>
+		  <li>Male_Rodian</li>
+		  <li>Female_Rodian</li>
+		</forcedHeadTypes>
+	  </GeneDef>
+	  
+	 
+	  <GeneDef ParentName="GeneJawBase">
+		<defName>guy762_Head_trandoshan</defName>
+		<label>lizard jaw</label>
+		<description>Carriers of this gene have large, lizard-like mouths.</description>
+		<displayOrderInCategory>778</displayOrderInCategory>
+		<displayCategory>guy762_SWparts_Category</displayCategory>
+		<iconPath>UI/Icons/Genes/Gene_JawTrandoshan</iconPath>
+		<forcedHeadTypes>
+		  <li>Male_Trandoshan</li>
+		  <li>Female_Trandoshan</li>
+		</forcedHeadTypes>
+	  </GeneDef>
+	  
+	  
+	  <GeneDef ParentName="GeneJawBase">
+		<defName>guy762_Head_quarren</defName>
+		<label>oval head</label>
+		<description>Carriers of this gene have an enlarged, egg-shaped forehead.</description>
+		<displayOrderInCategory>781</displayOrderInCategory>
+		<displayCategory>guy762_SWparts_Category</displayCategory>
+		<iconPath>UI/Icons/Genes/Gene_Egghead</iconPath>
+		<forcedHeadTypes>
+		  <li>Male_Egghead</li>
+		  <li>Female_Egghead</li>
+		</forcedHeadTypes>
+	  </GeneDef>
+	  
+	 
+	  <GeneDef ParentName="GeneJawBase">
+		<defName>guy762_Head_hutt</defName>
+		<label>fat head</label>
+		<description>Carriers of this gene have enlarged, widened jaws.</description>
+		<displayOrderInCategory>784</displayOrderInCategory>
+		<displayCategory>guy762_SWparts_Category</displayCategory>
+		<iconPath>UI/Icons/Genes/Gene_Fathead</iconPath>
+		<iconColor>(0.75, 0.75, 0.75)</iconColor>
+		<forcedHeadTypes>
+		  <li>Male_Fathead</li>
+		  <li>Female_Fathead</li>
+		</forcedHeadTypes>
+		<modExtensions>
+			<li Class="BetterPrerequisites.GeneExtension">
+				<headPosMultiplier>0.35</headPosMultiplier>
+			</li>
+		</modExtensions>
+	  </GeneDef>
+	  
+	  <GeneDef ParentName="GeneJawBase">
+		<defName>guy762_Head_kubaz</defName>
+		<label>long tapered jaw</label>
+		<description>Carriers of this gene have long, tapered, anteater-like mouths.</description>
+		<displayOrderInCategory>791</displayOrderInCategory>
+		<displayCategory>guy762_SWparts_Category</displayCategory>
+		<iconPath>UI/Icons/Genes/Gene_JawKubaz</iconPath>
+		<forcedHeadTypes>
+		  <li>Male_Kubaz</li>
+		  <li>Female_Kubaz</li>
+		</forcedHeadTypes>
+	  </GeneDef>
+	  
+	  <GeneDef ParentName="GeneJawBase">
+		<defName>guy762_Head_wookiee</defName>
+		<label>shaggy furskin</label>
+		<labelShortAdj>shaggy</labelShortAdj>
+		<description>Carriers of this gene have long, shaggy fur.</description>
+		<displayOrderInCategory>792</displayOrderInCategory>
+		<displayCategory>guy762_SWparts_Category</displayCategory>
+		<iconPath>UI/Icons/Genes/Gene_ShaggyFur</iconPath>
+		<prerequisite>Furskin</prerequisite>
+		<forcedHeadTypes>
+		  <li>Wookiee_Average1</li>
+		  <li>Wookiee_Average2</li>
+		  <li>Wookiee_Average3</li>
+		</forcedHeadTypes>
+	  </GeneDef>
+	  
+	  <GeneDef ParentName="GeneJawBase">
+		<defName>guy762_Head_anzellan</defName>
+		<label>extra-wide head</label>
+		<description>Carriers of this gene have very wide heads.</description>
+		<displayOrderInCategory>793</displayOrderInCategory>
+		<displayCategory>guy762_SWparts_Category</displayCategory>
+		<iconPath>UI/Icons/Genes/Gene_WideHead</iconPath>
+		<forcedHeadTypes>
+		  <li>Male_ExtraWideHead</li>
+		  <li>Female_ExtraWideHead</li>
+		</forcedHeadTypes>
+	  </GeneDef>
+	  
+	  <GeneDef ParentName="GeneJawBase">
+		<defName>guy762_Head_gungan</defName>
+		<label>billed head</label>
+		<description>Carriers of this gene have billed, frog-like heads.</description>
+		<displayOrderInCategory>794</displayOrderInCategory>
+		<displayCategory>guy762_SWparts_Category</displayCategory>
+		<iconPath>UI/Icons/Genes/Gene_GunganHead</iconPath>
+		<forcedHeadTypes>
+		  <li>Male_GunganHead</li>
+		  <li>Female_GunganHead</li>
+		</forcedHeadTypes>
+	  </GeneDef>
+	  
+	  <GeneDef ParentName="GeneJawBase">
+		<defName>guy762_Head_taung</defName>
+		<label>sharp head</label>
+		<description>Carriers of this gene have hard, pointy, carapace-like extrusions on their faces.</description>
+		<displayOrderInCategory>795</displayOrderInCategory>
+		<displayCategory>guy762_SWparts_Category</displayCategory>
+		<iconPath>UI/Icons/Genes/Gene_TaungHead</iconPath>
+		<forcedHeadTypes>
+		  <li>Male_TaungHead</li>
+		  <li>Female_TaungHead</li>
+		</forcedHeadTypes>
+	  </GeneDef>
+	  
+	  <GeneDef ParentName="GeneJawBase">
+		<defName>guy762_Head_selkath</defName>
+		<label>fishy head</label>
+		<description>Carriers of this gene have elongated, fishy heads.</description>
+		<displayOrderInCategory>796</displayOrderInCategory>
+		<displayCategory>guy762_SWparts_Category</displayCategory>
+		<iconPath>UI/Icons/Genes/Gene_SelkathHead</iconPath>
+		<forcedHeadTypes>
+		  <li>Male_SelkathHead</li>
+		  <li>Female_SelkathHead</li>
+		</forcedHeadTypes>
+	  </GeneDef>
+	  
+	  <GeneDef ParentName="GeneJawBase">
+		<defName>guy762_Head_geonosian</defName>
+		<label>bug head</label>
+		<description>Carriers of this gene have long, chitinous insectoid heads.</description>
+		<displayOrderInCategory>797</displayOrderInCategory>
+		<displayCategory>guy762_SWparts_Category</displayCategory>
+		<iconPath>UI/Icons/Genes/Gene_GeonosianHead</iconPath>
+		<forcedHeadTypes>
+		  <li>Male_GeonosianHead</li>
+		  <li>Female_GeonosianHead</li>
+		</forcedHeadTypes>
+	  </GeneDef>
+	  
+	  <GeneDef ParentName="GeneJawBase">
+		<defName>guy762_Head_gand</defName>
+		<label>large bug head</label>
+		<description>Carriers of this gene have wide, chitinous insectoid heads with big bug eyes and a beak.</description>
+		<displayOrderInCategory>798</displayOrderInCategory>
+		<displayCategory>guy762_SWparts_Category</displayCategory>
+		<iconPath>UI/Icons/Genes/Gene_GandHead</iconPath>
+		<forcedHeadTypes>
+		  <li>GandHead</li>
+		</forcedHeadTypes>
+		<exclusionTags>
+		  <li>EyeColor</li>
+		</exclusionTags>
+	  </GeneDef>
+	  
+	  
+	  
+	  <GeneDef ParentName="GeneJawBase">
+		<defName>guy762_Head_moncal</defName>
+		<label>large fishy head</label>
+		<description>Carriers of this gene have thick, elongated, fishy heads.</description>
+		<displayOrderInCategory>799</displayOrderInCategory>
+		<displayCategory>guy762_SWparts_Category</displayCategory>
+		<iconPath>UI/Icons/Genes/Gene_MonCalHead</iconPath>
+		<forcedHeadTypes>
+		  <li>Male_MonCalHead</li>
+		  <li>Female_MonCalHead</li>
+		</forcedHeadTypes>
+	  </GeneDef>
+	  
+	  
+	  
+	  <GeneDef ParentName="GeneJawBase">
+		<defName>guy762_Head_ithorian</defName>
+		<label>flat head</label>
+		<description>Carriers of this gene have protruded, flat, slug-like heads.</description>
+		<displayOrderInCategory>800</displayOrderInCategory>
+		<displayCategory>guy762_SWparts_Category</displayCategory>
+		<iconPath>UI/Icons/Genes/Gene_IthorianHead</iconPath>
+		<forcedHeadTypes>
+		  <li>Male_IthorianHead</li>
+		  <li>Female_IthorianHead</li>
+		</forcedHeadTypes>
+	  </GeneDef>
+	  
+	  
+</Defs>

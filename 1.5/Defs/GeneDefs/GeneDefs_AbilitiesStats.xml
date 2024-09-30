@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	  <GeneDef>
+		<defName>guy762_statgene_metabolismcheat</defName>
+		<label>efficient metabolism</label>
+		<description>Carriers of this gene have evolved the ability to metabolize food more efficiently.</description>
+		<iconPath>UI/Icons/Genes/Gene_EfficientStomach</iconPath>
+		<displayOrderInCategory>669</displayOrderInCategory>
+		<displayCategory>guy762_SWparts_Category</displayCategory>
+		<biostatCpx>8</biostatCpx>
+		<biostatMet>3</biostatMet>
+		<selectionWeight>0</selectionWeight>
+	  </GeneDef>
+	  
+	  <GeneDef>
+		<defName>guy762_statgene_senses</defName>
+		<label>heightened senses</label>
+		<description>Carriers of this gene have hyper-tuned sight and hearing, but as a result are extremely vulnerable to sonic attacks.</description>
+		<iconPath>UI/Icons/Genes/Gene_EarHuman</iconPath>
+		<displayOrderInCategory>780</displayOrderInCategory>
+		<displayCategory>guy762_SWparts_Category</displayCategory>
+		<biostatCpx>1</biostatCpx>
+		<!--biostatMet>-1</biostatMet-->
+		<capMods>
+		  <li>
+			<capacity>Sight</capacity>
+			<postFactor>1.25</postFactor>
+		  </li>
+		  <li>
+			<capacity>Hearing</capacity>
+			<postFactor>1.25</postFactor>
+		  </li>
+		</capMods>
+		<damageFactors>
+		  <guy762_RangedDamage_sonic MayRequire="guy762.KotORWeapons">2</guy762_RangedDamage_sonic>
+		  <guy762_GrenadeDamage_sonic MayRequire="guy762.KotORWeapons">2</guy762_GrenadeDamage_sonic>
+		  <Thump>2</Thump>
+		</damageFactors>
+	  </GeneDef>
+	
+	<GeneDef>
+		<defName>guy762_AbilityGene_inkspray</defName>
+		<label>ink spray</label>
+		<description>Carriers grow glands in the neck that generate and store a sticky ink substance. They can spew this ink over an area, where it will stick to enemies and blind them.</description>
+		<iconPath>UI/Icons/Genes/Gene_InkSpray</iconPath>
+		<displayCategory>guy762_SWparts_Category</displayCategory>
+		<marketValueFactor>1.5</marketValueFactor>
+		<abilities>
+		  <li>guy762_GeneAbility_ink</li>
+		</abilities>
+		<descriptionHyperlinks>
+		  <AbilityDef>guy762_GeneAbility_ink</AbilityDef>
+		</descriptionHyperlinks>
+		<biostatCpx>2</biostatCpx>
+		<biostatMet>-1</biostatMet>
+	  </GeneDef>
+	  
+	  
+	  <GeneDef>
+		<defName>guy762_statgene_predator</defName>
+		<label>predator instincts</label>
+		<description>Carriers of this gene are evolved from predator species. They have a natural affinity for hunting, and grow claws to boot.</description>
+		<descriptionHyperlinks>
+			<HediffDef>guy762_GeneHediff_claws</HediffDef>
+		</descriptionHyperlinks>
+		<iconPath>UI/Icons/Genes/Gene_Predator</iconPath>
+		<displayOrderInCategory>794</displayOrderInCategory>
+		<displayCategory>guy762_SWparts_Category</displayCategory>
+		<biostatCpx>2</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<statOffsets>
+		  <HuntingStealth>0.2</HuntingStealth>
+		</statOffsets>
+		<geneClass>BetterPrerequisites.PGene</geneClass>
+		<selectionWeight>0</selectionWeight>
+		 <modExtensions>
+			<li Class="BetterPrerequisites.GeneExtension">
+				<applyPartHediff>
+					<li>
+						<hediff>guy762_GeneHediff_claws</hediff>
+						<bodyparts>
+						  <!--So it can add up to 6 sets of talons.-->
+						  <li>Hand</li>
+						  <li>Hand</li>
+						  <li>Hand</li>
+						  <li>Hand</li>
+						  <li>Hand</li>
+						  <li>Hand</li>
+						</bodyparts>
+					</li>
+				</applyPartHediff>
+			</li>
+		</modExtensions>
+	  </GeneDef>
+	  <HediffDef>
+		<defName>guy762_GeneHediff_claws</defName>
+		<label>claws</label>
+		<description>Sharp claws for scratching and slashing.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>claws</label>
+						<capacities>
+							<li>Scratch</li>
+						</capacities>
+						<power>9</power>
+						<cooldownTime>2.2</cooldownTime>
+					</li>
+				</tools>
+			</li>
+		</comps>
+		<addedPartProps>
+			<betterThanNatural>false</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+	
+	
+	
+	<GeneDef MayRequire="Ludeon.RimWorld.Royalty">
+		<defName>guy762_statgene_force</defName>
+		<label>natural force-user</label>
+		<description>Carriers of this gene have evolved a natural ability to use the force.</description>
+		<iconPath>UI/Icons/Genes/Gene_ForceNatural</iconPath>
+		<displayOrderInCategory>700</displayOrderInCategory>
+		<displayCategory>guy762_SWparts_Category</displayCategory>
+		<biostatCpx>10</biostatCpx>
+		<biostatArc>3</biostatArc>
+		<geneClass>BetterPrerequisites.PGene</geneClass>
+		<selectionWeight>0</selectionWeight>
+		 <modExtensions>   <!-- PATCHES FOR VPE and PotF REPLACE THIS ENTIRE NODE -->
+			<li Class="BetterPrerequisites.GeneExtension">
+				<applyPartHediff>
+					<li>
+						<hediff>PsychicAmplifier</hediff>
+						<bodyparts>
+						  <li>Brain</li>
+						</bodyparts>
+					</li>
+				</applyPartHediff>
+			</li>
+		</modExtensions>
+	  </GeneDef>
+	
+	
+	  
+	  <!--GeneDef>
+		<defName>guy762_AbilityGene_cloak</defName>
+		<label>light absorption</label>
+		<description>Carriers of this gene have the natural ability to turn themselves invisible by absorbing all nearby rays of visible light.</description>
+		<iconPath>UI/KotOR_Icon_Stealth</iconPath>
+		<displayOrderInCategory>701</displayOrderInCategory>
+		<displayCategory>guy762_SWparts_Category</displayCategory>
+		<marketValueFactor>2</marketValueFactor>
+		<abilities>
+		  <li>guy762_GeneAbility_defelcloak</li>
+		</abilities>
+		<descriptionHyperlinks>
+		  <AbilityDef>guy762_GeneAbility_defelcloak</AbilityDef>       MOVED TO DOCUMENT IN ADDITIONALMODS FOLDER!
+		</descriptionHyperlinks>
+		<biostatCpx>8</biostatCpx>
+		<biostatArc>2</biostatArc>
+	  </GeneDef-->
+	  
+	  
+	  <GeneDef MayRequire="pathfinding.framework">
+		<defName>guy762_statgene_amphibious</defName>
+		<label>amphibious</label>
+		<description>Carriers of this gene have evolved to move around efficiently in both land and in water.</description>
+		<iconPath>UI/Icons/Genes/Gene_Amphibious</iconPath>
+		<displayOrderInCategory>702</displayOrderInCategory>
+		<displayCategory>guy762_SWparts_Category</displayCategory>
+		<biostatCpx>2</biostatCpx>
+		<!-- <biostatMet>-1</biostatMet> not gonna bother with this because A) PF isn't a widely-used framework yet, B) the gameplay impact *really* isn't that high, and C) I'd have to rebalance all of the aquatic races -->
+		<selectionWeight>0</selectionWeight>
+		<modExtensions>
+			<li Class="PathfindingFramework.MovementExtension">
+				<movementDef>PF_Movement_Amphibious</movementDef>
+			</li>
+		</modExtensions>
+	  </GeneDef>
+	  
+	  
+	  
+	  
+	  
+	  
+	  <GeneDef>
+		<defName>guy762_AbilityGene_JumpLegs</defName>
+		<label>jump legs</label>
+		<description>Carriers have powerful legs which allow them to jump great distances.</description>
+		<iconPath>UI/Icons/Genes/Gene_LongJumpLegs</iconPath>
+		<displayOrderInCategory>702</displayOrderInCategory>
+		<displayCategory>guy762_SWparts_Category</displayCategory>
+		<biostatCpx>2</biostatCpx>
+		<biostatMet>-2</biostatMet>
+		<abilities>
+		  <li>guy762_GeneAbility_jump</li>
+		</abilities>
+		<descriptionHyperlinks>
+		  <AbilityDef>guy762_GeneAbility_jump</AbilityDef>
+		</descriptionHyperlinks>
+		<symbolPack>
+		  <wholeNameSymbols>
+			<li><symbol>jumper</symbol></li>
+			<li><symbol>leaper</symbol></li>
+			<li><symbol>bouncer</symbol></li>
+		  </wholeNameSymbols>
+		  <prefixSymbols>
+			<li><symbol>jump</symbol></li>
+			<li><symbol>leap</symbol></li>
+			<li><symbol>vault</symbol></li>
+			<li><symbol>long</symbol></li>
+			<li><symbol>fly</symbol></li>
+			<li><symbol>hop</symbol></li>
+		  </prefixSymbols>
+		</symbolPack>
+	  </GeneDef>
+	  
+	  <AbilityDef Name="guy762_GeneAbility_jump">
+		<defName>guy762_GeneAbility_jump</defName>
+		<label>jump legs</label>
+		<description>Jump to a nearby location using strong jumping legs.</description>
+		<iconPath>UI/Abilities/Longjump</iconPath>
+		<cooldownTicksRange>600</cooldownTicksRange>
+		<hostile>false</hostile>
+		<casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+		<aiCanUse>true</aiCanUse>
+		<verbProperties>
+		  <verbClass>Verb_CastAbilityJump</verbClass>
+		  <label>jump</label>
+		  <violent>false</violent>
+		  <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+		  <warmupTime>0.5</warmupTime>
+		  <range>14</range>
+		  <requireLineOfSight>true</requireLineOfSight>
+		  <soundCast>Longjump_Jump</soundCast>
+		  <soundLanding>Longjump_Land</soundLanding>
+		  <targetParams>
+			<canTargetLocations>true</canTargetLocations>
+			<canTargetPawns>false</canTargetPawns>
+			<canTargetBuildings>false</canTargetBuildings>
+		  </targetParams>
+		</verbProperties>
+		<jobDef>CastJump</jobDef>
+	  </AbilityDef>
+	  
+	  
+	  
+	  <GeneDef>
+		<defName>guy762_statgene_fourthroats</defName>
+		<label>four throats</label>
+		<description>Carriers of this gene have four throats for four times the speaking power.</description>
+		<iconPath>UI/Icons/Genes/Gene_FourThroats</iconPath>
+		<displayOrderInCategory>781</displayOrderInCategory>
+		<displayCategory>guy762_SWparts_Category</displayCategory>
+		<biostatCpx>1</biostatCpx>
+		<!--biostatMet>-1</biostatMet-->
+		<capMods>
+		  <li>
+			<capacity>Talking</capacity>
+			<postFactor>4</postFactor>
+		  </li>
+		</capMods>
+	  </GeneDef>
+	  
+	  
+	  
+	  
+	  <GeneDef ParentName="GeneAggressionBase">
+        <defName>guy762_statgene_compliant</defName>
+        <label>compliant</label>
+        <description>Carriers of this gene are naturally compliant and significantly less likely to rebel while enslaved or attempt escapes while imprisoned.</description>
+        <iconPath>UI/Icons/Genes/Gene_Submissive</iconPath>
+        <displayCategory>guy762_SWparts_Category</displayCategory>
+        <socialFightChanceFactor>0.25</socialFightChanceFactor>
+        <aggroMentalBreakSelectionChanceFactor>0.25</aggroMentalBreakSelectionChanceFactor>
+        <prisonBreakMTBFactor>0.25</prisonBreakMTBFactor>
+        <displayOrderInCategory>501</displayOrderInCategory>
+        <statOffsets>
+            <RoyalFavorValue MayRequire="Ludeon.RimWorld.Royalty">0.5</RoyalFavorValue>
+        </statOffsets>
+        <statFactors>
+            <SlaveSuppressionFallRate MayRequire="Ludeon.RimWorld.Ideology">0.5</SlaveSuppressionFallRate>
+        </statFactors>
+        <exclusionTags>
+            <li>Turn_Exclusion_FreeSpirit</li>
+        </exclusionTags>
+        <biostatMet>-1</biostatMet>
+    </GeneDef>
+	  
+	  
+	  
+	  
+	  
+	  <!-- weak Psychic harmonizer for Zeltrons -->
+	  
+  <GeneDef MayRequire="Ludeon.RimWorld.Royalty">
+	<defName>guy762_statgene_PsyHarmonize</defName>
+	<label>psychic harmonization</label>
+	<description>Carriers of this gene have a natural ability to synchronize their emotions with others.</description>
+	<descriptionHyperlinks>
+		<HediffDef>guy762_Hediff_PsyHarmonize</HediffDef>
+	</descriptionHyperlinks>
+	<iconPath>UI/Icons/Genes/Gene_PsyHarmonizer</iconPath>
+	<displayOrderInCategory>701</displayOrderInCategory>
+	<displayCategory>guy762_SWparts_Category</displayCategory>
+	<biostatCpx>1</biostatCpx>
+	<biostatMet>3</biostatMet>
+	<geneClass>BetterPrerequisites.PGene</geneClass>
+	<selectionWeight>0</selectionWeight>
+	 <modExtensions>
+		<li Class="BetterPrerequisites.GeneExtension">
+			<applyPartHediff>
+				<li>
+					<hediff>guy762_Hediff_PsyHarmonize</hediff>
+					<bodyparts>
+					  <li>Brain</li>
+					</bodyparts>
+				</li>
+			</applyPartHediff>
+		</li>
+	</modExtensions>
+  </GeneDef>
+
+  <ThoughtDef MayRequire="Ludeon.RimWorld.Royalty">
+    <defName>guy762_ThoughtDef_PsyHarmonize</defName>
+    <thoughtClass>Thought_PsychicHarmonizer</thoughtClass>
+    <effectMultiplyingStat>PsychicSensitivity</effectMultiplyingStat>
+    <stackLimit>100</stackLimit>
+    <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+    <stages>
+      <li>
+        <label>psychic harmony: {HARMONIZER_labelShort}</label>
+        <description>The psychic harmonization makes me feel some of the emotions of the person radiating it as long as we're close together.</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <HediffDef MayRequire="Ludeon.RimWorld.Royalty">
+    <defName>guy762_Hediff_PsyHarmonize</defName>
+    <label>psychic harmonization</label>
+    <labelNoun>psychic harmonization</labelNoun>
+    <description>Psychic harmonization. Projects the user's mood in a spherical psychic field, forcing others nearby to feel a blurred, simplified version of their emotions. It can be a powerful tool to keep morale high, but if the user becomes unhappy, it can lead to collective disaster.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+	<scenarioCanAdd>false</scenarioCanAdd>
+	<maxSeverity>1.0</maxSeverity>
+	<isBad>false</isBad>
+	<comps>
+      <li Class="HediffCompProperties_PsychicHarmonizer">
+        <range>15</range>
+        <thought>guy762_ThoughtDef_PsyHarmonize</thought>
+      </li>
+    </comps>
+  </HediffDef>
+	  
+	 
+
+</Defs>

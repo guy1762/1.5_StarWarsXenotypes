@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	 
+	  <GeneDef Name="guy762_LifespanGeneBase" Abstract="True">
+		<displayCategory>guy762_Lifespan_Category</displayCategory>
+		<exclusionTags>
+		  <li>guy762_Lifespan</li>
+		</exclusionTags>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<selectionWeight>1</selectionWeight>
+		<canGenerateInGeneSet>true</canGenerateInGeneSet>
+	  </GeneDef>
+	  
+	  <GeneDef ParentName="guy762_LifespanGeneBase">
+		<defName>guy762_lifespan_half</defName>
+		<label>60-year lifespan</label>
+		<description>Carriers of this gene live for approximately 60 years.</description>
+		<iconPath>UI/Icons/Genes/Gene_LifespanHalf</iconPath>
+		<displayOrderInCategory>761</displayOrderInCategory>
+		<statFactors>
+		  <LifespanFactor>0.6</LifespanFactor>
+		</statFactors>
+	  </GeneDef>
+	  
+	  <GeneDef ParentName="guy762_LifespanGeneBase">
+		<defName>guy762_lifespan_double</defName>
+		<label>200-year lifespan</label>
+		<description>Carriers of this gene live for approximately 200 years.</description>
+		<iconPath>UI/Icons/Genes/Gene_Lifespan2x</iconPath>
+		<displayOrderInCategory>762</displayOrderInCategory>
+		<statFactors>
+		  <LifespanFactor>2.0</LifespanFactor>
+		</statFactors>
+	  </GeneDef>
+	  
+	  <GeneDef ParentName="guy762_LifespanGeneBase">
+		<defName>guy762_lifespan_quad</defName>
+		<label>400-year lifespan</label>
+		<description>Carriers of this gene live for approximately 400 years.</description>
+		<iconPath>UI/Icons/Genes/Gene_Lifespan4x</iconPath>
+		<displayOrderInCategory>763</displayOrderInCategory>
+		<statFactors>
+		  <LifespanFactor>4.0</LifespanFactor>
+		</statFactors>
+	  </GeneDef>
+	  
+	  <GeneDef ParentName="guy762_LifespanGeneBase">
+		<defName>guy762_lifespan_six</defName>
+		<label>600-year lifespan</label>
+		<description>Carriers of this gene live for approximately 600 years.</description>
+		<iconPath>UI/Icons/Genes/Gene_Lifespan6x</iconPath>
+		<displayOrderInCategory>764</displayOrderInCategory>
+		<statFactors>
+		  <LifespanFactor>6.0</LifespanFactor>
+		</statFactors>
+	  </GeneDef>
+	  
+	  <GeneDef ParentName="guy762_LifespanGeneBase">
+		<defName>guy762_lifespan_nine</defName>
+		<label>900-year lifespan</label>
+		<description>Carriers of this gene live for approximately 900 years.</description>
+		<iconPath>UI/Icons/Genes/Gene_Lifespan9x</iconPath>
+		<displayOrderInCategory>765</displayOrderInCategory>
+		<statFactors>
+		  <LifespanFactor>9.0</LifespanFactor>
+		</statFactors>
+	  </GeneDef>
+	  
+	  
+	  
+
+</Defs>

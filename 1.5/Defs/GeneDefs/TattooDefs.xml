@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  
+  <TattooDef>
+    <defName>guy762_FaceTattoo_yuthura</defName>
+    <label>SWX_Yuthura</label>
+    <texPath>Pawn/HeadAttachments/twilek/Face_Yuthura</texPath>
+	<visibleNorth>false</visibleNorth>
+    <tattooType>Face</tattooType>
+    <category>Punk</category>
+    <styleTags>
+      <li>guy762_SWTattoo_Yuthura</li>
+    </styleTags>
+	<modExtensions>
+      <li Class="TattooColorOverride.ModExtension_TattooColorOverride">
+        <!-- ↓ default value ↓ -->
+        <color>(255,255,255,204)</color>
+        
+      </li>
+    </modExtensions>
+  </TattooDef>
+  
+  
+  
+  
+  <!-- Mirialan -->
+  <StyleItemCategoryDef>
+    <defName>guy762_StyleCategory_mirialan</defName>
+    <label>SWX_Mirialan</label>
+  </StyleItemCategoryDef>
+
+  <TattooDef>
+    <defName>guy762_FaceTattoo_luminara</defName>
+    <label>SWX_Luminara</label>
+    <texPath>Pawn/HeadAttachments/mirialan/Face_Luminara</texPath>
+	<visibleNorth>false</visibleNorth>
+    <tattooType>Face</tattooType>
+    <category>guy762_StyleCategory_mirialan</category>
+    <styleTags>
+      <li>guy762_SWTattoo_Mirialan</li>
+    </styleTags>
+  </TattooDef>
+  
+  <TattooDef>
+    <defName>guy762_FaceTattoo_bariss</defName>
+    <label>SWX_Bariss</label>
+    <texPath>Pawn/HeadAttachments/mirialan/Face_Bariss</texPath>
+	<visibleNorth>false</visibleNorth>
+    <tattooType>Face</tattooType>
+    <category>guy762_StyleCategory_mirialan</category>
+    <styleTags>
+      <li>guy762_SWTattoo_Mirialan</li>
+    </styleTags>
+  </TattooDef>
+
+  <TattooDef>
+    <defName>guy762_FaceTattoo_keo</defName>
+    <label>SWX_Keo</label>
+    <texPath>Pawn/HeadAttachments/mirialan/Face_Keo</texPath>
+	<visibleNorth>false</visibleNorth>
+    <tattooType>Face</tattooType>
+    <category>guy762_StyleCategory_mirialan</category>
+    <styleTags>
+      <li>guy762_SWTattoo_Mirialan</li>
+    </styleTags>
+  </TattooDef>
+  
+  <TattooDef>
+    <defName>guy762_FaceTattoo_seventh</defName>
+    <label>SWX_Seventh Sister</label>
+    <texPath>Pawn/HeadAttachments/mirialan/Face_Seventh</texPath>
+	<visibleNorth>false</visibleNorth>
+    <tattooType>Face</tattooType>
+    <category>guy762_StyleCategory_mirialan</category>
+    <styleTags>
+      <li>guy762_SWTattoo_Mirialan</li>
+    </styleTags>
+  </TattooDef>
+  
+  <TattooDef>
+    <defName>guy762_FaceTattoo_hylo</defName>
+    <label>SWX_Hylo</label>
+    <texPath>Pawn/HeadAttachments/mirialan/Face_Hylo</texPath>
+	<visibleNorth>false</visibleNorth>
+    <tattooType>Face</tattooType>
+    <category>guy762_StyleCategory_mirialan</category>
+    <styleTags>
+      <li>guy762_SWTattoo_Mirialan</li>
+    </styleTags>
+  </TattooDef>
+  
+  <TattooDef>
+    <defName>guy762_FaceTattoo_jana</defName>
+    <label>SWX_Jana</label>
+    <texPath>Pawn/HeadAttachments/mirialan/Face_Jana</texPath>
+	<visibleNorth>false</visibleNorth>
+    <tattooType>Face</tattooType>
+    <category>guy762_StyleCategory_mirialan</category>
+    <styleTags>
+      <li>guy762_SWTattoo_Mirialan</li>
+    </styleTags>
+  </TattooDef>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <!-- Togruta  -->
+  <StyleItemCategoryDef>
+    <defName>guy762_StyleCategory_togruta</defName>
+    <label>SWX_Togruta</label>
+  </StyleItemCategoryDef>
+
+  <TattooDef>
+    <defName>guy762_FaceTattoo_ahsoka</defName>
+    <label>SWX_Ahsoka</label>
+    <texPath>Pawn/HeadAttachments/togruta/Face_Ahsoka</texPath>
+	<visibleNorth>false</visibleNorth>
+    <tattooType>Face</tattooType>
+    <category>guy762_StyleCategory_togruta</category>
+    <styleTags>
+      <li>guy762_SWTattoo_Togruta</li>
+    </styleTags>
+	<modExtensions>
+      <li Class="TattooColorOverride.ModExtension_TattooColorOverride">
+        <!-- ↓ default value ↓ -->
+        <color>(255,255,255,204)</color>
+        
+      </li>
+    </modExtensions>
+  </TattooDef>
+  
+  <TattooDef>
+    <defName>guy762_FaceTattoo_shaak</defName>
+    <label>SWX_Shaak</label>
+    <texPath>Pawn/HeadAttachments/togruta/Face_Shaak</texPath>
+	<visibleNorth>false</visibleNorth>
+    <tattooType>Face</tattooType>
+    <category>guy762_StyleCategory_togruta</category>
+    <styleTags>
+      <li>guy762_SWTattoo_Togruta</li>
+    </styleTags>
+	<modExtensions>
+      <li Class="TattooColorOverride.ModExtension_TattooColorOverride">
+        <!-- ↓ default value ↓ -->
+        <color>(255,255,255,204)</color>
+        
+      </li>
+    </modExtensions>
+  </TattooDef>
+  
+  <TattooDef>
+    <defName>guy762_FaceTattoo_ashara</defName>
+    <label>SWX_Ashara</label>
+    <texPath>Pawn/HeadAttachments/togruta/Face_Ashara</texPath>
+	<visibleNorth>false</visibleNorth>
+    <tattooType>Face</tattooType>
+    <category>guy762_StyleCategory_togruta</category>
+    <styleTags>
+      <li>guy762_SWTattoo_Togruta</li>
+    </styleTags>
+	<modExtensions>
+      <li Class="TattooColorOverride.ModExtension_TattooColorOverride">
+        <!-- ↓ default value ↓ -->
+        <color>(255,255,255,204)</color>
+        
+      </li>
+    </modExtensions>
+  </TattooDef>
+  
+  <TattooDef>
+    <defName>guy762_FaceTattoo_togrutaA</defName>
+    <label>SWX_SWTOR Togruta 1</label>
+    <texPath>Pawn/HeadAttachments/togruta/Face_Togruta1</texPath>
+	<visibleNorth>false</visibleNorth>
+    <tattooType>Face</tattooType>
+    <category>guy762_StyleCategory_togruta</category>
+    <styleTags>
+      <li>guy762_SWTattoo_Togruta</li>
+    </styleTags>
+	<modExtensions>
+      <li Class="TattooColorOverride.ModExtension_TattooColorOverride">
+        <!-- ↓ default value ↓ -->
+        <color>(255,255,255,204)</color>
+        
+      </li>
+    </modExtensions>
+  </TattooDef>
+  
+  <TattooDef>
+    <defName>guy762_FaceTattoo_togrutaB</defName>
+    <label>SWX_SWTOR Togruta 2</label>
+    <texPath>Pawn/HeadAttachments/togruta/Face_Togruta2</texPath>
+	<visibleNorth>false</visibleNorth>
+    <tattooType>Face</tattooType>
+    <category>guy762_StyleCategory_togruta</category>
+    <styleTags>
+      <li>guy762_SWTattoo_Togruta</li>
+    </styleTags>
+	<modExtensions>
+      <li Class="TattooColorOverride.ModExtension_TattooColorOverride">
+        <!-- ↓ default value ↓ -->
+        <color>(255,255,255,204)</color>
+        
+      </li>
+    </modExtensions>
+  </TattooDef>
+  
+  <TattooDef>
+    <defName>guy762_FaceTattoo_selkah</defName>
+    <label>SWX_Selkah</label>
+    <texPath>Pawn/HeadAttachments/togruta/Face_Selkah</texPath>
+	<visibleNorth>false</visibleNorth>
+    <tattooType>Face</tattooType>
+    <category>guy762_StyleCategory_togruta</category>
+    <styleTags>
+      <li>guy762_SWTattoo_Togruta</li>
+    </styleTags>
+	<modExtensions>
+      <li Class="TattooColorOverride.ModExtension_TattooColorOverride">
+        <!-- ↓ default value ↓ -->
+        <color>(255,255,255,204)</color>
+        
+      </li>
+    </modExtensions>
+  </TattooDef>
+  
+  
+  
+  
+  
+  
+  
+  <!-- Pantoran -->
+  <StyleItemCategoryDef>
+    <defName>guy762_StyleCategory_pantoran</defName>
+    <label>SWX_Pantoran</label>
+  </StyleItemCategoryDef>
+
+  <TattooDef>
+    <defName>guy762_FaceTattoo_chuchi</defName>
+    <label>SWX_Chuchi</label>
+    <texPath>Pawn/HeadAttachments/pantoran/Face_Chuchi</texPath>
+	<visibleNorth>false</visibleNorth>
+    <tattooType>Face</tattooType>
+    <category>guy762_StyleCategory_pantoran</category>
+    <styleTags>
+      <li>guy762_SWTattoo_Pantoran</li>
+    </styleTags>
+	<modExtensions>
+      <li Class="TattooColorOverride.ModExtension_TattooColorOverride">
+        <!-- ↓ default value ↓ -->
+        <color>(255,255,255,204)</color>
+        
+      </li>
+    </modExtensions>
+  </TattooDef>
+  
+  <TattooDef>
+    <defName>guy762_FaceTattoo_cho</defName>
+    <label>SWX_Cho</label>
+    <texPath>Pawn/HeadAttachments/pantoran/Face_Cho</texPath>
+	<visibleNorth>false</visibleNorth>
+    <tattooType>Face</tattooType>
+    <category>guy762_StyleCategory_pantoran</category>
+    <styleTags>
+      <li>guy762_SWTattoo_Pantoran</li>
+    </styleTags>
+	<modExtensions>
+      <li Class="TattooColorOverride.ModExtension_TattooColorOverride">
+        <!-- ↓ default value ↓ -->
+        <color>(255,255,255,204)</color>
+        
+      </li>
+    </modExtensions>
+  </TattooDef>
+  
+  <TattooDef>
+    <defName>guy762_FaceTattoo_papanoidia</defName>
+    <label>SWX_Papanoidia</label>
+    <texPath>Pawn/HeadAttachments/pantoran/Face_Papanoidia</texPath>
+	<visibleNorth>false</visibleNorth>
+    <tattooType>Face</tattooType>
+    <category>guy762_StyleCategory_pantoran</category>
+    <styleTags>
+      <li>guy762_SWTattoo_Pantoran</li>
+    </styleTags>
+	<modExtensions>
+      <li Class="TattooColorOverride.ModExtension_TattooColorOverride">
+        <!-- ↓ default value ↓ -->
+        <color>(255,255,255,204)</color>
+        
+      </li>
+    </modExtensions>
+  </TattooDef>
+  
+  <TattooDef>
+    <defName>guy762_FaceTattoo_eekway</defName>
+    <label>SWX_Eekway</label>
+    <texPath>Pawn/HeadAttachments/pantoran/Face_Eekway</texPath>
+	<visibleNorth>false</visibleNorth>
+    <tattooType>Face</tattooType>
+    <category>guy762_StyleCategory_pantoran</category>
+    <styleTags>
+      <li>guy762_SWTattoo_Pantoran</li>
+    </styleTags>
+	<modExtensions>
+      <li Class="TattooColorOverride.ModExtension_TattooColorOverride">
+        <!-- ↓ default value ↓ -->
+        <color>(255,255,255,204)</color>
+        
+      </li>
+    </modExtensions>
+  </TattooDef>
+  
+  <TattooDef>
+    <defName>guy762_FaceTattoo_amanwe</defName>
+    <label>SWX_Amanwe</label>
+    <texPath>Pawn/HeadAttachments/pantoran/Face_Amanwe</texPath>
+	<visibleNorth>false</visibleNorth>
+    <tattooType>Face</tattooType>
+    <category>guy762_StyleCategory_pantoran</category>
+    <styleTags>
+      <li>guy762_SWTattoo_Pantoran</li>
+    </styleTags>
+	<modExtensions>
+      <li Class="TattooColorOverride.ModExtension_TattooColorOverride">
+        <!-- ↓ default value ↓ -->
+        <color>(255,255,255,204)</color>
+        
+      </li>
+    </modExtensions>
+  </TattooDef>
+  
+  <TattooDef>
+    <defName>guy762_FaceTattoo_TIEace</defName>
+    <label>SWX_Imperial Ace</label>
+    <texPath>Pawn/HeadAttachments/pantoran/Face_TIEace</texPath>
+	<visibleNorth>false</visibleNorth>
+    <tattooType>Face</tattooType>
+    <category>guy762_StyleCategory_pantoran</category>
+    <styleTags>
+      <li>guy762_SWTattoo_Pantoran</li>
+    </styleTags>
+	<modExtensions>
+      <li Class="TattooColorOverride.ModExtension_TattooColorOverride">
+        <!-- ↓ default value ↓ -->
+        <color>(255,255,255,204)</color>
+        
+      </li>
+    </modExtensions>
+  </TattooDef>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <!-- Dathomir Zabrak -->
+  <StyleItemCategoryDef>
+    <defName>guy762_StyleCategory_zabrak</defName>
+    <label>SWX_Dathomir Zabrak</label>
+  </StyleItemCategoryDef>
+  
+  <TattooDef>
+    <defName>guy762_BodyTattoo_maul</defName>
+    <label>SWX_Maul</label>
+    <texPath>Pawn/BodyAttachments/zabrak/Body_Maul</texPath>
+	<visibleNorth>true</visibleNorth>
+    <tattooType>Body</tattooType>
+    <category>guy762_StyleCategory_zabrak</category>
+    <styleTags>
+      <li>guy762_SWTattoo_ZabrakBody</li>
+    </styleTags>
+  </TattooDef>
+  
+  <TattooDef>
+    <defName>guy762_BodyTattoo_savage</defName>
+    <label>SWX_Savage</label>
+    <texPath>Pawn/BodyAttachments/zabrak/Body_Savage</texPath>
+	<visibleNorth>true</visibleNorth>
+    <tattooType>Body</tattooType>
+    <category>guy762_StyleCategory_zabrak</category>
+    <styleTags>
+      <li>guy762_SWTattoo_ZabrakBody</li>
+    </styleTags>
+  </TattooDef>
+
+  <TattooDef>
+    <defName>guy762_FaceTattoo_akaavi</defName>
+    <label>SWX_Akaavi</label>
+    <texPath>Pawn/HeadAttachments/zabrak/Face_Akaavi</texPath>
+	<visibleNorth>true</visibleNorth>
+    <tattooType>Face</tattooType>
+    <category>guy762_StyleCategory_zabrak</category>
+    <styleTags>
+      <li>guy762_SWTattoo_ZabrakFace</li>
+    </styleTags>
+  </TattooDef>
+  
+  <TattooDef>
+    <defName>guy762_FaceTattoo_savage</defName>
+    <label>SWX_Savage</label>
+    <texPath>Pawn/HeadAttachments/zabrak/Face_Savage</texPath>
+	<visibleNorth>true</visibleNorth>
+    <tattooType>Face</tattooType>
+    <category>guy762_StyleCategory_zabrak</category>
+    <styleTags>
+      <li>guy762_SWTattoo_ZabrakFace</li>
+    </styleTags>
+  </TattooDef>
+  
+  <TattooDef>
+    <defName>guy762_FaceTattoo_maul</defName>
+    <label>SWX_Maul</label>
+    <texPath>Pawn/HeadAttachments/zabrak/Face_Maul</texPath>
+	<visibleNorth>true</visibleNorth>
+    <tattooType>Face</tattooType>
+    <category>guy762_StyleCategory_zabrak</category>
+    <styleTags>
+      <li>guy762_SWTattoo_ZabrakFace</li>
+    </styleTags>
+  </TattooDef>
+  
+  <TattooDef>
+    <defName>guy762_FaceTattoo_hexid</defName>
+    <label>SWX_Hexid</label>
+    <texPath>Pawn/HeadAttachments/zabrak/Face_Hexid</texPath>
+	<visibleNorth>true</visibleNorth>
+    <tattooType>Face</tattooType>
+    <category>guy762_StyleCategory_zabrak</category>
+    <styleTags>
+      <li>guy762_SWTattoo_ZabrakFace</li>
+    </styleTags>
+  </TattooDef>
+
+
+
+
+
+</Defs>

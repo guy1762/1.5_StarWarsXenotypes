@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+<!--Genes-->
+
+
+
+  <GeneDef ParentName="GeneJawBase">
+    <defName>Head_Bone</defName>
+    <label>bone head</label>
+    <description>Carriers of this gene have intimidating  facial bone protrusions.</description>
+    <iconPath>UI/Icons/Genes/Gene_SovSithHead</iconPath>
+    <forcedHeadTypes>
+      <li>Male_HeavyBoneNormal</li>
+      <li>Female_HeavyBoneNormal</li>
+    </forcedHeadTypes>
+	<statFactors>
+      <SuppressionPower MayRequire="Ludeon.RimWorld.Ideology">1.50</SuppressionPower>
+	  
+    </statFactors>
+	
+    <displayOrderInCategory>97</displayOrderInCategory>
+
+    <exclusionTags>
+      <li>Jaw</li>
+    </exclusionTags>
+  </GeneDef>
+  
+  
+  
+  
+   <GeneDef ParentName="GeneEyeColor">
+    <defName>GS_Eyes_Yellow</defName>
+    <label>yellow eyes</label>
+    <labelShortAdj>yellow-eyed</labelShortAdj>
+    <description>Carriers of this gene have deeply yellow-pigmented eyes.</description>
+    <iconPath>UI/Icons/Genes/Gene_YellowEyes</iconPath>
+    <displayCategory>Cosmetic</displayCategory>
+	<displayOrderInCategory>3</displayOrderInCategory>
+	<exclusionTags>
+      <li>EyeColor_ReplacedByPotFSithEyes</li>
+    </exclusionTags>
+	<renderNodeProperties>
+      <li Class="PawnRenderNodeProperties_Eye">
+        <texPath>Pawn/HeadAttachments/yelloweyes/YellowEyes_Male</texPath>
+        <texPathFemale>Pawn/HeadAttachments/yelloweyes/YellowEyes_Female</texPathFemale>
+        <anchorTag>RightEye</anchorTag>
+        <rotDrawMode>Fresh, Rotting</rotDrawMode>
+        <parentTagDef>Head</parentTagDef>
+        <drawSize>0.2</drawSize>
+        <side>Right</side>
+        <drawData>
+          <defaultData>
+            <layer>54</layer>
+            <offset>(0, 0, -0.25)</offset>
+          </defaultData>
+        </drawData>
+      </li>
+      <li Class="PawnRenderNodeProperties_Eye">
+        <texPath>Pawn/HeadAttachments/yelloweyes/YellowEyes_Male</texPath>
+        <texPathFemale>Pawn/HeadAttachments/yelloweyes/YellowEyes_Female</texPathFemale>
+        <anchorTag>LeftEye</anchorTag>
+        <rotDrawMode>Fresh, Rotting</rotDrawMode>
+        <parentTagDef>Head</parentTagDef>
+        <drawSize>0.2</drawSize>
+        <side>Left</side>
+        <drawData>
+          <defaultData>
+            <layer>54</layer>
+            <offset>(0, 0, -0.25)</offset>
+            <flip>true</flip>
+          </defaultData>
+          <dataWest>
+            <flip>false</flip>
+          </dataWest>
+        </drawData>
+      </li>
+    </renderNodeProperties>
+  </GeneDef>
+  
+  
+  <GeneDef ParentName="GeneEyeColor">
+    <defName>GS_Eyes_Orange</defName>
+    <label>orange eyes</label>
+    <labelShortAdj>orange-eyed</labelShortAdj>
+    <description>Carriers of this gene have deeply orange-pigmented eyes.</description>
+    <iconPath>UI/Icons/Genes/Gene_OrangeEyes</iconPath>
+    <displayCategory>Cosmetic</displayCategory>
+	<displayOrderInCategory>3</displayOrderInCategory>
+	<exclusionTags>
+      <li>EyeColor_ReplacedByPotFSithEyes</li>
+    </exclusionTags>
+	<renderNodeProperties>
+      <li Class="PawnRenderNodeProperties_Eye">
+        <texPath>Pawn/HeadAttachments/orangeeyes/OrangeEyes_Male</texPath>
+        <texPathFemale>Pawn/HeadAttachments/orangeeyes/OrangeEyes_Female</texPathFemale>
+        <anchorTag>RightEye</anchorTag>
+        <rotDrawMode>Fresh, Rotting</rotDrawMode>
+        <parentTagDef>Head</parentTagDef>
+        <drawSize>0.2</drawSize>
+        <side>Right</side>
+        <drawData>
+          <defaultData>
+            <layer>54</layer>
+            <offset>(0, 0, -0.25)</offset>
+          </defaultData>
+        </drawData>
+      </li>
+      <li Class="PawnRenderNodeProperties_Eye">
+        <texPath>Pawn/HeadAttachments/orangeeyes/OrangeEyes_Male</texPath>
+        <texPathFemale>Pawn/HeadAttachments/orangeeyes/OrangeEyes_Female</texPathFemale>
+        <anchorTag>LeftEye</anchorTag>
+        <rotDrawMode>Fresh, Rotting</rotDrawMode>
+        <parentTagDef>Head</parentTagDef>
+        <drawSize>0.2</drawSize>
+        <side>Left</side>
+        <drawData>
+          <defaultData>
+            <layer>54</layer>
+            <offset>(0, 0, -0.25)</offset>
+            <flip>true</flip>
+          </defaultData>
+          <dataWest>
+            <flip>false</flip>
+          </dataWest>
+        </drawData>
+      </li>
+    </renderNodeProperties>
+  </GeneDef>
+  
+  
+  
+  
+  
+  
+  <HeadTypeDef Name="HeavyBoneBase" Abstract="True">
+    <randomChosen>false</randomChosen>	
+    <requiredGenes>
+      <li>Head_Bone</li>
+    </requiredGenes>
+  </HeadTypeDef>
+  
+  
+<HeadTypeDef ParentName="HeavyBoneBase">
+    <defName>Male_HeavyBoneNormal</defName>
+    <graphicPath>Pawn/HeadType/Sov_sith/Male_Bone_Normal</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="HeavyBoneBase">
+    <defName>Female_HeavyBoneNormal</defName>
+    <graphicPath>Pawn/HeadType/Sov_sith/Female_Bone_Normal</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  
+  
+  </Defs>

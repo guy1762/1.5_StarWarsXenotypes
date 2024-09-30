@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	  <GeneDef ParentName="GeneHeadboneBase">
+		<defName>guy762_Hair_rodian</defName>
+		<label>head spines</label>
+		<description>Carriers of this gene grow flexible spines on their head.</description>
+		<iconPath>UI/Icons/Genes/Gene_HeadSpines</iconPath>
+		<displayOrderInCategory>766</displayOrderInCategory>
+		<displayCategory>guy762_SWparts_Category</displayCategory>
+		<exclusionTags Inherit="False"/>
+		<renderNodeProperties>
+		  <li>
+			<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+			<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+			<texPath>Pawn/HeadAttachments/rodian/mohawk</texPath>
+			<parentTagDef>Head</parentTagDef>
+			<colorType>Skin</colorType>
+			<useRottenColor>true</useRottenColor>
+			<useSkinShader>true</useSkinShader>
+			<rotDrawMode>Fresh, Rotting</rotDrawMode>
+			<skipFlag>Hair</skipFlag>
+			<drawData>
+			  <defaultData>
+				<layer>80</layer>
+			  </defaultData>
+			  <dataEast>
+				<layer>60</layer>
+			  </dataEast>
+			  <dataWest>
+				<layer>60</layer>
+			  </dataWest>
+			</drawData>
+		  </li>
+		</renderNodeProperties>
+	  </GeneDef>
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	 
+	  <GeneDef>
+		<defName>guy762_HeadAttachment_kaleeshmask</defName>
+		<label>skull mask</label>
+		<description>Members of this species wear skull masks decorated with red markings.</description>
+		<descriptionHyperlinks>
+			<HediffDef>guy762_GeneHediff_kaleeshmask</HediffDef>
+		</descriptionHyperlinks>
+		<iconPath>UI/Icons/Genes/Gene_KaleeshMask</iconPath>
+		<displayOrderInCategory>799</displayOrderInCategory>
+		<displayCategory>guy762_SWparts_Category</displayCategory>
+		<modExtensions>
+			<li Class="BetterPrerequisites.GeneExtension">
+				<applyPartHediff>
+					<li>
+						<hediff>guy762_GeneHediff_kaleeshmask</hediff>
+						<bodyparts>
+						  <li>Head</li>
+						</bodyparts>
+					</li>
+				</applyPartHediff>
+			</li>
+		</modExtensions>
+		<exclusionTags>
+		  <li>guy762_GeneMaskEXTag</li>
+		</exclusionTags>
+	  </GeneDef>
+	  
+	  
+	  <HediffDef>
+		<defName>guy762_GeneHediff_kaleeshmask</defName>
+		<label>skull mask</label>
+		<description>An intimidating skull mask adorned with red markings.</description>
+		<descriptionHyperlinks>
+		  <ThingDef>guy762_KaleeshMask</ThingDef>
+		  <RecipeDef>guy762_RemoveHediff_kaleeshmask</RecipeDef>
+		  <RecipeDef>guy762_InstallHediff_kaleeshmask</RecipeDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>guy762_KaleeshMask</spawnThingOnRemoved>
+		
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<stages>
+		  <li>
+			<statOffsets>
+			  <SuppressionPower MayRequire="Ludeon.RimWorld.Ideology">0.4</SuppressionPower>
+			  <PainShockThreshold>0.2</PainShockThreshold>
+			</statOffsets>
+		  </li>
+		</stages>
+		<renderNodeProperties>
+		  <li>
+			<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+			<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+			<texPaths>
+			  <li>Pawn/HeadAttachments/kaleesh/mask_xalek</li>
+			  <li>Pawn/HeadAttachments/kaleesh/mask_qymaen</li>
+			  <li>Pawn/HeadAttachments/kaleesh/mask_ronderu</li>
+			  <li>Pawn/HeadAttachments/kaleesh/mask_saes</li>
+			  <li>Pawn/HeadAttachments/kaleesh/mask_kaleesh1</li>
+			  <li>Pawn/HeadAttachments/kaleesh/mask_kaleesh2</li>
+			  <li>Pawn/HeadAttachments/kaleesh/mask_kaleesh3</li>
+			</texPaths>
+			<parentTagDef>Head</parentTagDef>
+			<drawData>
+			  <defaultData>
+				<layer>66</layer>
+			  </defaultData>
+			</drawData>
+		  </li>
+		</renderNodeProperties>
+	</HediffDef>
+	
+	
+	<ThingDef ParentName="ResourceBase">
+		<defName>guy762_KaleeshMask</defName>
+		<label>Kaleesh skull mask</label>
+		<description>The traditional skull mask of a Kaleesh.\n\nNOTE: This is not an apparel item! This can only be applied to a pawn with a simple surgery!\n\nNOTE: The mask variant is randomized upon installation.</description>
+		<descriptionHyperlinks><RecipeDef>guy762_InstallHediff_kaleeshmask</RecipeDef></descriptionHyperlinks>
+		<graphicData>
+		  <texPath>Pawn/HeadAttachments/kaleesh/kaleesh_mask_item</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+		  <MarketValue>100</MarketValue>
+		  <MaxHitPoints>50</MaxHitPoints>
+		  <Flammability>0.4</Flammability>
+		  <Mass>1</Mass>
+		</statBases>
+		
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<stackLimit>10</stackLimit><drawGUIOverlay>true</drawGUIOverlay>
+		<useHitPoints>true</useHitPoints>
+		<thingCategories>
+		  <li>ItemsMisc</li>
+		</thingCategories>
+		<tradeability>All</tradeability>
+		<techLevel>Neolithic</techLevel>
+	  </ThingDef>
+
+
+
+
+
+
+	  <RecipeDef Name="guy762_InstallHediffMaskBase" ParentName="SurgeryFlesh" Abstract="True">
+		<surgerySuccessChanceFactor>100</surgerySuccessChanceFactor>
+		<deathOnFailedSurgeryChance>0</deathOnFailedSurgeryChance>
+		
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<workAmount>500</workAmount>
+		<developmentalStageFilter>Child, Adult</developmentalStageFilter>
+		<workSkill>Crafting</workSkill>
+		<recipeUsers>
+		  <li>Human</li>
+		  <li MayRequire="Ludeon.RimWorld.Anomaly">CreepJoiner</li>
+		</recipeUsers>
+		<effectWorking>Tailor</effectWorking>
+		<soundWorking>Recipe_Tailor</soundWorking>
+	  </RecipeDef>
+	  
+	  <RecipeDef Name="guy762_RemoveHediffMaskBase" ParentName="SurgeryFlesh" Abstract="True">
+		<isViolation>true</isViolation>
+		
+		<surgerySuccessChanceFactor>100</surgerySuccessChanceFactor>
+		<deathOnFailedSurgeryChance>0</deathOnFailedSurgeryChance>
+		
+		<workerClass>Recipe_RemoveImplant</workerClass>
+		<workAmount>500</workAmount>
+		<developmentalStageFilter>Child, Adult</developmentalStageFilter>
+		<workSkill>Crafting</workSkill>
+		<recipeUsers>
+		  <li>Human</li>
+		  <li MayRequire="Ludeon.RimWorld.Anomaly">CreepJoiner</li>
+		</recipeUsers>
+		<effectWorking>Tailor</effectWorking>
+		<soundWorking>Recipe_Tailor</soundWorking>
+	  </RecipeDef>
+	  
+	  
+	  
+	  <RecipeDef ParentName="guy762_InstallHediffMaskBase">
+		<defName>guy762_InstallHediff_kaleeshmask</defName>
+		<label>install Kaleesh skull mask</label>
+		<description>Install a Kaleesh skull mask.\n\nNOTE: The mask variant is randomized upon installation.</description>
+		<descriptionHyperlinks>
+		  <ThingDef>guy762_KaleeshMask</ThingDef>
+		  <HediffDef>guy762_GeneHediff_kaleeshmask</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing Kaleesh skull mask.</jobString>
+		<ingredients>
+		  <li>
+			<filter>
+			  <thingDefs>
+				<li>guy762_KaleeshMask</li>
+			  </thingDefs>
+			</filter>
+			<count>1</count>
+		  </li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>guy762_KaleeshMask</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>guy762_GeneHediff_kaleeshmask</addsHediff>
+		<appliedOnFixedBodyParts>
+		  <li>Head</li>
+		</appliedOnFixedBodyParts>
+	  </RecipeDef>
+	  
+	  <RecipeDef ParentName="guy762_RemoveHediffMaskBase">
+		<defName>guy762_RemoveHediff_kaleeshmask</defName>
+		<label>remove Kaleesh skull mask</label>
+		<description>Remove Kaleesh skull mask.</description>
+		<descriptionHyperlinks>
+		  <ThingDef>guy762_KaleeshMask</ThingDef>
+		  <HediffDef>guy762_GeneHediff_kaleeshmask</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Removing Kaleesh skull mask.</jobString>
+		<removesHediff>guy762_GeneHediff_kaleeshmask</removesHediff>
+	  </RecipeDef>
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  <GeneDef>
+		<defName>guy762_HeadAttachment_keldormask</defName>
+		<label>breath mask</label>
+		<description>Members of this species wear specialized breath masks to help them survive in oxygen-rich environments.</description>
+		<descriptionHyperlinks>
+			<HediffDef>guy762_GeneHediff_keldormask</HediffDef>
+		</descriptionHyperlinks>
+		<iconPath>UI/Icons/Genes/Gene_KelDorMask</iconPath>
+		<displayOrderInCategory>800</displayOrderInCategory>
+		<displayCategory>guy762_SWparts_Category</displayCategory>
+		<modExtensions>
+			<li Class="BetterPrerequisites.GeneExtension">
+				<applyPartHediff>
+					<li>
+						<hediff>guy762_GeneHediff_keldormask</hediff>
+						<bodyparts>
+						  <li>Jaw</li>
+						</bodyparts>
+					</li>
+				</applyPartHediff>
+			</li>
+		</modExtensions>
+		<exclusionTags>
+		  <li>guy762_GeneMaskEXTag</li>
+		</exclusionTags>
+	  </GeneDef>
+	  
+	  
+	  <HediffDef>
+		<defName>guy762_GeneHediff_keldormask</defName>
+		<label>Kel Dor breath mask</label>
+		<description>A specialized breath mask for Kel Dor.</description>
+		<descriptionHyperlinks>
+		  <ThingDef>guy762_KelDorMask</ThingDef>
+		  <RecipeDef>guy762_RemoveHediff_keldormask</RecipeDef>
+		  <RecipeDef>guy762_InstallHediff_keldormask</RecipeDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>guy762_KelDorMask</spawnThingOnRemoved>
+		
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<stages>
+		  <li>
+			<statOffsets>
+			  <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+			  <HypoxiaResistance MayRequire="kentington.saveourship2">1</HypoxiaResistance>
+			  <DecompressionResistance MayRequire="kentington.saveourship2">0.25</DecompressionResistance>
+			</statOffsets>
+		  </li>
+		</stages>
+		<renderNodeProperties>
+		  <li>
+			<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+			<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+			<texPaths>
+			  <li>Pawn/HeadAttachments/keldor/mask_plokoon</li>
+			  <li>Pawn/HeadAttachments/keldor/mask_jadenkorr1</li>
+			  <li>Pawn/HeadAttachments/keldor/mask_jadenkorr2</li>
+			</texPaths>
+			<parentTagDef>Head</parentTagDef>
+			<skipFlag>Beard</skipFlag>
+			<visibleFacing>
+			  <li>East</li>
+			  <li>South</li>
+			  <li>West</li>
+			</visibleFacing>
+			<drawData>
+			  <defaultData>
+				<layer>67</layer>
+			  </defaultData>
+			</drawData>
+		  </li>
+		</renderNodeProperties>
+	</HediffDef>
+	
+	
+	
+	
+	
+	
+	
+	<ThingDef ParentName="ResourceBase">
+		<defName>guy762_KelDorMask</defName>
+		<label>Kel Dor breath mask</label>
+		<description>A specialized breath mask for Kel Dor.\n\nNOTE: This is not an apparel item! This can only be applied to a pawn with a simple surgery!\n\nNOTE: The mask variant is randomized upon installation.</description>
+		<descriptionHyperlinks><RecipeDef>guy762_InstallHediff_keldormask</RecipeDef></descriptionHyperlinks>
+		<graphicData>
+		  <texPath>Pawn/HeadAttachments/keldor/keldor_mask_item</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+		  <MarketValue>50</MarketValue>
+		  <MaxHitPoints>50</MaxHitPoints>
+		  <Flammability>0.4</Flammability>
+		  <Mass>0.5</Mass>
+		</statBases>
+		
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<stackLimit>10</stackLimit><drawGUIOverlay>true</drawGUIOverlay>
+		<useHitPoints>true</useHitPoints>
+		<thingCategories>
+		  <li>ItemsMisc</li>
+		</thingCategories>
+		<tradeability>All</tradeability>
+		<techLevel>Spacer</techLevel>
+	  </ThingDef>
+	  
+	  <RecipeDef ParentName="guy762_InstallHediffMaskBase">
+		<defName>guy762_InstallHediff_keldormask</defName>
+		<label>install Kel Dor breath mask</label>
+		<description>Install a Kel Dor breath mask.\n\nNOTE: The mask variant is randomized upon installation.</description>
+		<descriptionHyperlinks>
+		  <ThingDef>guy762_KelDorMask</ThingDef>
+		  <HediffDef>guy762_GeneHediff_keldormask</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing Kel Dor breath mask.</jobString>
+		<ingredients>
+		  <li>
+			<filter>
+			  <thingDefs>
+				<li>guy762_KelDorMask</li>
+			  </thingDefs>
+			</filter>
+			<count>1</count>
+		  </li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>guy762_KelDorMask</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>guy762_GeneHediff_keldormask</addsHediff>
+		<appliedOnFixedBodyParts>
+		  <li>Jaw</li>
+		</appliedOnFixedBodyParts>
+	  </RecipeDef>
+	  
+	  <RecipeDef ParentName="guy762_RemoveHediffMaskBase">
+		<defName>guy762_RemoveHediff_keldormask</defName>
+		<label>remove Kel Dor breath mask</label>
+		<description>Remove Kel Dor breath mask.</description>
+		<descriptionHyperlinks>
+		  <ThingDef>guy762_KelDorMask</ThingDef>
+		  <HediffDef>guy762_GeneHediff_keldormask</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Removing Kel Dor breath mask.</jobString>
+		<removesHediff>guy762_GeneHediff_keldormask</removesHediff>
+	  </RecipeDef>
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  <GeneDef>
+		<defName>guy762_HeadAttachment_gandmask</defName>
+		<label>tubed breath mask</label>
+		<description>Members of this species wear specialized breath masks to help them survive in oxygen-rich environments.</description>
+		<descriptionHyperlinks>
+			<HediffDef>guy762_GeneHediff_gandmask</HediffDef>
+		</descriptionHyperlinks>
+		<iconPath>UI/Icons/Genes/Gene_GandMask</iconPath>
+		<displayOrderInCategory>801</displayOrderInCategory>
+		<displayCategory>guy762_SWparts_Category</displayCategory>
+		<modExtensions>
+			<li Class="BetterPrerequisites.GeneExtension">
+				<applyPartHediff>
+					<li>
+						<hediff>guy762_GeneHediff_gandmask</hediff>
+						<bodyparts>
+						  <li>Jaw</li>
+						</bodyparts>
+					</li>
+				</applyPartHediff>
+			</li>
+		</modExtensions>
+		<exclusionTags>
+		  <li>guy762_GeneMaskEXTag</li>
+		</exclusionTags>
+	  </GeneDef>
+	  
+	  
+	  <HediffDef>
+		<defName>guy762_GeneHediff_gandmask</defName>
+		<label>Gand breath mask</label>
+		<description>A specialized breath mask for Gand.</description>
+		<descriptionHyperlinks>
+		  <ThingDef>guy762_GandMask</ThingDef>
+		  <RecipeDef>guy762_RemoveHediff_gandmask</RecipeDef>
+		  <RecipeDef>guy762_InstallHediff_gandmask</RecipeDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>guy762_GandMask</spawnThingOnRemoved>
+		
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<stages>
+		  <li>
+			<statOffsets>
+			  <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+			  <HypoxiaResistance MayRequire="kentington.saveourship2">1</HypoxiaResistance>
+			  <DecompressionResistance MayRequire="kentington.saveourship2">0.25</DecompressionResistance>
+			</statOffsets>
+		  </li>
+		</stages>
+		<renderNodeProperties>
+		  <li>
+			<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+			<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+			<texPaths>
+			  <li>Pawn/HeadAttachments/gand/mask_zuckuss</li>
+			  <li>Pawn/HeadAttachments/gand/mask_yuun</li>
+			</texPaths>
+			<parentTagDef>Head</parentTagDef>
+			<skipFlag>Beard</skipFlag>
+			<drawData>
+			  <defaultData>
+				<layer>67</layer>
+			  </defaultData>
+			</drawData>
+		  </li>
+		</renderNodeProperties>
+	</HediffDef>
+	
+	
+	
+	
+	
+	
+	
+	<ThingDef ParentName="ResourceBase">
+		<defName>guy762_GandMask</defName>
+		<label>Gand breath mask</label>
+		<description>A specialized breath mask for Gand.\n\nNOTE: This is not an apparel item! This can only be applied to a pawn with a simple surgery!\n\nNOTE: The mask variant is randomized upon installation.</description>
+		<descriptionHyperlinks><RecipeDef>guy762_InstallHediff_gandmask</RecipeDef></descriptionHyperlinks>
+		<graphicData>
+		  <texPath>Pawn/HeadAttachments/gand/gand_mask_item</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+		  <MarketValue>50</MarketValue>
+		  <MaxHitPoints>50</MaxHitPoints>
+		  <Flammability>0.4</Flammability>
+		  <Mass>0.5</Mass>
+		</statBases>
+		
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<stackLimit>10</stackLimit><drawGUIOverlay>true</drawGUIOverlay>
+		<useHitPoints>true</useHitPoints>
+		<thingCategories>
+		  <li>ItemsMisc</li>
+		</thingCategories>
+		<tradeability>All</tradeability>
+		<techLevel>Spacer</techLevel>
+	  </ThingDef>
+	  
+	  <RecipeDef ParentName="guy762_InstallHediffMaskBase">
+		<defName>guy762_InstallHediff_gandmask</defName>
+		<label>install Gand breath mask</label>
+		<description>Install a Gand breath mask.\n\nNOTE: The mask variant is randomized upon installation.</description>
+		<descriptionHyperlinks>
+		  <ThingDef>guy762_GandMask</ThingDef>
+		  <HediffDef>guy762_GeneHediff_gandmask</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing Gand breath mask.</jobString>
+		<ingredients>
+		  <li>
+			<filter>
+			  <thingDefs>
+				<li>guy762_GandMask</li>
+			  </thingDefs>
+			</filter>
+			<count>1</count>
+		  </li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>guy762_GandMask</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>guy762_GeneHediff_gandmask</addsHediff>
+		<appliedOnFixedBodyParts>
+		  <li>Jaw</li>
+		</appliedOnFixedBodyParts>
+	  </RecipeDef>
+	  
+	  <RecipeDef ParentName="guy762_RemoveHediffMaskBase">
+		<defName>guy762_RemoveHediff_gandmask</defName>
+		<label>remove Gand breath mask</label>
+		<description>Remove Gand breath mask.</description>
+		<descriptionHyperlinks>
+		  <ThingDef>guy762_GandMask</ThingDef>
+		  <HediffDef>guy762_GeneHediff_gandmask</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Removing Gand breath mask.</jobString>
+		<removesHediff>guy762_GeneHediff_gandmask</removesHediff>
+	  </RecipeDef>
+	  
+	 
+
+</Defs>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <AbilityDef>
+    <defName>guy762_GeneAbility_ink</defName>
+    <label>ink spray</label>
+    <description>Spray a sticky ink substance from glands in the neck up through the mouth and all over the target area. The ink will stick to targets and blind them.</description>
+    <descriptionHyperlinks>
+		<HediffDef>guy762_hediff_ink</HediffDef>
+	</descriptionHyperlinks>
+	<iconPath>UI/Icons/Ability_InkSpray</iconPath>
+    <cooldownTicksRange>30000</cooldownTicksRange>
+    <aiCanUse>true</aiCanUse>
+    <ai_SearchAOEForTargets>true</ai_SearchAOEForTargets>
+    <displayOrder>300</displayOrder>
+    <category>Sanguophage</category>
+    <warmupStartSound>AcidSpray_Warmup</warmupStartSound>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>8.9</range>
+      <warmupTime>0.5</warmupTime>
+      <soundCast>AcidSpray_Resolve</soundCast>
+      <targetParams>
+        <canTargetLocations>true</canTargetLocations>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilitySprayLiquid">
+        <projectileDef>guy762_throwngrenade_ink</projectileDef>
+        <numCellsToHit>4</numCellsToHit>
+        <sprayEffecter>guy762_Effecter_InkSprayDirectional</sprayEffecter>
+      </li>
+    </comps>
+  </AbilityDef>
+  
+  <ThingDef>
+    <defName>guy762_throwngrenade_ink</defName>
+    <label>ink</label>
+    <thingClass>Projectile_Liquid</thingClass>
+    <category>Projectile</category>
+    <tickerType>Normal</tickerType>
+    <altitudeLayer>Projectile</altitudeLayer>
+    <useHitPoints>False</useHitPoints>
+    <neverMultiSelect>True</neverMultiSelect>
+    <graphicData>
+      <texPath>Projectiles/ink</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shaderType>MoteGlow</shaderType>
+      <drawSize>0.85</drawSize>
+    </graphicData>
+    <projectile>
+      <damageDef>guy762_RangedDamage_ink</damageDef>
+      <speed>25</speed>
+      <damageAmountBase>30</damageAmountBase>
+      <arcHeightFactor>0.4</arcHeightFactor>
+      <armorPenetrationBase>0.8</armorPenetrationBase>
+      <stoppingPower>1</stoppingPower>
+      <shadowSize>0</shadowSize>
+      <filth>guy762_filth_ink</filth>
+      <filthCount>1</filthCount>
+    </projectile>
+  </ThingDef>
+  
+  <DamageDef>
+    <defName>guy762_RangedDamage_ink</defName>
+    <label>ink</label>
+    <!--workerClass>guy762_Ionization.DamageWorker_Organics</workerClass-->
+    <workerClass>DamageWorker_AddGlobal</workerClass>
+    <canInterruptJobs>true</canInterruptJobs>
+    <makesBlood>false</makesBlood>
+    <defaultDamage>10</defaultDamage>
+    <hediff>guy762_hediff_ink</hediff>
+    <harmsHealth>false</harmsHealth>
+    <consideredHelpful>false</consideredHelpful>
+	<modExtensions>
+		<li Class="guy762_Ionization.ModExtension_HediffGiver">
+			<hediffToAdd>guy762_hediff_ink</hediffToAdd>
+			<severityFixed>1</severityFixed>
+		</li>
+	</modExtensions>
+  </DamageDef>
+  
+  <HediffDef>
+    <defName>guy762_hediff_ink</defName>
+    <label>ink</label>
+    <labelNoun>ink</labelNoun>
+    <description>Ink in the eyes. It impairs vision, but can be cleared in a few moments.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <battleStateLabel>blind</battleStateLabel>
+    <maxSeverity>1</maxSeverity>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Sight</capacity>
+            <setMax>0.2</setMax>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_SelfHeal">
+        <healAmount>0.1</healAmount>
+      </li>
+    </comps>
+  </HediffDef>
+  
+  <EffecterDef>
+    <defName>guy762_Effecter_InkSprayDirectional</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.15</positionRadius>
+        <fleckDef>guy762_Fleck_InkSpray</fleckDef>
+        <burstCount>10~15</burstCount>
+        <speed>0.6~3.0</speed>
+        <scale>0.5~1.2</scale>
+        <angle>-15~15</angle>
+        <positionLerpFactor>0.8</positionLerpFactor>
+        <fleckUsesAngleForVelocity>true</fleckUsesAngleForVelocity>
+      </li>
+    </children>
+  </EffecterDef>
+  
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>guy762_Fleck_InkSpray</defName>
+    <graphicData>
+      <texPath>Things/Mote/AcidSpray</texPath>
+	  <color>(0,0,65)</color>
+      <renderInstanced>true</renderInstanced>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0.04</fadeInTime>
+    <solidTime>0.2</solidTime>
+    <fadeOutTime>1</fadeOutTime>
+    <growthRate>0.9</growthRate>
+  </FleckDef>
+  
+  <ThingDef ParentName="BaseFilth">
+    <defName>guy762_filth_ink</defName>
+    <label>ink</label>
+    <statBases>
+      <Beauty>-30</Beauty>
+      <Cleanliness>-5</Cleanliness>
+    </statBases>
+    <graphicData>
+      <texPath>Filth/ink</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <drawSize>2.5</drawSize>
+      <color>(1,1,1,0.5)</color>
+    </graphicData>
+    <filth>
+      <ignoreFilthMultiplierStat>true</ignoreFilthMultiplierStat>
+      <disappearsInDays>35~40</disappearsInDays>
+      <rainWashes>true</rainWashes>
+      <cleaningWorkToReduceThickness>70</cleaningWorkToReduceThickness>
+      <canFilthAttach>true</canFilthAttach>
+      <maxThickness>1</maxThickness>
+      <cleaningSound>Interact_CleanFilth_Fluid</cleaningSound>
+    </filth>
+  </ThingDef>
+
+</Defs>

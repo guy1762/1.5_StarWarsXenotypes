@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	  
+	  <HeadTypeDef Name="FiveheadBase" Abstract="True">
+		<hairMeshSize>(1.6, 1.5)</hairMeshSize>
+		<beardMeshSize>(1.5, 1.5)</beardMeshSize>
+		<beardOffset>(0, 0, -0.1)</beardOffset>
+		<beardOffsetXEast>-0.1</beardOffsetXEast>
+		<eyeOffsetEastWest>(0.11, 0, 0.175)</eyeOffsetEastWest>
+		<narrow>false</narrow>
+		<randomChosen>false</randomChosen>	
+		<requiredGenes>
+		  <li>guy762_Head_duros</li>
+		</requiredGenes>
+	  </HeadTypeDef>
+  
+	  <HeadTypeDef ParentName="FiveheadBase">
+		<defName>Male_FiveheadNormal</defName>
+		<graphicPath>Pawn/HeadType/duros/Male_Fivehead_Normal</graphicPath>
+		<gender>Male</gender>
+	  </HeadTypeDef>
+
+	  <HeadTypeDef ParentName="FiveheadBase">
+		<defName>Male_FiveheadPointy</defName>
+		<graphicPath>Pawn/HeadType/duros/Male_Fivehead_Pointy</graphicPath>
+		<gender>Male</gender>
+	  </HeadTypeDef>
+
+	  <HeadTypeDef ParentName="FiveheadBase">
+		<defName>Male_FiveheadWide</defName>
+		<graphicPath>Pawn/HeadType/duros/Male_Fivehead_Wide</graphicPath>
+		<gender>Male</gender>
+	  </HeadTypeDef>
+	  
+	  <HeadTypeDef ParentName="FiveheadBase">
+		<defName>Female_FiveheadNormal</defName>
+		<graphicPath>Pawn/HeadType/duros/Female_Fivehead_Normal</graphicPath>
+		<gender>Female</gender>
+	  </HeadTypeDef>
+
+	  <HeadTypeDef ParentName="FiveheadBase">
+		<defName>Female_FiveheadPointy</defName>
+		<graphicPath>Pawn/HeadType/duros/Female_Fivehead_Pointy</graphicPath>
+		<gender>Female</gender>
+	  </HeadTypeDef>
+
+	  <HeadTypeDef ParentName="FiveheadBase">
+		<defName>Female_FiveheadWide</defName>
+		<graphicPath>Pawn/HeadType/duros/Female_Fivehead_Wide</graphicPath>
+		<gender>Female</gender>
+	  </HeadTypeDef>
+	  
+	  
+	  
+	  <HeadTypeDef Name="RodianJawBase" Abstract="True" ParentName="AverageBase">
+		<narrow>false</narrow>
+		<randomChosen>false</randomChosen>	
+		<requiredGenes>
+		  <li>guy762_Head_rodian</li>
+		</requiredGenes>
+	  </HeadTypeDef>
+  
+	  <HeadTypeDef ParentName="RodianJawBase">
+		<defName>Male_Rodian</defName>
+		<graphicPath>Pawn/HeadType/rodian/Male_Rodian</graphicPath>
+		<gender>Male</gender>
+	  </HeadTypeDef>
+	  
+	  <HeadTypeDef ParentName="RodianJawBase">
+		<defName>Female_Rodian</defName>
+		<graphicPath>Pawn/HeadType/rodian/Female_Rodian</graphicPath>
+		<gender>Female</gender>
+	  </HeadTypeDef>
+	  
+	  
+	  
+	  
+	  
+	  
+  
+	  <HeadTypeDef ParentName="FiveheadBase">
+		<defName>Male_Egghead</defName>
+		<graphicPath>Pawn/HeadType/quarren/Male_Egghead</graphicPath>
+		<gender>Male</gender>
+		<hairMeshSize>(1.5, 1.6)</hairMeshSize>
+		<requiredGenes Inherit="False">
+		  <li>guy762_Head_quarren</li>
+		</requiredGenes>
+	  </HeadTypeDef>
+	  
+	  <HeadTypeDef ParentName="FiveheadBase">
+		<defName>Female_Egghead</defName>
+		<graphicPath>Pawn/HeadType/quarren/Female_Egghead</graphicPath>
+		<gender>Female</gender>
+		<hairMeshSize>(1.5, 1.6)</hairMeshSize>
+		<requiredGenes Inherit="False">
+		  <li>guy762_Head_quarren</li>
+		</requiredGenes>
+	  </HeadTypeDef>
+	  
+	  
+	  
+	  
+	  
+	  <HeadTypeDef ParentName="FiveheadBase">
+		<defName>Male_ExtraWideHead</defName>
+		<graphicPath>Pawn/HeadType/anzellan/Male_ExtraWide</graphicPath>
+		<gender>Male</gender>
+		<hairMeshSize>(1.5, 1.7)</hairMeshSize>
+		<requiredGenes Inherit="False">
+		  <li>guy762_Head_anzellan</li>
+		</requiredGenes>
+	  </HeadTypeDef>
+	  
+	  <HeadTypeDef ParentName="FiveheadBase">
+		<defName>Female_ExtraWideHead</defName>
+		<graphicPath>Pawn/HeadType/anzellan/Female_ExtraWide</graphicPath>
+		<gender>Female</gender>
+		<hairMeshSize>(1.5, 1.7)</hairMeshSize>
+		<requiredGenes Inherit="False">
+		  <li>guy762_Head_anzellan</li>
+		</requiredGenes>
+	  </HeadTypeDef>
+	  
+	  
+	  
+	  <HeadTypeDef ParentName="FiveheadBase">
+		<defName>Male_Fathead</defName>
+		<graphicPath>Pawn/HeadType/hutt/Male_FatHead</graphicPath>
+		<gender>Male</gender>
+		<hairMeshSize>(1.4, 1.5)</hairMeshSize>
+		<requiredGenes Inherit="False">
+		  <li>guy762_Head_hutt</li>
+		</requiredGenes>
+	  </HeadTypeDef>
+	  
+	  <HeadTypeDef ParentName="FiveheadBase">
+		<defName>Female_Fathead</defName>
+		<graphicPath>Pawn/HeadType/hutt/Female_FatHead</graphicPath>
+		<gender>Female</gender>
+		<hairMeshSize>(1.4, 1.5)</hairMeshSize>
+		<requiredGenes Inherit="False">
+		  <li>guy762_Head_hutt</li>
+		</requiredGenes>
+	  </HeadTypeDef>
+	  
+	  
+	  
+	  
+	  
+	  <HeadTypeDef Name="KubazJawBase" Abstract="True" ParentName="AverageBase">
+		<narrow>false</narrow>
+		<randomChosen>false</randomChosen>	
+		<requiredGenes>
+		  <li>guy762_Head_kubaz</li>
+		</requiredGenes>
+	  </HeadTypeDef>
+  
+	  <HeadTypeDef ParentName="KubazJawBase">
+		<defName>Male_Kubaz</defName>
+		<graphicPath>Pawn/HeadType/kubaz/Male_Kubaz</graphicPath>
+		<gender>Male</gender>
+	  </HeadTypeDef>
+	  
+	  <HeadTypeDef ParentName="KubazJawBase">
+		<defName>Female_Kubaz</defName>
+		<graphicPath>Pawn/HeadType/kubaz/Female_Kubaz</graphicPath>
+		<gender>Female</gender>
+	  </HeadTypeDef>
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  <HeadTypeDef Name="TrandoshanJawBase" Abstract="True" ParentName="AverageBase">
+		<narrow>false</narrow>
+		<randomChosen>false</randomChosen>	
+		<requiredGenes>
+		  <li>guy762_Head_trandoshan</li>
+		</requiredGenes>
+	  </HeadTypeDef>
+  
+	  <HeadTypeDef ParentName="TrandoshanJawBase">
+		<defName>Male_Trandoshan</defName>
+		<graphicPath>Pawn/HeadType/trandoshan/Male_Trandoshan</graphicPath>
+		<gender>Male</gender>
+	  </HeadTypeDef>
+	  
+	  <HeadTypeDef ParentName="TrandoshanJawBase">
+		<defName>Female_Trandoshan</defName>
+		<graphicPath>Pawn/HeadType/trandoshan/Female_Trandoshan</graphicPath>
+		<gender>Female</gender>
+	  </HeadTypeDef>
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  <HeadTypeDef Name="WookieeHeadBase" ParentName="AverageBase" Abstract="True">
+		<randomChosen>false</randomChosen>
+		<gender>None</gender>
+		<selectionWeight>99999</selectionWeight>
+		<requiredGenes>
+		  <li>Furskin</li>
+		  <li>guy762_Head_wookiee</li>
+		</requiredGenes>
+	  </HeadTypeDef>
+
+	  <HeadTypeDef ParentName="WookieeHeadBase">
+		<defName>Wookiee_Average1</defName>
+		<graphicPath>Pawn/HeadType/wookiee/wookiee1</graphicPath>
+	  </HeadTypeDef>
+
+	  <HeadTypeDef ParentName="WookieeHeadBase">
+		<defName>Wookiee_Average2</defName>
+		<graphicPath>Pawn/HeadType/wookiee/wookiee2</graphicPath>
+	  </HeadTypeDef>
+
+	  <HeadTypeDef ParentName="WookieeHeadBase">
+		<defName>Wookiee_Average3</defName>
+		<graphicPath>Pawn/HeadType/wookiee/wookiee3</graphicPath>
+	  </HeadTypeDef>
+
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+
+  <HeadTypeDef Name="guy762_shortFurskinAverageBase" ParentName="AverageBase" Abstract="True">
+    <randomChosen>false</randomChosen>
+    <gender>None</gender>
+    <requiredGenes>
+      <li>guy762_Furskin_shortfur</li>
+    </requiredGenes>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="guy762_shortFurskinAverageBase">
+    <defName>guy762_shortFurskin_Average1</defName>
+    <graphicPath>Things/Pawn/Humanlike/Heads/FurCovered_Average1_Normal</graphicPath>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="guy762_shortFurskinAverageBase">
+    <defName>guy762_shortFurskin_Average2</defName>
+    <graphicPath>Things/Pawn/Humanlike/Heads/FurCovered_Average2_Normal</graphicPath>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="guy762_shortFurskinAverageBase">
+    <defName>guy762_shortFurskin_Average3</defName>
+    <graphicPath>Things/Pawn/Humanlike/Heads/FurCovered_Average3_Normal</graphicPath>
+  </HeadTypeDef>
+
+
+
+  <HeadTypeDef Name="guy762_shortFurskinNarrowBase" ParentName="NarrowBase" Abstract="True">
+    <randomChosen>false</randomChosen>
+    <gender>None</gender>
+    <requiredGenes>
+      <li>guy762_Furskin_shortfur</li>
+    </requiredGenes>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="guy762_shortFurskinNarrowBase">
+    <defName>guy762_shortFurskin_Narrow1</defName>
+    <graphicPath>Things/Pawn/Humanlike/Heads/FurCovered_Narrow1_Normal</graphicPath>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="guy762_shortFurskinNarrowBase">
+    <defName>guy762_shortFurskin_Narrow2</defName>
+    <graphicPath>Things/Pawn/Humanlike/Heads/FurCovered_Narrow2_Normal</graphicPath>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="guy762_shortFurskinNarrowBase">
+    <defName>guy762_shortFurskin_Narrow3</defName>
+    <graphicPath>Things/Pawn/Humanlike/Heads/FurCovered_Narrow3_Normal</graphicPath>
+  </HeadTypeDef>
+
+
+
+
+
+
+
+
+
+
+  <HeadTypeDef Name="guy762_shortFurskinHeavyBase" ParentName="HeavyJawBase" Abstract="True">
+    <randomChosen>false</randomChosen>
+    <gender>None</gender>
+    <selectionWeight>99999</selectionWeight>
+    <requiredGenes>
+      <li>guy762_Furskin_shortfur</li>
+      <li>Jaw_Heavy</li>
+    </requiredGenes>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="guy762_shortFurskinHeavyBase">
+    <defName>guy762_shortFurskin_Heavy1</defName>
+    <graphicPath>Things/Pawn/Humanlike/Heads/FurCovered_Wide1_Normal</graphicPath>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="guy762_shortFurskinHeavyBase">
+    <defName>guy762_shortFurskin_Heavy2</defName>
+    <graphicPath>Things/Pawn/Humanlike/Heads/FurCovered_Wide2_Normal</graphicPath>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="guy762_shortFurskinHeavyBase">
+    <defName>guy762_shortFurskin_Heavy3</defName>
+    <graphicPath>Things/Pawn/Humanlike/Heads/FurCovered_Wide3_Normal</graphicPath>
+  </HeadTypeDef>
+  
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>guy762_shortFurskin_Gaunt</defName>
+    <graphicPath>Things/Pawn/Humanlike/Heads/FurCovered_Gaunt_Normal</graphicPath>
+    <randomChosen>false</randomChosen>
+    <gender>None</gender>
+    <selectionWeight>99999</selectionWeight>
+    <requiredGenes>
+      <li>guy762_Furskin_shortfur</li>
+      <li>Head_Gaunt</li>
+    </requiredGenes>
+  </HeadTypeDef>
+
+	
+	
+ 
+	<HeadTypeDef Name="GunganHeadBase" Abstract="True">
+		<eyeOffsetEastWest>(0.1375, 0, 0.475)</eyeOffsetEastWest>
+		<narrow>true</narrow>
+		<randomChosen>false</randomChosen>	
+		<requiredGenes>
+		  <li>guy762_Head_gungan</li>
+		</requiredGenes>
+		<modExtensions>
+		  <li Class="EyeOffsetSouth.ModExtension_EyeOffsetSouth">
+			<leftOffset>(0.03, 0, 0.3)</leftOffset>
+			<rightOffset>(-0.03, 0, 0.3)</rightOffset>
+		  </li>
+		</modExtensions>
+	  </HeadTypeDef>
+  
+	  <HeadTypeDef ParentName="GunganHeadBase">
+		<defName>Male_GunganHead</defName>
+		<graphicPath>Pawn/HeadType/gungan/Male_Gungan</graphicPath>
+		<gender>Male</gender>
+	  </HeadTypeDef>
+
+	  <HeadTypeDef ParentName="GunganHeadBase">
+		<defName>Female_GunganHead</defName>
+		<graphicPath>Pawn/HeadType/gungan/Female_Gungan</graphicPath>
+		<gender>Female</gender>
+	  </HeadTypeDef>
+	  
+	  
+	  
+	  <HeadTypeDef Name="TaungHeadBase" Abstract="True" ParentName="AverageBase">
+		<narrow>false</narrow>
+		<randomChosen>false</randomChosen>	
+		<requiredGenes>
+		  <li>guy762_Head_taung</li>
+		</requiredGenes>
+	  </HeadTypeDef>
+  
+	  <HeadTypeDef ParentName="TaungHeadBase">
+		<defName>Male_TaungHead</defName>
+		<graphicPath>Pawn/HeadType/taung/taung_male</graphicPath>
+		<gender>Male</gender>
+	  </HeadTypeDef>
+	  
+	  <HeadTypeDef ParentName="TaungHeadBase">
+		<defName>Female_TaungHead</defName>
+		<graphicPath>Pawn/HeadType/taung/taung_female</graphicPath>
+		<gender>Female</gender>
+	  </HeadTypeDef>
+	  
+	  
+	  
+	  
+	  <HeadTypeDef Name="SelkathHeadBase" Abstract="True" ParentName="AverageBase">
+		<eyeOffsetEastWest>(-0.05, 0, 0.245)</eyeOffsetEastWest>
+		<narrow>false</narrow>
+		<randomChosen>false</randomChosen>	
+		<requiredGenes>
+		  <li>guy762_Head_selkath</li>
+		</requiredGenes>
+		<modExtensions>
+		  <li Class="EyeOffsetSouth.ModExtension_EyeOffsetSouth">
+			<leftOffset>(0.14, 0, 0.08)</leftOffset>
+			<rightOffset>(-0.14, 0, 0.08)</rightOffset>
+		  </li>
+		</modExtensions>
+	  </HeadTypeDef>
+  
+	  <HeadTypeDef ParentName="SelkathHeadBase">
+		<defName>Male_SelkathHead</defName>
+		<graphicPath>Pawn/HeadType/selkath/fishy_male</graphicPath>
+		<gender>Male</gender>
+	  </HeadTypeDef>
+	  
+	  <HeadTypeDef ParentName="SelkathHeadBase">
+		<defName>Female_SelkathHead</defName>
+		<graphicPath>Pawn/HeadType/selkath/fishy_female</graphicPath>
+		<gender>Female</gender>
+	  </HeadTypeDef>
+	  
+	  
+	  
+	  
+	  <HeadTypeDef Name="GeonosianHeadBase" Abstract="True" ParentName="AverageBase">
+		<eyeOffsetEastWest>(0.075, 0, 0.295)</eyeOffsetEastWest>
+		<narrow>true</narrow>
+		<randomChosen>false</randomChosen>	
+		<requiredGenes>
+		  <li>guy762_Head_geonosian</li>
+		</requiredGenes>
+		<modExtensions>
+		  <li Class="EyeOffsetSouth.ModExtension_EyeOffsetSouth">
+			<leftOffset>(0.1475, 0, 0.1)</leftOffset>
+			<rightOffset>(-0.1475, 0, 0.1)</rightOffset>
+		  </li>
+		</modExtensions>
+	  </HeadTypeDef>
+  
+	  <HeadTypeDef ParentName="GeonosianHeadBase">
+		<defName>Male_GeonosianHead</defName>
+		<graphicPath>Pawn/HeadType/geonosian/Male_Geonosian</graphicPath>
+		<gender>Male</gender>
+	  </HeadTypeDef>
+	  
+	  <HeadTypeDef ParentName="GeonosianHeadBase">
+		<defName>Female_GeonosianHead</defName>
+		<graphicPath>Pawn/HeadType/geonosian/Female_Geonosian</graphicPath>
+		<gender>Female</gender>
+	  </HeadTypeDef>
+	  
+	  
+	  
+	  
+	  
+	  <HeadTypeDef Name="GandHeadBase" Abstract="True" ParentName="AverageBase">
+		<eyeOffsetEastWest>(0.08, 0, 0.22)</eyeOffsetEastWest>
+		<narrow>false</narrow>
+		<randomChosen>false</randomChosen>	
+		<requiredGenes>
+		  <li>guy762_Head_gand</li>
+		</requiredGenes>
+		<modExtensions>
+		  <li Class="EyeOffsetSouth.ModExtension_EyeOffsetSouth">
+			<leftOffset>(0.14, 0, 0.06)</leftOffset>
+			<rightOffset>(-0.14, 0, 0.06)</rightOffset>
+		  </li>
+		</modExtensions>
+	  </HeadTypeDef>
+  
+	  <HeadTypeDef ParentName="GandHeadBase">
+		<defName>GandHead</defName>
+		<graphicPath>Pawn/HeadType/gand/gand</graphicPath>
+		<gender>None</gender>
+	  </HeadTypeDef>
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  <HeadTypeDef Name="MonCalHeadBase" Abstract="True" ParentName="AverageBase">
+		<eyeOffsetEastWest>(0.045, 0, 0.275)</eyeOffsetEastWest>
+		<narrow>false</narrow>
+		<randomChosen>false</randomChosen>	
+		<requiredGenes>
+		  <li>guy762_Head_moncal</li>
+		</requiredGenes>
+		<modExtensions>
+		  <li Class="EyeOffsetSouth.ModExtension_EyeOffsetSouth">
+			<leftOffset>(0.135, 0, 0.075)</leftOffset>
+			<rightOffset>(-0.135, 0, 0.075)</rightOffset>
+		  </li>
+		</modExtensions>
+	  </HeadTypeDef>
+  
+	  <HeadTypeDef ParentName="MonCalHeadBase">
+		<defName>Male_MonCalHead</defName>
+		<graphicPath>Pawn/HeadType/moncal/Male_MonCal</graphicPath>
+		<gender>Male</gender>
+	  </HeadTypeDef>
+	  
+	  <HeadTypeDef ParentName="MonCalHeadBase">
+		<defName>Female_MonCalHead</defName>
+		<graphicPath>Pawn/HeadType/moncal/Female_MonCal</graphicPath>
+		<gender>Female</gender>
+	  </HeadTypeDef>
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  <HeadTypeDef Name="IthorianHeadBase" Abstract="True" ParentName="AverageBase">
+		<eyeOffsetEastWest>(0.42, 0, 0.42)</eyeOffsetEastWest>
+		<narrow>false</narrow>
+		<randomChosen>false</randomChosen>	
+		<requiredGenes>
+		  <li>guy762_Head_ithorian</li>
+		</requiredGenes>
+		<modExtensions>
+		  <li Class="EyeOffsetSouth.ModExtension_EyeOffsetSouth">
+			<leftOffset>(0.11, 0, 0.2)</leftOffset>
+			<rightOffset>(-0.11, 0, 0.2)</rightOffset>
+		  </li>
+		</modExtensions>
+	  </HeadTypeDef>
+  
+	  <HeadTypeDef ParentName="IthorianHeadBase">
+		<defName>Male_IthorianHead</defName>
+		<graphicPath>Pawn/HeadType/ithorian/Male_Ithorian</graphicPath>
+		<gender>Male</gender>
+	  </HeadTypeDef>
+	  
+	  <HeadTypeDef ParentName="IthorianHeadBase">
+		<defName>Female_IthorianHead</defName>
+		<graphicPath>Pawn/HeadType/ithorian/Female_Ithorian</graphicPath>
+		<gender>Female</gender>
+	  </HeadTypeDef>
+
+
+
+
+
+</Defs>

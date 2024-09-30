@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	  
+	  
+	  
+	  <ThingDef MayRequire="smartkar.athenaframework" ParentName="ApparelNoQualityBase">
+		<defName>guy762_HuttDroidLegs</defName>
+		<label>enhanced mobility legs</label>
+		<description>Enhanced mobility legs for beings with large, slow-moving bodies (like Hutts).</description>
+		<graphicData>
+		  <texPath>Pawn/BodyAttachments/hutt/spiderlegs</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		  <drawSize>2</drawSize>
+		</graphicData>
+		<techLevel>Spacer</techLevel>
+		<statBases>
+		  <Mass>25</Mass>
+		  <EquipDelay>15</EquipDelay>
+		  <MarketValue>1000</MarketValue>
+		  <MaxHitPoints>500</MaxHitPoints>
+		  
+		  <WorkToMake>12500</WorkToMake>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>2.5</MoveSpeed>
+		</equippedStatOffsets>
+		
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			  </skillRequirements>
+			  <researchPrerequisite>Bionics</researchPrerequisite>
+			  <recipeUsers>
+				<li>FabricationBench</li>
+				<li MayRequire="guy762.KotORWeapons">guy762_KotORWorkbench</li>
+			  </recipeUsers>
+			  
+			  
+			    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+				<workSkill>Crafting</workSkill>
+				<unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
+				<effectWorking>Smith</effectWorking>
+				<soundWorking>Recipe_Machining</soundWorking>
+				<defaultIngredientFilter>
+					<categories>
+						<li>Root</li>
+					</categories>
+					<disallowedThingDefs>
+						<li>Gold</li>
+						<li>Silver</li>
+						<li>Jade</li>
+					</disallowedThingDefs>
+				</defaultIngredientFilter>
+				<useIngredientsForColor>false</useIngredientsForColor>
+		</recipeMaker>
+		<costList>
+		  <Steel>100</Steel>
+		  <Plasteel>40</Plasteel>
+		  <ComponentSpacer>1</ComponentSpacer>
+		  <ComponentIndustrial>12</ComponentIndustrial>
+		</costList>
+		
+		<apparel>
+		  <wornGraphicPath>Pawn/BodyAttachments/hutt/spiderlegs</wornGraphicPath>
+		  <drawData>
+			  <scaleOffsetByBodySize>false</scaleOffsetByBodySize>
+			  <defaultData>
+				<layer>99</layer>
+			  </defaultData>
+			  <dataSouth>
+				  <layer>3</layer>
+			  </dataSouth>
+			  <dataNorth>
+				  <layer>-3</layer>
+			  </dataNorth>
+			</drawData>
+			
+		  <bodyPartGroups>
+			<li>Legs</li>
+		  </bodyPartGroups>
+		  <tags>
+			<li>KotOREquipment_HuttLegs</li>
+		  </tags>
+		  
+		  
+		  <countsAsClothingForNudity>false</countsAsClothingForNudity>
+		  <careIfWornByCorpse>false</careIfWornByCorpse>
+		  <careIfDamaged>false</careIfDamaged>
+		  <ignoredByNonViolent>false</ignoredByNonViolent>
+		  <wearPerDay>0</wearPerDay>
+		  <layers>
+			<li>Belt</li>
+		  </layers>
+		</apparel>
+		
+		<!--tradeTags>
+		  <li>guy762TT_KotOREquipment_apparel</li>
+		</tradeTags-->
+		
+		<comps>
+		  <li Class="AthenaFramework.CompProperties_GeneLockedEquippable">
+			<requiredGenes>
+				<li>guy762_Tail_hutt</li>
+			</requiredGenes>
+			<cantReason>Incompatible body structure!</cantReason>
+		  </li>
+		  
+		  <li Class="CompProperties_Forbiddable" />
+			<li>
+				<compClass>CompColorable</compClass>
+			</li>
+			<li Class="CompProperties_Styleable"></li>
+		</comps>
+		
+		<colorGenerator Class="ColorGenerator_Options" Inherit="False">
+			<options>
+				<li> <!--bley-->
+					<weight>15</weight>
+					<only>(180,180,190)</only>
+				</li>
+				<li> <!--t3-->
+					<weight>10</weight>
+					<only>(235,255,255)</only>
+				</li>
+				<li> <!--red-->
+					<weight>10</weight>
+					<only>(215,100,100)</only>
+				</li>
+				<li> <!--bronzium-->
+					<weight>5</weight>
+					<only>(220,175,80)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<!--tradeTags>
+		  <li>Clothing</li>
+		</tradeTags-->
+
+		
+		<tickerType>Normal</tickerType>
+		<thingCategories>
+		  <li>ApparelUtility</li>
+		</thingCategories>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<tradeNeverStack>false</tradeNeverStack>
+		<smeltable>false</smeltable>
+		<burnableByRecipe>false</burnableByRecipe>
+		<drawGUIOverlay>false</drawGUIOverlay>
+		<tradeability>All</tradeability>
+		
+	  </ThingDef>
+	  
+	 
+
+</Defs>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	  
+	
+	
+	<GeneDef ParentName="GeneNoseBase">
+		<defName>guy762_Nose_Snout</defName>
+		<label>snout</label>
+		<description>Carriers of this gene have an elongated, canine-like snout.</description>
+		<iconPath>UI/Icons/Genes/Gene_Snout</iconPath>
+		<displayCategory>guy762_SWparts_Category</displayCategory>
+		<displayOrderInCategory>775</displayOrderInCategory>
+		<renderNodeProperties>
+		  <li>
+			<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+			<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+			<texPath>Pawn/HeadAttachments/bothan/snout</texPath>
+			<narrowCrownHorizontalOffset>-0.01</narrowCrownHorizontalOffset>
+			<useSkinShader>true</useSkinShader>
+			<useRottenColor>true</useRottenColor>
+			<colorType>Skin</colorType>
+			<parentTagDef>Head</parentTagDef>
+			<rotDrawMode>Fresh, Rotting</rotDrawMode>
+			<skipFlag>Beard</skipFlag>
+			<visibleFacing>
+			  <li>East</li>
+			  <li>South</li>
+			  <li>West</li>
+			</visibleFacing>
+			<drawData>
+			  <defaultData>
+				<layer>66</layer>
+			  </defaultData>
+			</drawData>
+		  </li>
+		</renderNodeProperties>
+	  </GeneDef>
+	  
+	  
+	  
+	  <GeneDef ParentName="GeneNoseBase">
+		<defName>guy762_Nose_SmallPig</defName>
+		<label>small pig nose</label>
+		<description>Carriers of this gene have smaller, pig-like noses</description>
+		<iconPath>UI/Icons/Genes/Gene_NosePigSmall</iconPath>
+		<displayCategory>guy762_SWparts_Category</displayCategory>
+		<missingGeneRomanceChanceFactor>0.2</missingGeneRomanceChanceFactor>
+		<displayOrderInCategory>779</displayOrderInCategory>
+		<renderNodeProperties>
+		  <li>
+			<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+			<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+			<texPath>Pawn/HeadAttachments/klatoonian/SmallPigNose</texPath>
+			<narrowCrownHorizontalOffset>0.03</narrowCrownHorizontalOffset>
+			<useSkinShader>true</useSkinShader>
+			<useRottenColor>true</useRottenColor>
+			<colorType>Skin</colorType>
+			<parentTagDef>Head</parentTagDef>
+			<rotDrawMode>Fresh, Rotting</rotDrawMode>
+			<visibleFacing>
+			  <li>East</li>
+			  <li>South</li>
+			  <li>West</li>
+			</visibleFacing>
+			<drawData>
+			  <defaultData>
+				<layer>66</layer>
+			  </defaultData>
+			</drawData>
+		  </li>
+		</renderNodeProperties>
+	  </GeneDef>
+	  
+	  
+	
+	<GeneDef ParentName="GeneNoseBase">
+		<defName>guy762_Nose_Dog</defName>
+		<label>dog-like nose</label>
+		<description>Carriers of this gene have smaller, dog-like noses</description>
+		<iconPath>UI/Icons/Genes/Gene_NoseDog</iconPath>
+		<displayCategory>guy762_SWparts_Category</displayCategory>
+		<missingGeneRomanceChanceFactor>0.2</missingGeneRomanceChanceFactor>
+		<displayOrderInCategory>789</displayOrderInCategory>
+		<renderNodeProperties>
+		  <li>
+			<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+			<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+			<texPath>Pawn/HeadAttachments/klatoonian/DogNose</texPath>
+			<narrowCrownHorizontalOffset>0.03</narrowCrownHorizontalOffset>
+			<useSkinShader>true</useSkinShader>
+			<useRottenColor>true</useRottenColor>
+			<colorType>Skin</colorType>
+			<parentTagDef>Head</parentTagDef>
+			<rotDrawMode>Fresh, Rotting</rotDrawMode>
+			<skipFlag>Beard</skipFlag>
+			<visibleFacing>
+			  <li>East</li>
+			  <li>South</li>
+			  <li>West</li>
+			</visibleFacing>
+			<drawData>
+			  <defaultData>
+				<layer>66</layer>
+			  </defaultData>
+			</drawData>
+		  </li>
+		</renderNodeProperties>
+	  </GeneDef>
+	  
+	  <GeneDef ParentName="GeneNoseBase">
+		<defName>guy762_Nose_Cat</defName>
+		<label>cat-like nose</label>
+		<description>Carriers of this gene have smaller, cat-like noses</description>
+		<iconPath>UI/Icons/Genes/Gene_NoseCat</iconPath>
+		<displayCategory>guy762_SWparts_Category</displayCategory>
+		<missingGeneRomanceChanceFactor>0.2</missingGeneRomanceChanceFactor>
+		<displayOrderInCategory>789</displayOrderInCategory>
+		<renderNodeProperties>
+		  <li>
+			<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+			<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+			<texPath>Pawn/HeadAttachments/cathar/CatNose</texPath>
+			<narrowCrownHorizontalOffset>0.03</narrowCrownHorizontalOffset>
+			<useSkinShader>true</useSkinShader>
+			<useRottenColor>true</useRottenColor>
+			<colorType>Skin</colorType>
+			<parentTagDef>Head</parentTagDef>
+			<rotDrawMode>Fresh, Rotting</rotDrawMode>
+			<skipFlag>Beard</skipFlag>
+			<visibleFacing>
+			  <li>East</li>
+			  <li>South</li>
+			  <li>West</li>
+			</visibleFacing>
+			<drawData>
+			  <defaultData>
+				<layer>66</layer>
+			  </defaultData>
+			</drawData>
+		  </li>
+		</renderNodeProperties>
+	  </GeneDef>
+	  
+	  
+	  
+	  <GeneDef ParentName="GeneNoseBase">
+		<defName>guy762_Mouth_sus</defName>
+		<label>mandibled mouth</label>
+		<description>Carriers of this gene have large, vertical mouths with mandible teeth.</description>
+		<iconPath>UI/Icons/Genes/Gene_SusMouth</iconPath>
+		<displayCategory>guy762_SWparts_Category</displayCategory>
+		<missingGeneRomanceChanceFactor>0.4</missingGeneRomanceChanceFactor>
+		<displayOrderInCategory>791</displayOrderInCategory>
+		<renderNodeProperties>
+		  <li>
+			<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+			<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+			<texPath>Pawn/HeadAttachments/keldor/susmouth</texPath>
+			<narrowCrownHorizontalOffset>0.03</narrowCrownHorizontalOffset>
+			<shaderTypeDef>CutoutComplex</shaderTypeDef>
+			<useSkinShader>true</useSkinShader>
+			<useRottenColor>true</useRottenColor>
+			<colorType>Skin</colorType>
+			<parentTagDef>Head</parentTagDef>
+			<rotDrawMode>Fresh, Rotting</rotDrawMode>
+			<skipFlag>Beard</skipFlag>
+			<visibleFacing>
+			  <li>East</li>
+			  <li>South</li>
+			  <li>West</li>
+			</visibleFacing>
+			<drawData>
+			  <defaultData>
+				<layer>66</layer>
+			  </defaultData>
+			</drawData>
+		  </li>
+		</renderNodeProperties>
+	  </GeneDef>
+	  
+	  
+
+</Defs>

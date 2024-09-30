@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	  
+	  
+	 
+	  <GeneDef ParentName="GeneHeadboneBase">
+		<defName>guy762_Headbone_nautolan</defName>
+		<label>small head-tails</label>
+		<description>Carriers of this gene grow many smaller head tails protruding from the back and sides of the head.</description>
+		<displayOrderInCategory>761</displayOrderInCategory>
+		<displayCategory>guy762_SWparts_Category</displayCategory>
+		<iconPath>UI/Icons/Genes/Gene_HeadboneNautolan</iconPath>
+		<renderNodeProperties>
+		  <li>
+			<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+			<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+			<texPath>Pawn/HeadAttachments/feeorin/nautolan</texPath>
+			<parentTagDef>Head</parentTagDef>
+			<colorType>Skin</colorType>
+			<useRottenColor>true</useRottenColor>
+			<useSkinShader>true</useSkinShader>
+			<rotDrawMode>Fresh, Rotting</rotDrawMode>
+			<drawData>
+			  <defaultData>
+				<layer>80</layer>
+			  </defaultData>
+			</drawData>
+		  </li>
+		</renderNodeProperties>
+	  </GeneDef>
+	  
+	  <GeneDef ParentName="GeneHeadboneBase">
+		<defName>guy762_Headbone_twilek</defName>
+		<label>head-tails</label>
+		<description>Carriers of this gene grow two large head tails protruding from the back of the head.</description>
+		<displayOrderInCategory>762</displayOrderInCategory>
+		<displayCategory>guy762_SWparts_Category</displayCategory>
+		<iconPath>UI/Icons/Genes/Gene_HeadboneTwilek</iconPath>
+		<renderNodeProperties>
+		  <li>
+			<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+			<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+			<texPath>Pawn/HeadAttachments/twilek/twilek</texPath>
+			<parentTagDef>Head</parentTagDef>
+			<colorType>Skin</colorType>
+			<useRottenColor>true</useRottenColor>
+			<useSkinShader>true</useSkinShader>
+			<rotDrawMode>Fresh, Rotting</rotDrawMode>
+			<drawData>
+			  <defaultData>
+				<layer>80</layer>
+			  </defaultData>
+			  <dataSouth>
+				  <layer>68</layer>
+			  </dataSouth>
+			</drawData>
+		  </li>
+		</renderNodeProperties>
+	  </GeneDef>
+	    
+	  
+	  <GeneDef ParentName="GeneHeadboneBase">
+		<defName>guy762_Headbone_rodian</defName>
+		<label>antennae</label>
+		<description>Carriers of this gene grow two antennae on their forehead.</description>
+		<displayOrderInCategory>764</displayOrderInCategory>
+		<displayCategory>guy762_SWparts_Category</displayCategory>
+		<iconPath>UI/Icons/Genes/Gene_HeadboneRodian</iconPath>
+		<renderNodeProperties>
+		  <li>
+			<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+			<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+			<texPath>Pawn/HeadAttachments/rodian/rodian</texPath>
+			<parentTagDef>Head</parentTagDef>
+			<colorType>Skin</colorType>
+			<useRottenColor>true</useRottenColor>
+			<useSkinShader>true</useSkinShader>
+			<rotDrawMode>Fresh, Rotting</rotDrawMode>
+			<drawData>
+			  <defaultData>
+				<layer>80</layer>
+			  </defaultData>
+			  <dataNorth>
+				<layer>10</layer>
+			  </dataNorth>
+			</drawData>
+		  </li>
+		</renderNodeProperties>
+	  </GeneDef>
+	  
+	  
+	
+	<GeneDef ParentName="GeneHeadboneBase">
+		<defName>guy762_Headbone_BigHorns</defName>
+		<label>big-horns</label>
+		<description>Carriers of this gene grow two large horns protruding from the forehead.</description>
+		<iconPath>UI/Icons/Genes/Gene_HeadboneBighorns</iconPath>
+		<displayCategory>guy762_SWparts_Category</displayCategory>
+		<symbolPack>
+		  <prefixSymbols>
+			<li><symbol>horn</symbol></li>
+			<li><symbol>knob</symbol></li>
+			<li><symbol>spike</symbol></li>
+			<li><symbol>devil</symbol></li>
+			<li><symbol>demon</symbol></li>
+			<li><symbol>luci</symbol></li>
+			<li><symbol>beelze</symbol></li>
+			<li><symbol>hell</symbol></li>
+		  </prefixSymbols>
+		  <suffixSymbols>
+			<li><symbol>horn</symbol></li>
+			<li><symbol>spike</symbol></li>
+			<li><symbol>vil</symbol></li>
+		  </suffixSymbols>
+		</symbolPack>
+		<renderNodeProperties>
+		  <li>
+			<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+			<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+			<texPath>Pawn/HeadAttachments/devaronian/bighorns</texPath>
+			<color>(255, 255, 255)</color>
+			<parentTagDef>Head</parentTagDef>
+			<drawData>
+			  <defaultData>
+				<layer>80</layer>
+			  </defaultData>
+			  <dataNorth>
+				<layer>10</layer>
+			  </dataNorth>
+			</drawData>
+		  </li>
+		</renderNodeProperties>
+	  </GeneDef>
+	  
+	  <GeneDef ParentName="GeneHeadboneBase">
+		<defName>guy762_Headbone_togruta</defName>
+		<label>montrals</label>
+		<description>Carriers of this gene have large organic growths on their heads, including two rigid horns and three flexible head-tails.</description>
+		<displayOrderInCategory>774</displayOrderInCategory>
+		<displayCategory>guy762_SWparts_Category</displayCategory>
+		<iconPath>UI/Icons/Genes/Gene_HeadboneTogruta</iconPath>
+		<renderNodeProperties>
+		  <li>
+			<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+			<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+			<texPath>Pawn/HeadAttachments/togruta/montrals</texPath>
+			<parentTagDef>Head</parentTagDef>
+			<colorType>Hair</colorType>
+			<useRottenColor>true</useRottenColor>
+			<useSkinShader>true</useSkinShader>
+			<shaderTypeDef>CutoutComplex</shaderTypeDef>
+			<rotDrawMode>Fresh, Rotting</rotDrawMode>
+			<drawData>
+			  <defaultData>
+				<layer>68</layer>
+			  </defaultData>
+			  <dataNorth>
+				  <layer>70</layer>
+			  </dataNorth>
+			</drawData>
+		  </li>
+		</renderNodeProperties>
+	  </GeneDef>
+	  
+	  <GeneDef ParentName="GeneHeadboneBase">
+		<defName>guy762_Headbone_trandoshan</defName>
+		<label>ridged crown</label>
+		<description>Carriers of this gene have ridged crowns on their heads.</description>
+		<displayOrderInCategory>777</displayOrderInCategory>
+		<displayCategory>guy762_SWparts_Category</displayCategory>
+		<iconPath>UI/Icons/Genes/Gene_HeadboneTrandoshan</iconPath>
+		<renderNodeProperties>
+		  <li>
+			<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+			<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+			<texPath>Pawn/HeadAttachments/trandoshan/ridgedcrown</texPath>
+			<parentTagDef>Head</parentTagDef>
+			<colorType>Skin</colorType>
+			<useRottenColor>true</useRottenColor>
+			<useSkinShader>true</useSkinShader>
+			<rotDrawMode>Fresh, Rotting</rotDrawMode>
+			<skipFlag>Hair</skipFlag>
+			<drawData>
+			  <defaultData>
+				<layer>68</layer>
+			  </defaultData>
+			</drawData>
+		  </li>
+		</renderNodeProperties>
+	  </GeneDef>
+	  
+	  <GeneDef ParentName="GeneHeadboneBase">
+		<defName>guy762_Headbone_zabrak</defName>
+		<label>mini-horned crown</label>
+		<description>Carriers of this gene grow many miniature horns protruding from the top of the head.</description>
+		<iconPath>UI/Icons/Genes/Gene_ZabrakHorns</iconPath>
+		<displayOrderInCategory>760</displayOrderInCategory>
+		<displayCategory>guy762_SWparts_Category</displayCategory>
+		<renderNodeProperties>
+		  <li>
+			<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+			<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+			<texPaths>
+			  <li>Pawn/HeadAttachments/iridonian/BaoDur</li>
+			  <li>Pawn/HeadAttachments/iridonian/Maul</li>
+			  <li>Pawn/HeadAttachments/iridonian/KaoCen</li>
+			  <li>Pawn/HeadAttachments/iridonian/Akaavi</li>
+			</texPaths>
+			<colorType>Skin</colorType>
+			<useRottenColor>true</useRottenColor>
+			<useSkinShader>true</useSkinShader>
+			<shaderTypeDef>CutoutComplex</shaderTypeDef>
+			<parentTagDef>Head</parentTagDef>
+			<drawData>
+			  <defaultData>
+				<layer>68</layer>
+			  </defaultData>
+			  <dataNorth>
+				<layer>10</layer>
+			  </dataNorth>
+			</drawData>
+		  </li>
+		</renderNodeProperties>
+	  </GeneDef>
+	  
+	  
+	  <GeneDef ParentName="GeneHeadboneBase">
+		<defName>guy762_Headbone_taung</defName>
+		<label>sparse head-tails</label>
+		<description>Carriers of this gene grow fewer small head tails protruding from the back of the head.</description>
+		<iconPath>UI/Icons/Genes/Gene_HeadboneTaung</iconPath>
+		<displayOrderInCategory>761</displayOrderInCategory>
+		<displayCategory>guy762_SWparts_Category</displayCategory>
+		<renderNodeProperties>
+		  <li>
+			<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+			<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+			<texPath>Pawn/HeadAttachments/taung/smallheadtentacles</texPath>
+			<colorType>Skin</colorType>
+			<useRottenColor>true</useRottenColor>
+			<useSkinShader>true</useSkinShader>
+			<parentTagDef>Head</parentTagDef>
+			<skipFlag>Hair</skipFlag>
+			<drawData>
+			  <defaultData>
+				<layer>80</layer>
+			  </defaultData>
+			  <dataSouth>
+				  <layer>68</layer>
+			  </dataSouth>
+			</drawData>
+		  </li>
+		</renderNodeProperties>
+	  </GeneDef>
+	  
+	  
+</Defs>

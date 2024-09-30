@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	  <GeneDef ParentName="GeneSkinColorOverride">
+		<defName>guy762_Skin_SlateRed</defName>
+		<label>slate red skin</label>
+		<labelShortAdj>red</labelShortAdj>
+		<description>Carriers of this produce a pigment that turns their skin a slate red color.\n\nThis gene is added by the Star Wars Xenotypes mod!</description>
+		<skinColorOverride>(125,95,100)</skinColorOverride>
+		<displayOrderInCategory>77</displayOrderInCategory>
+		<symbolPack>
+		  <prefixSymbols>
+			<li><symbol>pink</symbol></li>
+			<li><symbol>red</symbol></li>
+			<li><symbol>rose</symbol></li>
+		  </prefixSymbols>
+		</symbolPack>
+	  </GeneDef>
+	  
+	  <GeneDef ParentName="GeneSkinColorOverride">
+		<defName>guy762_Skin_PaleOrange</defName>
+		<label>pale orange skin</label>
+		<labelShortAdj>gray</labelShortAdj>
+		<description>Carriers of this produce a pigment that turns their skin a dull orange color.\n\nThis gene is added by the Star Wars Xenotypes mod!</description>
+		<skinColorOverride>(185,135,90)</skinColorOverride>
+		<displayOrderInCategory>68</displayOrderInCategory>
+		<symbolPack>
+		  <prefixSymbols>
+			<li><symbol>orange</symbol></li>
+		  </prefixSymbols>
+		</symbolPack>
+	  </GeneDef>
+	  
+	  
+	  <GeneDef ParentName="GeneSkinColorOverride">
+		<defName>guy762_Skin_SlateBlue</defName>
+		<label>slate-blue skin</label>
+		<labelShortAdj>gray</labelShortAdj>
+		<description>Carriers of this produce a slate-blue pigment in their skin.\n\nThis gene is added by the Star Wars Xenotypes mod!</description>
+		<skinColorOverride>(165,180,190)</skinColorOverride>
+		<!--skinColorOverride>(135,150,160)</skinColorOverride-->
+		<displayOrderInCategory>87</displayOrderInCategory>
+		<symbolPack>
+		  <prefixSymbols>
+			<li><symbol>slate</symbol></li>
+		  </prefixSymbols>
+		  <suffixSymbols>
+			<li><symbol>wisp</symbol></li>
+		  </suffixSymbols>
+		</symbolPack>
+	  </GeneDef>
+	  
+	  <GeneDef ParentName="GeneSkinColorOverride">
+		<defName>guy762_Skin_SelkathBlue</defName>
+		<label>ocean blue skin</label>
+		<labelShortAdj>blue</labelShortAdj>
+		<description>Carriers of this produce a medium-blue pigment in their skin.\n\nThis gene is added by the Star Wars Xenotypes mod!</description>
+		<skinColorOverride>(95,115,150)</skinColorOverride>
+		<displayOrderInCategory>88</displayOrderInCategory>
+		<symbolPack>
+		  <prefixSymbols>
+			<li><symbol>sea</symbol></li>
+			<li><symbol>deep</symbol></li>
+		  </prefixSymbols>
+		</symbolPack>
+	  </GeneDef>
+	  
+	  <GeneDef ParentName="GeneSkinColorOverride">
+		<defName>guy762_Skin_Lavender</defName>
+		<label>lavender skin</label>
+		<labelShortAdj>lavender</labelShortAdj>
+		<description>Carriers of this produce a lavender pigment in their skin.\n\nThis gene is added by the Star Wars Xenotypes mod!</description>
+		<skinColorOverride>(160,145,200)</skinColorOverride>
+		<displayOrderInCategory>84</displayOrderInCategory>
+		<symbolPack>
+		  <prefixSymbols>
+			<li><symbol>slate</symbol></li>
+		  </prefixSymbols>
+		  <suffixSymbols>
+			<li><symbol>wisp</symbol></li>
+		  </suffixSymbols>
+		</symbolPack>
+	  </GeneDef>
+	  
+	  <GeneDef ParentName="GeneSkinColorOverride">
+		<defName>guy762_Skin_Turquoise</defName>
+		<label>turquoise skin</label>
+		<labelShortAdj>turquoise</labelShortAdj>
+		<description>Carriers of this gene produce a pigment that turns their skin a turquoise color.\n\nThis gene is added by the Star Wars Xenotypes mod!</description>
+		<skinColorOverride>(100, 190, 155)</skinColorOverride>
+		<displayOrderInCategory>89</displayOrderInCategory>
+		<symbolPack>
+		  <prefixSymbols>
+			<li><symbol>turquoise</symbol></li>
+			<li><symbol>sea</symbol></li>
+			<li><symbol>aqua</symbol></li>
+		  </prefixSymbols>
+		</symbolPack>
+	  </GeneDef>
+	  
+	  <GeneDef ParentName="GeneSkinColorOverride">
+		<defName>guy762_Skin_BrightGreen</defName>
+		<label>bright green skin</label>
+		<labelShortAdj>bright green</labelShortAdj>
+		<description>Carriers of this gene produce a pigment that gives their skin a bright green color.\n\nThis gene is added by the Star Wars Xenotypes mod!</description>
+		<skinColorOverride>(165,200,75)</skinColorOverride>
+		<displayOrderInCategory>91</displayOrderInCategory>
+		<symbolPack>
+		  <wholeNameSymbols>
+			<li><symbol>greenskin</symbol></li>
+		  </wholeNameSymbols>
+		  <prefixSymbols>
+			<li><symbol>green</symbol></li>
+			<li><symbol>moss</symbol></li>
+			<li><symbol>jade</symbol></li>
+			<li><symbol>leaf</symbol></li>
+		  </prefixSymbols>
+		</symbolPack>
+	  </GeneDef>
+	  
+	  <GeneDef ParentName="GeneSkinColorOverride">
+		<defName>guy762_Skin_DarkGreen</defName>
+		<label>dark green skin</label>
+		<labelShortAdj>dark green</labelShortAdj>
+		<description>Carriers of this gene produce a pigment that gives their skin a dark green color.\n\nThis gene is added by the Star Wars Xenotypes mod!</description>
+		<skinColorOverride>(120,125,90)</skinColorOverride>
+		<displayOrderInCategory>90</displayOrderInCategory>
+		<symbolPack>
+		  <wholeNameSymbols>
+			<li><symbol>greenskin</symbol></li>
+		  </wholeNameSymbols>
+		  <prefixSymbols>
+			<li><symbol>green</symbol></li>
+			<li><symbol>moss</symbol></li>
+			<li><symbol>jade</symbol></li>
+			<li><symbol>leaf</symbol></li>
+		  </prefixSymbols>
+		</symbolPack>
+	  </GeneDef>
+	  
+	  <GeneDef ParentName="GeneSkinColorOverride">
+		<defName>guy762_Skin_MidGray</defName>
+		<label>medium gray skin</label>
+		<labelShortAdj>gray</labelShortAdj>
+		<description>Carriers of this produce a medium-gray pigment in their skin.\n\nThis gene is added by the Star Wars Xenotypes mod!</description>
+		<skinColorOverride>(162, 162, 162)</skinColorOverride>
+		<displayOrderInCategory>96</displayOrderInCategory>
+		<symbolPack>
+		  <prefixSymbols>
+			<li><symbol>gray</symbol></li>
+			<li><symbol>slate</symbol></li>
+			<li><symbol>fog</symbol></li>
+			<li><symbol>gloom</symbol></li>
+			<li><symbol>smoke</symbol></li>
+			<li><symbol>grim</symbol></li>
+			<li><symbol>murk</symbol></li>
+			<li><symbol>mist</symbol></li>
+		  </prefixSymbols>
+		  <suffixSymbols>
+			<li><symbol>wisp</symbol></li>
+			<li><symbol>ghost</symbol></li>
+			<li><symbol>murk</symbol></li>
+		  </suffixSymbols>
+		</symbolPack>
+	  </GeneDef>
+	  
+	  
+	  <GeneDef ParentName="GeneHairColorBase">
+		<defName>guy762_Hair_DarkBlue</defName>
+		<label>dark blue hair</label>
+		<hairColorOverride>(30,40,80)</hairColorOverride>
+		<selectionWeight>0.05</selectionWeight>
+		<displayOrderInCategory>139</displayOrderInCategory>
+	  </GeneDef>
+	  
+	  <GeneDef ParentName="GeneHairColorBase">
+		<defName>guy762_Hair_SlateBlue</defName>
+		<label>slate-blue hair</label>
+		<hairColorOverride>(165,180,190)</hairColorOverride>
+		<selectionWeight>0.05</selectionWeight>
+		<displayOrderInCategory>141</displayOrderInCategory>
+	  </GeneDef>
+	  
+	  <GeneDef ParentName="GeneHairColorBase">
+		<defName>guy762_Hair_Lavender</defName>
+		<label>lavender hair</label>
+		<hairColorOverride>(160,145,200)</hairColorOverride>
+		<selectionWeight>0.05</selectionWeight>
+		<displayOrderInCategory>142</displayOrderInCategory>
+	  </GeneDef>
+	  
+	  <GeneDef ParentName="GeneHairColorBase">
+		<defName>guy762_Hair_SlateRed</defName>
+		<label>slate-red hair</label>
+		<hairColorOverride>(125,95,100)</hairColorOverride>
+		<selectionWeight>0.05</selectionWeight>
+		<displayOrderInCategory>189</displayOrderInCategory>
+	  </GeneDef>
+	  
+	  <GeneDef ParentName="GeneHairColorBase">
+		<defName>guy762_Hair_DarkRed</defName>
+		<label>dark red hair</label>
+		<hairColorOverride>(140,0,25)</hairColorOverride>
+		<selectionWeight>0.05</selectionWeight>
+		<displayOrderInCategory>191</displayOrderInCategory>
+	  </GeneDef>
+
+
+	  
+</Defs>

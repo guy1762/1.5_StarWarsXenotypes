@@ -1,0 +1,1586 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <RulePackDef>
+    <defName>KoTOR_NamerAqualish</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[firstName] [lastName]</li>
+        <li>r_name->[firstName] '[nickName]' [lastName]</li>
+
+        <li>maybeHyphen(p=4)-></li>
+        <li>maybeHyphen->-</li>
+
+        <li>firstName(p=3)->[NameAqualish]</li>
+        <li>firstName(p=1)->[NicknameAqualish]</li>
+
+        <li>nickName->[NicknameAqualish]</li>
+
+        <li>lastName(p=3)->[lastGenerated]</li>
+        <li>lastGenerated->[LastNameAqualish]</li>
+        <li>lastGenerated->[LastNameAqualish][maybeHyphen][LastNameAqualish]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>LastNameAqualish</keyword>
+          <path>Aqualish/Last</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NameAqualish</keyword>
+          <path>Aqualish/First</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NicknameAqualish</keyword>
+          <path>Aqualish/Nick</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+
+  <RulePackDef>
+    <defName>KoTOR_NamerArkanian</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[firstName] [lastName]</li>
+        <li>r_name->[firstName] '[nickName]' [lastName]</li>
+
+        <li>maybeHyphen(p=4)-></li>
+        <li>maybeHyphen->-</li>
+
+        <li>firstName(p=3)->[NameArkanian]</li>
+        <li>firstName(p=1)->[NicknameArkanian]</li>
+
+        <li>nickName->[NicknameArkanian]</li>
+
+        <li>lastName(p=3)->[lastGenerated]</li>
+        <li>lastGenerated->[LastNameArkanian]</li>
+        <li>lastGenerated->[LastNameArkanian][maybeHyphen][LastNameArkanian]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>LastNameArkanian</keyword>
+          <path>Arkanian/Last</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NameArkanian</keyword>
+          <path>Arkanian/First</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NicknameArkanian</keyword>
+          <path>Arkanian/Nick</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+
+  <RulePackDef>
+    <defName>KoTOR_NamerBith</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[firstName] [lastName]</li>
+        <li>r_name->[firstName] '[nickName]' [lastName]</li>
+
+        <li>maybeHyphen(p=4)-></li>
+        <li>maybeHyphen->-</li>
+
+        <li>firstName(p=1)->[NameBith]</li>
+        <li>firstName(p=3)->[NameBith]</li>
+
+        <li>nickName->[NicknameBith]</li>
+
+        <li>lastName(p=3)->[lastGenerated]</li>
+        <li>lastGenerated->[NameBith]</li>
+        <li>lastGenerated->[NameBith][maybeHyphen][NameBith]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>LastNameBith</keyword>
+          <path>Bith/Last</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NameBith</keyword>
+          <path>Bith/First</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NicknameBith</keyword>
+          <path>Bith/Nick</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>KoTOR_NamerBothan</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[firstName] [lastName]</li>
+        <li>r_name->[firstName] '[nickName]' [lastName]</li>
+
+        <li>maybeHyphen(p=4)-></li>
+        <li>maybeHyphen->-</li>
+
+        <li>firstName(p=1)->[NameBothan]</li>
+        <li>firstName(p=3)->[NameBothan]</li>
+
+        <li>nickName->[NicknameBothan]</li>
+
+        <li>lastName(p=3)->[lastGenerated]</li>
+        <li>lastGenerated->[NameBothan]</li>
+        <li>lastGenerated->[NameBothan][maybeHyphen][NameBothan]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>LastNameBothan</keyword>
+          <path>Bothan/Last</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NameBothan</keyword>
+          <path>Bothan/First</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NicknameBothan</keyword>
+          <path>Bothan/Nick</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>KoTOR_NamerCathar</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[firstName] [lastName]</li>
+        <li>r_name->[firstName] '[nickName]' [lastName]</li>
+
+        <li>maybeHyphen(p=4)-></li>
+        <li>maybeHyphen->-</li>
+
+        <li>firstName(p=1)->[NameCathar]</li>
+        <li>firstName(p=3)->[NameCathar]</li>
+
+        <li>nickName->[NicknameCathar]</li>
+
+        <li>lastName(p=3)->[lastGenerated]</li>
+        <li>lastGenerated->[NameCathar]</li>
+        <li>lastGenerated->[NameCathar][maybeHyphen][NameCathar]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>LastNameCathar</keyword>
+          <path>Cathar/Last</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NameCathar</keyword>
+          <path>Cathar/First</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NicknameCathar</keyword>
+          <path>Cathar/Nick</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>KoTOR_NamerChadraFan</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[firstName] [lastName]</li>
+        <li>r_name->[firstName] '[nickName]' [lastName]</li>
+
+        <li>maybeHyphen(p=4)-></li>
+        <li>maybeHyphen->-</li>
+
+        <li>firstName(p=1)->[NameChadraFan]</li>
+        <li>firstName(p=3)->[NameChadraFan]</li>
+
+        <li>nickName->[NicknameChadraFan]</li>
+
+        <li>lastName(p=3)->[lastGenerated]</li>
+        <li>lastGenerated->[NameChadraFan]</li>
+        <li>lastGenerated->[NameChadraFan][maybeHyphen][NameChadraFan]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>LastNameChadraFan</keyword>
+          <path>ChadraFan/Last</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NameChadraFan</keyword>
+          <path>ChadraFan/First</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NicknameChadraFan</keyword>
+          <path>ChadraFan/Nick</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>KoTOR_NamerChiss</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[firstName] [lastName]</li>
+        <li>r_name->[firstName] '[nickName]' [lastName]</li>
+
+        <li>maybeHyphen(p=4)-></li>
+        <li>maybeHyphen->-</li>
+
+        <li>firstName(p=1)->[NameChiss]</li>
+        <li>firstName(p=3)->[NameChiss]</li>
+
+        <li>nickName->[NicknameChiss]</li>
+
+        <li>lastName(p=3)->[lastGenerated]</li>
+        <li>lastGenerated->[NameChiss]</li>
+        <li>lastGenerated->[NameChiss][maybeHyphen][NameChiss]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>LastNameChiss</keyword>
+          <path>Chiss/Last</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NameChiss</keyword>
+          <path>Chiss/First</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NicknameChiss</keyword>
+          <path>Chiss/Nick</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>KoTOR_NamerDevaronian</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[firstName] [lastName]</li>
+        <li>r_name->[firstName] '[nickName]' [lastName]</li>
+
+        <li>maybeHyphen(p=4)-></li>
+        <li>maybeHyphen->-</li>
+
+        <li>firstName(p=1)->[NameDevaronian]</li>
+        <li>firstName(p=3)->[NameDevaronian]</li>
+
+        <li>nickName->[NicknameDevaronian]</li>
+
+        <li>lastName(p=3)->[lastGenerated]</li>
+        <li>lastGenerated->[NameDevaronian]</li>
+        <li>lastGenerated->[NameDevaronian][maybeHyphen][NameDevaronian]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>LastNameDevaronian</keyword>
+          <path>Devaronian/Last</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NameDevaronian</keyword>
+          <path>Devaronian/First</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NicknameDevaronian</keyword>
+          <path>Devaronian/Nick</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>KoTOR_NamerDuros</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[firstName] [lastName]</li>
+        <li>r_name->[firstName] '[nickName]' [lastName]</li>
+
+        <li>maybeHyphen(p=4)-></li>
+        <li>maybeHyphen->-</li>
+
+        <li>firstName(p=1)->[NameDuros]</li>
+        <li>firstName(p=3)->[NameDuros]</li>
+
+        <li>nickName->[NicknameDuros]</li>
+
+        <li>lastName(p=3)->[lastGenerated]</li>
+        <li>lastGenerated->[NameDuros]</li>
+        <li>lastGenerated->[NameDuros][maybeHyphen][NameDuros]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>LastNameDuros</keyword>
+          <path>Duros/Last</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NameDuros</keyword>
+          <path>Duros/First</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NicknameDuros</keyword>
+          <path>Duros/Nick</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>KoTOR_NamerEchani</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[firstName] [lastName]</li>
+        <li>r_name->[firstName] '[nickName]' [lastName]</li>
+
+        <li>maybeHyphen(p=4)-></li>
+        <li>maybeHyphen->-</li>
+
+        <li>firstName(p=1)->[NameEchani]</li>
+        <li>firstName(p=3)->[NameEchani]</li>
+
+        <li>nickName->[NicknameEchani]</li>
+
+        <li>lastName(p=3)->[lastGenerated]</li>
+        <li>lastGenerated->[NameEchani]</li>
+        <li>lastGenerated->[NameEchani][maybeHyphen][NameEchani]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>LastNameEchani</keyword>
+          <path>Echani/Last</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NameEchani</keyword>
+          <path>Echani/First</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NicknameEchani</keyword>
+          <path>Echani/Nick</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>KoTOR_NamerEwok</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[firstName] [lastName]</li>
+        <li>r_name->[firstName] '[nickName]' [lastName]</li>
+
+        <li>maybeHyphen(p=4)-></li>
+        <li>maybeHyphen->-</li>
+
+        <li>firstName(p=1)->[NameEwok]</li>
+        <li>firstName(p=3)->[NameEwok]</li>
+
+        <li>nickName->[NicknameEwok]</li>
+
+        <li>lastName(p=3)->[lastGenerated]</li>
+        <li>lastGenerated->[NameEwok]</li>
+        <li>lastGenerated->[NameEwok][maybeHyphen][NameEwok]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>LastNameEwok</keyword>
+          <path>Ewok/Last</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NameEwok</keyword>
+          <path>Ewok/First</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NicknameEwok</keyword>
+          <path>Ewok/Nick</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>KoTOR_NamerFalleen</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[firstName] [lastName]</li>
+        <li>r_name->[firstName] '[nickName]' [lastName]</li>
+
+        <li>maybeHyphen(p=4)-></li>
+        <li>maybeHyphen->-</li>
+
+        <li>firstName(p=1)->[NameFalleen]</li>
+        <li>firstName(p=3)->[NameFalleen]</li>
+
+        <li>nickName->[NicknameFalleen]</li>
+
+        <li>lastName(p=3)->[lastGenerated]</li>
+        <li>lastGenerated->[NameFalleen]</li>
+        <li>lastGenerated->[NameFalleen][maybeHyphen][NameFalleen]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>LastNameFalleen</keyword>
+          <path>Falleen/Last</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NameFalleen</keyword>
+          <path>Falleen/First</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NicknameFalleen</keyword>
+          <path>Falleen/Nick</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>KoTOR_NamerFeeorin</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[firstName] [lastName]</li>
+        <li>r_name->[firstName] '[nickName]' [lastName]</li>
+
+        <li>maybeHyphen(p=4)-></li>
+        <li>maybeHyphen->-</li>
+
+        <li>firstName(p=1)->[NameFeeorin]</li>
+        <li>firstName(p=3)->[NameFeeorin]</li>
+
+        <li>nickName->[NicknameFeeorin]</li>
+
+        <li>lastName(p=3)->[lastGenerated]</li>
+        <li>lastGenerated->[NameFeeorin]</li>
+        <li>lastGenerated->[NameFeeorin][maybeHyphen][NameFeeorin]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>LastNameFeeorin</keyword>
+          <path>Feeorin/Last</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NameFeeorin</keyword>
+          <path>Feeorin/First</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NicknameFeeorin</keyword>
+          <path>Feeorin/Nick</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>KoTOR_NamerGamorrean</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[firstName] [lastName]</li>
+        <li>r_name->[firstName] '[nickName]' [lastName]</li>
+
+        <li>maybeHyphen(p=4)-></li>
+        <li>maybeHyphen->-</li>
+
+        <li>firstName(p=1)->[NameGamorrean]</li>
+        <li>firstName(p=3)->[NameGamorrean]</li>
+
+        <li>nickName->[NicknameGamorrean]</li>
+
+        <li>lastName(p=3)->[lastGenerated]</li>
+        <li>lastGenerated->[NameGamorrean]</li>
+        <li>lastGenerated->[NameGamorrean][maybeHyphen][NameGamorrean]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>LastNameGamorrean</keyword>
+          <path>Gamorrean/Last</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NameGamorrean</keyword>
+          <path>Gamorrean/First</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NicknameGamorrean</keyword>
+          <path>Gamorrean/Nick</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+  
+  <RulePackDef>
+    <defName>KoTOR_NamerGand</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[gand] '[gand]' [lastName]</li>
+
+        <li>gand(p=1)->Gand</li>
+
+        <li>lastName(p=3)->[NameKubaz]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>NameKubaz</keyword>
+          <path>Kubaz/First</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>KoTOR_NamerHutt</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name(p=4)->[firstName] [lastName]</li>
+		<li>r_name(p=4)->[firstName] [hsyl1][hsyl2]</li>
+		
+        <li>r_name->[firstName] '[nickName] [theHutt]' [hsyl1][hsyl2]</li>
+        <li>r_name->[lastName] '[nickName] [theHutt]' [hsyl1][hsyl2]</li>
+
+        <li>maybeHyphen(p=4)-></li>
+        <li>maybeHyphen->-</li>
+
+        <li>firstName(p=1)->[NameHutt]</li>
+        <li>firstName(p=3)->[NameHutt]</li>
+
+        <li>nickName->[NicknameHutt]</li>
+		<li>theHutt->the Hutt</li>
+		
+		<li>hsyl1->bor</li>
+        <li>hsyl1->ar</li>
+        <li>hsyl1->tir</li>
+        <li>hsyl1->zel</li>
+        <li>hsyl1->an</li>
+        <li>hsyl1->des</li>
+        <li>hsyl1->ner</li>
+        <li>hsyl1->bes</li>
+        <li>hsyl1->gar</li>
+        <li>hsyl1->ven</li>
+		
+        <li>hsyl2->dojii</li>
+        <li>hsyl2->galii</li>
+        <li>hsyl2->tilic</li>
+        <li>hsyl2->iliac</li>
+        <li>hsyl2->jania</li>
+        <li>hsyl2->adii</li>
+        <li>hsyl2->dulla</li>
+        <li>hsyl2->ilijic</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>LastNameHutt</keyword>
+          <path>Hutt/Last</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NameHutt</keyword>
+          <path>Hutt/First</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NicknameHutt</keyword>
+          <path>Hutt/Nick</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>KoTOR_NamerIridonian</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[firstName] [lastName]</li>
+        <li>r_name->[firstName] '[nickName]' [lastName]</li>
+
+        <li>maybeHyphen(p=4)-></li>
+        <li>maybeHyphen->-</li>
+
+        <li>firstName(p=1)->[NameIridonian]</li>
+        <li>firstName(p=3)->[NameIridonian]</li>
+
+        <li>nickName->[NicknameIridonian]</li>
+
+        <li>lastName(p=3)->[lastGenerated]</li>
+        <li>lastGenerated->[NameIridonian]</li>
+        <li>lastGenerated->[NameIridonian][maybeHyphen][NameIridonian]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>LastNameIridonian</keyword>
+          <path>Iridonian/Last</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NameIridonian</keyword>
+          <path>Iridonian/First</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NicknameIridonian</keyword>
+          <path>Iridonian/Nick</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>KoTOR_NamerJawa</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[firstName] [lastName]</li>
+        <li>r_name->[firstName] '[nickName]' [lastName]</li>
+
+        <li>maybeHyphen(p=4)-></li>
+        <li>maybeHyphen->-</li>
+
+        <li>firstName(p=1)->[NameJawa]</li>
+        <li>firstName(p=3)->[NameJawa]</li>
+
+        <li>nickName->[NicknameJawa]</li>
+
+        <li>lastName(p=3)->[lastGenerated]</li>
+        <li>lastGenerated->[NameJawa]</li>
+        <li>lastGenerated->[NameJawa][maybeHyphen][NameJawa]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>LastNameJawa</keyword>
+          <path>Jawa/Last</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NameJawa</keyword>
+          <path>Jawa/First</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NicknameJawa</keyword>
+          <path>Jawa/Nick</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>KoTOR_NamerKlatoonian</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[firstName] [lastName]</li>
+        <li>r_name->[firstName] '[nickName]' [lastName]</li>
+
+        <li>maybeHyphen(p=4)-></li>
+        <li>maybeHyphen->-</li>
+
+        <li>firstName(p=1)->[NameKlatoonian]</li>
+        <li>firstName(p=3)->[NameKlatoonian]</li>
+
+        <li>nickName->[NicknameKlatoonian]</li>
+
+        <li>lastName(p=3)->[lastGenerated]</li>
+        <li>lastGenerated->[NameKlatoonian]</li>
+        <li>lastGenerated->[NameKlatoonian][maybeHyphen][NameKlatoonian]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>LastNameKlatoonian</keyword>
+          <path>Klatoonian/Last</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NameKlatoonian</keyword>
+          <path>Klatoonian/First</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NicknameKlatoonian</keyword>
+          <path>Klatoonian/Nick</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>KoTOR_NamerKubaz</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[firstName] [lastName]</li>
+        <li>r_name->[firstName] '[nickName]' [lastName]</li>
+
+        <li>maybeHyphen(p=4)-></li>
+        <li>maybeHyphen->-</li>
+
+        <li>firstName(p=1)->[NameKubaz]</li>
+        <li>firstName(p=3)->[NameKubaz]</li>
+
+        <li>nickName->[NicknameKubaz]</li>
+
+        <li>lastName(p=3)->[lastGenerated]</li>
+        <li>lastGenerated->[NameKubaz]</li>
+        <li>lastGenerated->[NameKubaz][maybeHyphen][NameKubaz]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>LastNameKubaz</keyword>
+          <path>Kubaz/Last</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NameKubaz</keyword>
+          <path>Kubaz/First</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NicknameKubaz</keyword>
+          <path>Kubaz/Nick</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>KoTOR_NamerLasat</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[firstName] [lastName]</li>
+        <li>r_name->[firstName] '[nickName]' [lastName]</li>
+
+        <li>maybeHyphen(p=4)-></li>
+        <li>maybeHyphen->-</li>
+
+        <li>firstName(p=1)->[NameLasat]</li>
+        <li>firstName(p=3)->[NameLasat]</li>
+
+        <li>nickName->[NicknameLasat]</li>
+
+        <li>lastName(p=3)->[lastGenerated]</li>
+        <li>lastGenerated->[NameLasat]</li>
+        <li>lastGenerated->[NameLasat][maybeHyphen][NameLasat]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>LastNameLasat</keyword>
+          <path>Lasat/Last</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NameLasat</keyword>
+          <path>Lasat/First</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NicknameLasat</keyword>
+          <path>Lasat/Nick</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>KoTOR_NamerMimbanese</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[firstName] [lastName]</li>
+        <li>r_name->[firstName] '[nickName]' [lastName]</li>
+
+        <li>maybeHyphen(p=4)-></li>
+        <li>maybeHyphen->-</li>
+
+        <li>firstName(p=1)->[NameMimbanese]</li>
+        <li>firstName(p=3)->[NameMimbanese]</li>
+
+        <li>nickName->[NicknameMimbanese]</li>
+
+        <li>lastName(p=3)->[lastGenerated]</li>
+        <li>lastGenerated->[NameMimbanese]</li>
+        <li>lastGenerated->[NameMimbanese][maybeHyphen][NameMimbanese]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>LastNameMimbanese</keyword>
+          <path>Mimbanese/Last</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NameMimbanese</keyword>
+          <path>Mimbanese/First</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NicknameMimbanese</keyword>
+          <path>Mimbanese/Nick</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>KoTOR_NamerMiraluka</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[firstName] [lastName]</li>
+        <li>r_name->[firstName] '[nickName]' [lastName]</li>
+
+        <li>maybeHyphen(p=4)-></li>
+        <li>maybeHyphen->-</li>
+
+        <li>firstName(p=1)->[NameMiraluka]</li>
+        <li>firstName(p=3)->[NameMiraluka]</li>
+
+        <li>nickName->[NicknameMiraluka]</li>
+
+        <li>lastName(p=3)->[lastGenerated]</li>
+        <li>lastGenerated->[NameMiraluka]</li>
+        <li>lastGenerated->[NameMiraluka][maybeHyphen][NameMiraluka]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>LastNameMiraluka</keyword>
+          <path>Miraluka/Last</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NameMiraluka</keyword>
+          <path>Miraluka/First</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NicknameMiraluka</keyword>
+          <path>Miraluka/Nick</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>KoTOR_NamerMirialan</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[firstName] [lastName]</li>
+        <li>r_name->[firstName] '[nickName]' [lastName]</li>
+
+        <li>maybeHyphen(p=4)-></li>
+        <li>maybeHyphen->-</li>
+
+        <li>firstName(p=1)->[NameMirialan]</li>
+        <li>firstName(p=3)->[NameMirialan]</li>
+
+        <li>nickName->[NicknameMirialan]</li>
+
+        <li>lastName(p=3)->[lastGenerated]</li>
+        <li>lastGenerated->[NameMirialan]</li>
+        <li>lastGenerated->[NameMirialan][maybeHyphen][NameMirialan]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>LastNameMirialan</keyword>
+          <path>Mirialan/Last</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NameMirialan</keyword>
+          <path>Mirialan/First</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NicknameMirialan</keyword>
+          <path>Mirialan/Nick</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>KoTOR_NamerNagai</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[firstName] [lastName]</li>
+        <li>r_name->[firstName] '[nickName]' [lastName]</li>
+
+        <li>maybeHyphen(p=4)-></li>
+        <li>maybeHyphen->-</li>
+
+        <li>firstName(p=1)->[NameNagai]</li>
+        <li>firstName(p=3)->[NameNagai]</li>
+
+        <li>nickName->[NicknameNagai]</li>
+
+        <li>lastName(p=3)->[lastGenerated]</li>
+        <li>lastGenerated->[NameNagai]</li>
+        <li>lastGenerated->[NameNagai][maybeHyphen][NameNagai]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>LastNameNagai</keyword>
+          <path>Nagai/Last</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NameNagai</keyword>
+          <path>Nagai/First</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NicknameNagai</keyword>
+          <path>Nagai/Nick</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>KoTOR_NamerNautolan</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[firstName] [lastName]</li>
+        <li>r_name->[firstName] '[nickName]' [lastName]</li>
+
+        <li>maybeHyphen(p=4)-></li>
+        <li>maybeHyphen->-</li>
+
+        <li>firstName(p=1)->[NameNautolan]</li>
+        <li>firstName(p=3)->[NameNautolan]</li>
+
+        <li>nickName->[NicknameNautolan]</li>
+
+        <li>lastName(p=3)->[lastGenerated]</li>
+        <li>lastGenerated->[NameNautolan]</li>
+        <li>lastGenerated->[NameNautolan][maybeHyphen][NameNautolan]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>LastNameNautolan</keyword>
+          <path>Nautolan/Last</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NameNautolan</keyword>
+          <path>Nautolan/First</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NicknameNautolan</keyword>
+          <path>Nautolan/Nick</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>KoTOR_NamerNelvaanian</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[firstName] [lastName]</li>
+        <li>r_name->[firstName] '[nickName]' [lastName]</li>
+
+        <li>maybeHyphen(p=4)-></li>
+        <li>maybeHyphen->-</li>
+
+        <li>firstName(p=1)->[NameNelvaanian]</li>
+        <li>firstName(p=3)->[NameNelvaanian]</li>
+
+        <li>nickName->[NicknameNelvaanian]</li>
+
+        <li>lastName(p=3)->[lastGenerated]</li>
+        <li>lastGenerated->[NameNelvaanian]</li>
+        <li>lastGenerated->[NameNelvaanian][maybeHyphen][NameNelvaanian]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>LastNameNelvaanian</keyword>
+          <path>Nelvaanian/Last</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NameNelvaanian</keyword>
+          <path>Nelvaanian/First</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NicknameNelvaanian</keyword>
+          <path>Nelvaanian/Nick</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>KoTOR_NamerNeimoidian</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[firstName] [lastName]</li>
+        <li>r_name->[firstName] '[nickName]' [lastName]</li>
+
+        <li>maybeHyphen(p=4)-></li>
+        <li>maybeHyphen->-</li>
+
+        <li>firstName(p=1)->[NameNeimoidian]</li>
+        <li>firstName(p=3)->[NameNeimoidian]</li>
+
+        <li>nickName->[NicknameNeimoidian]</li>
+
+        <li>lastName(p=3)->[lastGenerated]</li>
+        <li>lastGenerated->[NameNeimoidian]</li>
+        <li>lastGenerated->[NameNeimoidian][maybeHyphen][NameNeimoidian]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>LastNameNeimoidian</keyword>
+          <path>Neimoidian/Last</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NameNeimoidian</keyword>
+          <path>Neimoidian/First</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NicknameNeimoidian</keyword>
+          <path>Neimoidian/Nick</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>KoTOR_NamerNikto</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[firstName] [lastName]</li>
+        <li>r_name->[firstName] '[nickName]' [lastName]</li>
+
+        <li>maybeHyphen(p=4)-></li>
+        <li>maybeHyphen->-</li>
+
+        <li>firstName(p=1)->[NameNikto]</li>
+        <li>firstName(p=3)->[NameNikto]</li>
+
+        <li>nickName->[NicknameNikto]</li>
+
+        <li>lastName(p=3)->[lastGenerated]</li>
+        <li>lastGenerated->[NameNikto]</li>
+        <li>lastGenerated->[NameNikto][maybeHyphen][NameNikto]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>LastNameNikto</keyword>
+          <path>Nikto/Last</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NameNikto</keyword>
+          <path>Nikto/First</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NicknameNikto</keyword>
+          <path>Nikto/Nick</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>KoTOR_NamerPantoran</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[firstName] [lastName]</li>
+        <li>r_name->[firstName] '[nickName]' [lastName]</li>
+
+        <li>maybeHyphen(p=4)-></li>
+        <li>maybeHyphen->-</li>
+
+        <li>firstName(p=1)->[NamePantoran]</li>
+        <li>firstName(p=3)->[NamePantoran]</li>
+
+        <li>nickName->[NicknamePantoran]</li>
+
+        <li>lastName(p=3)->[lastGenerated]</li>
+        <li>lastGenerated->[NamePantoran]</li>
+        <li>lastGenerated->[NamePantoran][maybeHyphen][NamePantoran]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>LastNamePantoran</keyword>
+          <path>Pantoran/Last</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NamePantoran</keyword>
+          <path>Pantoran/First</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NicknamePantoran</keyword>
+          <path>Pantoran/Nick</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>KoTOR_NamerQuarren</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[firstName] [lastName]</li>
+        <li>r_name->[firstName] '[nickName]' [lastName]</li>
+
+        <li>maybeHyphen(p=4)-></li>
+        <li>maybeHyphen->-</li>
+
+        <li>firstName(p=1)->[NameQuarren]</li>
+        <li>firstName(p=3)->[NameQuarren]</li>
+
+        <li>nickName->[NicknameQuarren]</li>
+
+        <li>lastName(p=3)->[lastGenerated]</li>
+        <li>lastGenerated->[NameQuarren]</li>
+        <li>lastGenerated->[NameQuarren][maybeHyphen][NameQuarren]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>LastNameQuarren</keyword>
+          <path>Quarren/Last</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NameQuarren</keyword>
+          <path>Quarren/First</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NicknameQuarren</keyword>
+          <path>Quarren/Nick</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>KoTOR_NamerRodian</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[firstName] [lastName]</li>
+        <li>r_name->[firstName] '[nickName]' [lastName]</li>
+
+        <li>maybeHyphen(p=4)-></li>
+        <li>maybeHyphen->-</li>
+
+        <li>firstName(p=1)->[NameRodian]</li>
+        <li>firstName(p=3)->[NameRodian]</li>
+
+        <li>nickName->[NicknameRodian]</li>
+
+        <li>lastName(p=3)->[lastGenerated]</li>
+        <li>lastGenerated->[NameRodian]</li>
+        <li>lastGenerated->[NameRodian][maybeHyphen][NameRodian]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>LastNameRodian</keyword>
+          <path>Rodian/Last</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NameRodian</keyword>
+          <path>Rodian/First</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NicknameRodian</keyword>
+          <path>Rodian/Nick</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>KoTOR_NamerSnivvian</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[firstName] [lastName]</li>
+        <li>r_name->[firstName] '[nickName]' [lastName]</li>
+
+        <li>maybeHyphen(p=4)-></li>
+        <li>maybeHyphen->-</li>
+
+        <li>firstName(p=1)->[NameSnivvian]</li>
+        <li>firstName(p=3)->[NameSnivvian]</li>
+
+        <li>nickName->[NicknameSnivvian]</li>
+
+        <li>lastName(p=3)->[lastGenerated]</li>
+        <li>lastGenerated->[NameSnivvian]</li>
+        <li>lastGenerated->[NameSnivvian][maybeHyphen][NameSnivvian]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>LastNameSnivvian</keyword>
+          <path>Snivvian/Last</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NameSnivvian</keyword>
+          <path>Snivvian/First</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NicknameSnivvian</keyword>
+          <path>Snivvian/Nick</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>KoTOR_NamerSullustan</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[firstName] [lastName]</li>
+        <li>r_name->[firstName] '[nickName]' [lastName]</li>
+
+        <li>maybeHyphen(p=4)-></li>
+        <li>maybeHyphen->-</li>
+
+        <li>firstName(p=1)->[NameSullustan]</li>
+        <li>firstName(p=3)->[NameSullustan]</li>
+
+        <li>nickName->[NicknameSullustan]</li>
+
+        <li>lastName(p=3)->[lastGenerated]</li>
+        <li>lastGenerated->[NameSullustan]</li>
+        <li>lastGenerated->[NameSullustan][maybeHyphen][NameSullustan]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>LastNameSullustan</keyword>
+          <path>Sullustan/Last</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NameSullustan</keyword>
+          <path>Sullustan/First</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NicknameSullustan</keyword>
+          <path>Sullustan/Nick</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>KoTOR_NamerTogruta</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[firstName] [lastName]</li>
+        <li>r_name->[firstName] '[nickName]' [lastName]</li>
+
+        <li>maybeHyphen(p=4)-></li>
+        <li>maybeHyphen->-</li>
+
+        <li>firstName(p=1)->[NameTogruta]</li>
+        <li>firstName(p=3)->[NameTogruta]</li>
+
+        <li>nickName->[NicknameTogruta]</li>
+
+        <li>lastName(p=3)->[lastGenerated]</li>
+        <li>lastGenerated->[NameTogruta]</li>
+        <li>lastGenerated->[NameTogruta][maybeHyphen][NameTogruta]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>LastNameTogruta</keyword>
+          <path>Togruta/Last</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NameTogruta</keyword>
+          <path>Togruta/First</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NicknameTogruta</keyword>
+          <path>Togruta/Nick</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>KoTOR_NamerTrandoshan</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[firstName] [lastName]</li>
+        <li>r_name->[firstName] '[nickName]' [lastName]</li>
+
+        <li>maybeHyphen(p=4)-></li>
+        <li>maybeHyphen->-</li>
+
+        <li>firstName(p=1)->[NameTrandoshan]</li>
+        <li>firstName(p=3)->[NameTrandoshan]</li>
+
+        <li>nickName->[NicknameTrandoshan]</li>
+
+        <li>lastName(p=3)->[lastGenerated]</li>
+        <li>lastGenerated->[NameTrandoshan]</li>
+        <li>lastGenerated->[NameTrandoshan][maybeHyphen][NameTrandoshan]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>LastNameTrandoshan</keyword>
+          <path>Trandoshan/Last</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NameTrandoshan</keyword>
+          <path>Trandoshan/First</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NicknameTrandoshan</keyword>
+          <path>Trandoshan/Nick</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>KoTOR_NamerTwilek</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[firstName] [lastName]</li>
+        <li>r_name->[firstName] '[nickName]' [lastName]</li>
+
+        <li>maybeHyphen(p=4)-></li>
+        <li>maybeHyphen->-</li>
+
+        <li>firstName(p=1)->[NameTwilek]</li>
+        <li>firstName(p=3)->[NameTwilek]</li>
+
+        <li>nickName->[NicknameTwilek]</li>
+
+        <li>lastName(p=3)->[lastGenerated]</li>
+        <li>lastGenerated->[NameTwilek]</li>
+        <li>lastGenerated->[NameTwilek][maybeHyphen][NameTwilek]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>LastNameTwilek</keyword>
+          <path>Twilek/Last</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NameTwilek</keyword>
+          <path>Twilek/First</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NicknameTwilek</keyword>
+          <path>Twilek/Nick</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>KoTOR_NamerUmbaran</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[firstName] [lastName]</li>
+        <li>r_name->[firstName] '[nickName]' [lastName]</li>
+
+        <li>maybeHyphen(p=4)-></li>
+        <li>maybeHyphen->-</li>
+
+        <li>firstName(p=1)->[NameUmbaran]</li>
+        <li>firstName(p=3)->[NameUmbaran]</li>
+
+        <li>nickName->[NicknameUmbaran]</li>
+
+        <li>lastName(p=3)->[lastGenerated]</li>
+        <li>lastGenerated->[NameUmbaran]</li>
+        <li>lastGenerated->[NameUmbaran][maybeHyphen][NameUmbaran]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>LastNameUmbaran</keyword>
+          <path>Umbaran/Last</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NameUmbaran</keyword>
+          <path>Umbaran/First</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NicknameUmbaran</keyword>
+          <path>Umbaran/Nick</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>KoTOR_NamerWeequay</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[firstName] [lastName]</li>
+        <li>r_name->[firstName] '[nickName]' [lastName]</li>
+
+        <li>maybeHyphen(p=4)-></li>
+        <li>maybeHyphen->-</li>
+
+        <li>firstName(p=1)->[NameWeequay]</li>
+        <li>firstName(p=3)->[NameWeequay]</li>
+
+        <li>nickName->[NicknameWeequay]</li>
+
+        <li>lastName(p=3)->[lastGenerated]</li>
+        <li>lastGenerated->[NameWeequay]</li>
+        <li>lastGenerated->[NameWeequay][maybeHyphen][NameWeequay]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>LastNameWeequay</keyword>
+          <path>Weequay/Last</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NameWeequay</keyword>
+          <path>Weequay/First</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NicknameWeequay</keyword>
+          <path>Weequay/Nick</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>KoTOR_NamerWookiee</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[firstName] [lastName]</li>
+        <li>r_name->[firstName] '[nickName]' [lastName]</li>
+
+        <li>maybeHyphen(p=4)-></li>
+        <li>maybeHyphen->-</li>
+
+        <li>firstName(p=1)->[NameWookiee]</li>
+        <li>firstName(p=3)->[NameWookiee]</li>
+
+        <li>nickName->[NicknameWookiee]</li>
+
+        <li>lastName(p=3)->[lastGenerated]</li>
+        <li>lastGenerated->[NameWookiee]</li>
+        <li>lastGenerated->[NameWookiee][maybeHyphen][NameWookiee]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>LastNameWookiee</keyword>
+          <path>Wookiee/Last</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NameWookiee</keyword>
+          <path>Wookiee/First</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NicknameWookiee</keyword>
+          <path>Wookiee/Nick</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>KoTOR_NamerYoder</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[firstName] [lastName]</li>
+        <li>r_name->[firstName] '[nickName]' [lastName]</li>
+
+        <li>maybeHyphen(p=4)-></li>
+        <li>maybeHyphen->-</li>
+
+        <li>firstName(p=1)->[NameYoder]</li>
+        <li>firstName(p=3)->[NameYoder]</li>
+
+        <li>nickName->[NicknameYoder]</li>
+
+        <li>lastName(p=3)->[lastGenerated]</li>
+        <li>lastGenerated->[NameYoder]</li>
+        <li>lastGenerated->[NameYoder][maybeHyphen][NameYoder]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>LastNameYoder</keyword>
+          <path>Yoder/Last</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NameYoder</keyword>
+          <path>Yoder/First</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NicknameYoder</keyword>
+          <path>Yoder/Nick</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>KoTOR_NamerZeltron</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[firstName] [lastName]</li>
+        <li>r_name->[firstName] '[nickName]' [lastName]</li>
+
+        <li>maybeHyphen(p=4)-></li>
+        <li>maybeHyphen->-</li>
+
+        <li>firstName(p=1)->[NameZeltron]</li>
+        <li>firstName(p=3)->[NameZeltron]</li>
+
+        <li>nickName->[NicknameZeltron]</li>
+
+        <li>lastName(p=3)->[lastGenerated]</li>
+        <li>lastGenerated->[NameZeltron]</li>
+        <li>lastGenerated->[NameZeltron][maybeHyphen][NameZeltron]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>LastNameZeltron</keyword>
+          <path>Zeltron/Last</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NameZeltron</keyword>
+          <path>Zeltron/First</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NicknameZeltron</keyword>
+          <path>Zeltron/Nick</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>KoTOR_NamerZygerrian</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[firstName] [lastName]</li>
+        <li>r_name->[firstName] '[nickName]' [lastName]</li>
+
+        <li>maybeHyphen(p=4)-></li>
+        <li>maybeHyphen->-</li>
+
+        <li>firstName(p=1)->[NameZygerrian]</li>
+        <li>firstName(p=3)->[NameZygerrian]</li>
+
+        <li>nickName->[NicknameZygerrian]</li>
+
+        <li>lastName(p=3)->[lastGenerated]</li>
+        <li>lastGenerated->[NameZygerrian]</li>
+        <li>lastGenerated->[NameZygerrian][maybeHyphen][NameZygerrian]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>LastNameZygerrian</keyword>
+          <path>Zygerrian/Last</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NameZygerrian</keyword>
+          <path>Zygerrian/First</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>NicknameZygerrian</keyword>
+          <path>Zygerrian/Nick</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</Defs>
