@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	
+	<Operation Class="PatchOperationSequence">
+		<operations>
+		  
+		  
+		  <li Class="PatchOperationConditional">
+				<xpath>Defs/GeneDef[defName="KindInstinct"][not(exclusionTags)]</xpath>
+				<match Class="PatchOperationAdd">
+					<xpath>Defs/GeneDef[defName="KindInstinct"][not(exclusionTags)]</xpath>
+					<value>
+						<exclusionTags />
+					</value>
+				</match>
+			</li>
+
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/GeneDef[defName="KindInstinct"]/exclusionTags</xpath>
+				<match Class="PatchOperationAdd">
+					<xpath>Defs/GeneDef[defName="KindInstinct"]/exclusionTags</xpath>
+					<value>
+						<li>guy762_ExclusionTag_KindnessGene</li>
+					</value>
+				</match>
+			</li>
+	  
+		  
+		</operations>
+	</Operation>
+
+</Patch>

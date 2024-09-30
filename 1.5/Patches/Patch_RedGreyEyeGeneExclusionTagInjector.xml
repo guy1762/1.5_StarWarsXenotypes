@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+	  <xpath>Defs/GeneDef[defName="Eyes_Red" or defName="Eyes_Gray"]</xpath>
+	  <value>
+		<exclusionTags>
+		  <li>EyeColor_ReplacedByPotFSithEyes</li>
+		</exclusionTags>
+	  </value>
+	</Operation>
+
+	
+	
+
+</Patch>
